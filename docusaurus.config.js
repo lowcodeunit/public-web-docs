@@ -43,7 +43,7 @@ module.exports = {
           target: '_top',
         },
         {
-          to: 'docs',
+          to: '/',
           label: 'Docs',
           position: 'right',
         },
@@ -77,7 +77,7 @@ module.exports = {
             },
             {
               label: 'Support',
-              to: '/docs/introduction/support',
+              to: '/introduction/support',
             },
           ],
         },
