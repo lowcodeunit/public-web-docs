@@ -20,10 +20,11 @@ jobs:
         with:
           node-version: 12
           
-      - name: Setup GIT
-        run: |
-          git config --global user.email "github.actions@fathym.com"
-          git config --global user.name "$GITHUB_ACTOR"
+      - name: Setup Author Email
+        run: git config --global user.email "github.actions@fathym.com"
+        
+      - name: Setup Author Name
+        run: git config --global user.name "$GITHUB_ACTOR"
 
   publish-npm:
     needs: build
