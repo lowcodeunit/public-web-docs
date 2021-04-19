@@ -4,8 +4,12 @@
 name: public-web-docs npm deploy
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+    - main
+    - master
+    - integration
+    - feature/*
 
 jobs:
   build:
