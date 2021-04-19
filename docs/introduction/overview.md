@@ -7,6 +7,7 @@ keywords:
     - websites
     - applications
     - azure
+    - micro-frontends
 hide_table_of_contents: true
 ---
 
