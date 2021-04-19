@@ -1,7 +1,7 @@
 {
-  "name": "@iot-ensemble/public-web-docs",
+  "name": "@lowcodeunit/public-web-docs",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

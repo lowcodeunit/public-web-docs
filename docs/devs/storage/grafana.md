@@ -14,26 +14,26 @@ hide_table_of_contents: true
 
 # Storage Access with Grafana
 
-Grafana has many options for importing data. We recommend using the [JSON API data source for Grafana](https://github.com/marcusolsson/grafana-json-datasource) plugin to load your IoT Ensemble data. It's a data source plugin for loading JSON data from REST APIs into Grafana.
+Grafana has many options for importing data. We recommend using the [JSON API data source for Grafana](https://github.com/marcusolsson/grafana-json-datasource) plugin to load your Low Code Unit data. It's a data source plugin for loading JSON data from REST APIs into Grafana.
 
-The IoT Ensemble Dashboard displays your API Keys. 
+The Low Code Unit Dashboard displays your API Keys. 
 
-![IoT Ensemble API Keys](/img/screenshots/dashboard-storage-access.png)
+![Low Code Unit API Keys](/img/screenshots/dashboard-storage-access.png)
 
 For the Cold Query, use this URL:
 
 ```console
-Request URL: https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false
+Request URL: https://fathym-prd.azure-api.net/lowcodeunit/ColdQuery?dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false
 ```
 
 For the Warm Query, use this URL:
 
 ```console
-Request URL: https://fathym-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=false
+Request URL: https://fathym-prd.azure-api.net/lowcodeunit/WarmQuery?includeEmulated=false
 ```
 
 :::note
-In IoT Ensemble, use the 'Try It' section to see the parameters available for the Cold and Warm APIs, as well as test to see the responses. 
+In Low Code Unit, use the 'Try It' section to see the parameters available for the Cold and Warm APIs, as well as test to see the responses. 
 :::
 
 ## Configuring Grafana Data Source
@@ -48,7 +48,7 @@ Click the 'Add data source' button and search for 'json'.  Select the 'JSON API'
 
 This example uses the Cold Query. Use the following values in the form: 
 
-- URL: `https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery`
+- URL: `https://fathym-prd.azure-api.net/lowcodeunit/ColdQuery`
 - Auth: `With Credentials`
 - Custom HTTP Headers: `lcu-subscription-key: ***********`
 - Query string: `dataType=Telemetry&flatten=true&includeEmulated=false&resultType=JSON&zip=false` 
@@ -58,7 +58,7 @@ This example uses the Cold Query. Use the following values in the form:
 Click the 'Save & Test' button to verify the connection is successful. It should say 'Success' like the screenshot above. 
 
 :::note
-Use your primaryKey or secondaryKey from the IoT Ensemble API Keys for the lcu-subscription-key value. For example:
+Use your primaryKey or secondaryKey from the Low Code Unit API Keys for the lcu-subscription-key value. For example:
 
 `lcu-subscription-key: f24047c3d5b14f****`
 :::

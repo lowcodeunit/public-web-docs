@@ -44,7 +44,7 @@ To quickly copy storage access keys, use the <img src="/img/screenshots/icon-cop
 For many use cases, cold storage historic data can be formatted in an efficient way to support service integrations.  The APIs provided to access this data are geared at helping grab a time period of data and format it in a number of ways (JSON, CSV, JSON Lines, etc).  Use the dashboard to interactively call the **ColdQuery** endpoint, and explore the available parameters.  Following is a simple example that could be used to retrieve device telemetry data for Microsoft Power BI:
 
 ```cli
-curl -X GET "https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?dataType=Telemetry&resultType=JSON&flatten=false" -H  "lcu-subscription-key: {subscription-key}"
+curl -X GET "https://fathym-prd.azure-api.net/lowcodeunit/ColdQuery?dataType=Telemetry&resultType=JSON&flatten=false" -H  "lcu-subscription-key: {subscription-key}"
 ```
 
 There are values to replace and adjust the parameters as desired.  Here is a description on where to find the values for replacement.
@@ -57,7 +57,7 @@ The {subscription-key} can be located in the API Keys section as described above
 A queryable storage location, warm storage offers a way to work with data in a dynamic, no-sql way.  This storage type comes with a larger cost, and for that reason, controlling the amount of data in this storage is important.  Depending on license, the amount of data available in warm storage will vary.  With enterprise licenses, the retention period can be tuned to meet application needs and cost concerns.  Use the dashboard to interactively call the **WarmQuery** endpoint, and explore the available parameters.  Following is a simple example that could be used to retrieve device telemetry data for use in an application:
 
 ```cli
-curl -X GET "https://fathym-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=false" -H  "lcu-subscription-key: {subscription-key}"
+curl -X GET "https://fathym-prd.azure-api.net/lowcodeunit/WarmQuery?includeEmulated=false" -H  "lcu-subscription-key: {subscription-key}"
 ```
 
 You can replace values and adjust the arguments as desired.  Here is a description of where to find the values for replacement.
@@ -81,8 +81,8 @@ The purpose of the storage access APIs is to provide a secure way to access data
 
 ### Microsoft Power BI
 
-There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
+There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  Low Code Unit provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
 
-Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as the interactive forms described above to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
+Your Low Code Unit Dashboard will give you access to API Access Storage Keys as well as the interactive forms described above to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
-You can get started with a [Power BI dashboard](../devs/storage/power-bi), or for a complete look at how it fits in, check out our [Ent-to-end IoT blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).
+You can get started with a [Power BI dashboard](../devs/storage/power-bi), or for a complete look at how it fits in, check out our [Ent-to-end IoT blog](https://www.lowcodeunit.com/blog/raspberry-pi-dht11-node-red-lowcodeunit-power-bi).

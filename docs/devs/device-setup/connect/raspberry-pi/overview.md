@@ -55,6 +55,6 @@ Getting Node Red up and running on your Raspberry Pi is a simple way to get star
 
 ### Azure IoT Edge
 
-Information about connecting Azure IoT Edge and IoT Ensemble is on the way.  For information on how to get started today, please visit our [discord server](http://discord/..).
+Information about connecting Azure IoT Edge and Low Code Unit is on the way.  For information on how to get started today, please visit our [discord server](http://discord/..).
 
 <!-- To Get Started today, you can refer to the standarde Azure documentation, and use the [connection string](../../../../getting-started/connecting-first-device) of a device from your dashboard. -->

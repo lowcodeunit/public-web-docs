@@ -15,11 +15,11 @@ hide_table_of_contents: true
 
 # Storage Access with Azure Machine Learning
 
-Azure Machine Learning empowers developers and data scientists with a wide range of productive experiences for building, training, and deploying machine learning models faster.  IoT Ensemble makes it simple to connect your devices and immediately use its data within Azure Machine Learning.
+Azure Machine Learning empowers developers and data scientists with a wide range of productive experiences for building, training, and deploying machine learning models faster.  Low Code Unit makes it simple to connect your devices and immediately use its data within Azure Machine Learning.
 
-## IoT Ensemble Storage Access
+## Low Code Unit Storage Access
 
-IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Azure ML.  Check out the [getting started guide](../../getting-started/connecting-downstream) for more details.
+Low Code Unit provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Azure ML.  Check out the [getting started guide](../../getting-started/connecting-downstream) for more details.
 
 ## Azure Automated Machine Learning - Regression
 
@@ -33,7 +33,7 @@ Data scientists, analysts, and developers across industries can use automated ML
 
 Make sure that you've created your free [Azure account](https://azure.microsoft.com/en-us/free/services/machine-learning/), and walk through the setup process for a new subscription or use one that you've [already setup](https://ml.azure.com).  With your acccount and subscription in hand, you will also need to make sure you have an [Azure ML workspace](https://portal.azure.com/#create/Microsoft.MachineLearningServices).
 
-Once setup, you can access the [Macine Learning portal](https://ml.azure.com), and dig deeper into the [Azure Machine Learning docs](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml) on your own.  We'll take you through some ways to start leveraging IoT Ensemble with Azure ML now.  
+Once setup, you can access the [Macine Learning portal](https://ml.azure.com), and dig deeper into the [Azure Machine Learning docs](https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml) on your own.  We'll take you through some ways to start leveraging Low Code Unit with Azure ML now.  
 
 :::note
 
@@ -51,18 +51,18 @@ This will open the Automated ML Run wizard, where you can click **Create Dataset
 
 ![Azure ML Automated ML Run Create Dataset](/img/screenshots/azure-ml-automated-ml-run-wizard-create-dataset.png)
 
-When the dataset create wizard opens, you'll need to input some values.  For **Web URL**, you'll use something like the following cold query call (make sure to replace **{subscription-key}** with one of the key values from your IoT Ensemble dashboard):
+When the dataset create wizard opens, you'll need to input some values.  For **Web URL**, you'll use something like the following cold query call (make sure to replace **{subscription-key}** with one of the key values from your Low Code Unit dashboard):
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&lcu-subscription-key={subscription-key}
+https://fathym-prd.azure-api.net/lowcodeunit/coldquery?resultType=JSONLines&flatten=true&lcu-subscription-key={subscription-key}
 ```
 
 :::note
 
-This guide is using data returned from our emulated data, and [getting started blog](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi).  If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
+This guide is using data returned from our emulated data, and [getting started blog](https://www.lowcodeunit.com/blog/raspberry-pi-dht11-node-red-lowcodeunit-power-bi).  If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/coldquery?resultType=JSONLines&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
+https://fathym-prd.azure-api.net/lowcodeunit/coldquery?resultType=JSONLines&flatten=true&includeEmulated=true&lcu-subscription-key={subscription-key}
 ```
 
 :::
@@ -87,7 +87,7 @@ The next step is to configure a Azure Automated Machine Learning run so that it 
 
 :::note
 
-The Cold Query parameter `flatten=true` is what unfolds complex properties in your IoT Ensemble device payloads, and makes them available in a `{PropertyName}_{PropertyName}` pattern.  So a payload property available at `SensorReadings.Temperature` becomes available at `SensorReadings_Temperature`.
+The Cold Query parameter `flatten=true` is what unfolds complex properties in your Low Code Unit device payloads, and makes them available in a `{PropertyName}_{PropertyName}` pattern.  So a payload property available at `SensorReadings.Temperature` becomes available at `SensorReadings_Temperature`.
 
 :::
 
@@ -97,7 +97,7 @@ Now, based on the data coming from devices, we can choose the Automated ML task 
 
 ![Azure ML Automated ML Run Task Settings](/img/screenshots/azure-ml-automated-ml-run-wizard-task-settings.png)
 
-Once the Automated ML is running, you'll have to wait for it to complete to move on to next steps.  In the end, this is how simple it is to leverage IoT Ensemble with Azure Machine Learning Automated ML experiments.  There is a lot more you can do with Azure Automated ML, read the full docs [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml).  You can see details on the completed model runs from the **Models** tab and with the click of a button **Deploy** the best fit model for use.
+Once the Automated ML is running, you'll have to wait for it to complete to move on to next steps.  In the end, this is how simple it is to leverage Low Code Unit with Azure Machine Learning Automated ML experiments.  There is a lot more you can do with Azure Automated ML, read the full docs [here](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml).  You can see details on the completed model runs from the **Models** tab and with the click of a button **Deploy** the best fit model for use.
 
 ![Azure ML Automated ML Run Running](/img/screenshots/azure-ml-automated-ml-running.png)
 
@@ -108,7 +108,7 @@ Once the Automated ML is running, you'll have to wait for it to complete to move
 
 For use with Time series docs...
 
-If your using [IoT Ensemble's Best Practice Schema](../../../devs/device-setup/best-practice-schema) then set the **Time column** to `Timestamp`, otherwise choose the appropriate value from your device payload schema or fall back to the system value `EventEnqueuedUtcTime`. 
+If your using [Low Code Unit's Best Practice Schema](../../../devs/device-setup/best-practice-schema) then set the **Time column** to `Timestamp`, otherwise choose the appropriate value from your device payload schema or fall back to the system value `EventEnqueuedUtcTime`. 
 
 :::note
 
