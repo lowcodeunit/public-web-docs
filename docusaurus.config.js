@@ -1,13 +1,13 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym IoT Ensemble Beta',
+  title: 'Fathym Low Code Unit Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.iot-ensemble.com',
+  url: 'https://www.lowcodeunit.com',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'iot-ensemble', // Usually your GitHub org/user name.
+  organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
   projectName: 'public-web-docs', // Usually your repo name.
   themeConfig: {
     gtag: {
@@ -24,20 +24,20 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'IoT Ensemble Beta',
+      title: 'Low Code Unit Beta',
       logo: {
-        alt: 'IoT Ensemble',
+        alt: 'Low Code Unit',
         src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.iot-ensemble.com/',
+          href: 'https://www.lowcodeunit.com/',
           label: 'Home',
           position: 'left',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/pricing',
+          href: 'https://www.lowcodeunit.com/pricing',
           label: 'Pricing',
           position: 'right',
           target: '_top',
@@ -48,13 +48,13 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.iot-ensemble.com/blog',
+          href: 'https://www.lowcodeunit.com/blog',
           label: 'Blog',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.iot-ensemble.com/dashboard',
+          href: 'https://www.lowcodeunit.com/dashboard',
           label: 'Sign In',
           position: 'right',
           target: '_top',
@@ -69,11 +69,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.iot-ensemble.com/dashboard',
+              to: 'https://www.lowcodeunit.com/dashboard',
             },
             {
               label: 'Pricing',
-              to: 'https://www.iot-ensemble.com/pricing',
+              to: 'https://www.lowcodeunit.com/pricing',
             },
             {
               label: 'Support',
@@ -86,15 +86,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/iot-ensemble',
+              href: 'https://stackoverflow.com/questions/tagged/lowcodeunit',
             },
             //{
             //  label: 'Discord',
-            //  href: 'https://discordapp.com/invite/iot-ensemble',
+            //  href: 'https://discordapp.com/invite/lowcodeunit',
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/iotensemble',
+              href: 'https://twitter.com/lowcodeunit',
             },
           ],
         },
@@ -118,8 +118,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // The iot-ensemble website repo
-          // editUrl: 'https://github.com/iot-ensemble/public-web-docs/edit/master/website/',
+          // The lowcodeunit website repo
+          // editUrl: 'https://github.com/lowcodeunit/public-web-docs/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

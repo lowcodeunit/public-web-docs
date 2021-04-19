@@ -82,7 +82,7 @@ This special property on the SensorMetadata allows sending information relating 
 
 ## Payload Examples
 
-### Fathym IoT Ensemble Emulated Data Example
+### Fathym Low Code Unit Emulated Data Example
 
 ```json
 {

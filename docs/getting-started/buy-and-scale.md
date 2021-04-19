@@ -12,9 +12,9 @@ hide_table_of_contents: true
 
 # Buy and Scale Devices
 
-From our own and our customer’s experience, we know that starting new IoT projects at a cost-effective pace is critical to success. All too often teams run into longer than estimated timelines and unknown cost spikes. IoT Ensemble provides an IoT project starting point that works for novices through to senior architects, to deliver repeatable and scalable enterprise-grade IoT solutions. 
+From our own and our customer’s experience, we know that starting new IoT projects at a cost-effective pace is critical to success. All too often teams run into longer than estimated timelines and unknown cost spikes. Low Code Unit provides an IoT project starting point that works for novices through to senior architects, to deliver repeatable and scalable enterprise-grade IoT solutions. 
 
-[Get started](https://www.iot-ensemble.com/billing/iot) now and connect your first device for free, no credit card required.
+[Get started](https://www.lowcodeunit.com/billing/iot) now and connect your first device for free, no credit card required.
 
 ## Choosing a Plan
 
@@ -34,4 +34,4 @@ Enterprise plans are available, though not yet entirely self-service. To get sta
 
 ## Adding More Devices
 
-With your IoT Ensemble license (shared or enterprise), all the tools we have reviewed so far are ready to use for multiple devices. Enroll additional devices to get more data flowing and continue reading through the documentation to learn how to leverage additional security practices, APIs, and functionality.
+With your Low Code Unit license (shared or enterprise), all the tools we have reviewed so far are ready to use for multiple devices. Enroll additional devices to get more data flowing and continue reading through the documentation to learn how to leverage additional security practices, APIs, and functionality.

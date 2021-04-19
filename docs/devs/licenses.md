@@ -11,7 +11,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# IoT Ensemble Licenses
+# Low Code Unit Licenses
 
 ## Shared Plans
 Our shared plans are geared at offering a more structured understanding of cost and data velocity.  Great for teams new to IoT or lacking cloud-native experience, one of our shared plans will offer a cost per device understanding as the IoT solution scales.  If our shared plans don't fit the IoT project needs, look at how the enterprise plans can help you.
@@ -23,7 +23,7 @@ Sign up for free. No credit card required.
 - **Shared Cloud** - to help make IoT affordable, there are shared resources.
 - **Connect 1 device** - connect one device for free.
 - **60 seconds Data Velocity** - send data from a device every 60 seconds.
-- **3 days of Data Retention** - device data will be stored in IoT Ensemble for 3 days.
+- **3 days of Data Retention** - device data will be stored in Low Code Unit for 3 days.
 
 ### Starter Plan
 $20/month or $200/year

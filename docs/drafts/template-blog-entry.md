@@ -3,13 +3,13 @@ slug: /drafts
 title: Title - Hook
 author: Michael Gearhardt
 author_title: CTO @ Fathym
-author_url: https://www.iot-ensemble.com
+author_url: https://www.lowcodeunit.com
 author_image_url: https://github.com/mcgear.png
 tags: []
 hide_table_of_contents: true
 ---
 
-![IoT Ensemble Diagram](/img/iot-ensemble-diagram.png)
+![Low Code Unit Diagram](/img/lowcodeunit-diagram.png)
 
 ... intro ...
 

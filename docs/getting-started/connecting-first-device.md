@@ -28,7 +28,7 @@ We'll start off with a symmetric key protected device, and can move to other sec
 
 At times, the IoT process can feel like a challenge.  We've done a lot to springboard cloud-native IoT adoption, but now we need to get actual hardware sending data.  At scale, there is more to do, but we'll get going with the basics first.
 
-### Best Practice IoT Ensemble Schema
+### Best Practice Low Code Unit Schema
 
 When starting with our shared plans, to get the most out of the system, there is a [best practice schema](../devs/device-setup/best-practice-schema) that we recommend using to send IoT messages.  This allows for the collection of device data, sensor readings, and sensor metadata to deliver a rich, pre-configured IoT experience.   In short, the structure is as follows:
 

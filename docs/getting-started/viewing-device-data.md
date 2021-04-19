@@ -16,7 +16,7 @@ Viewing device messages is the first step in understanding and debugging IoT dat
 
 ## Dashboard Views
 
-The IoT Ensemble dashboard provides two quick ways to start looking at data.  Using these, easily view raw device message payloads and visualize data in an open source dashboard.
+The Low Code Unit dashboard provides two quick ways to start looking at data.  Using these, easily view raw device message payloads and visualize data in an open source dashboard.
 
 ### Devices Telemetry
 
@@ -50,7 +50,7 @@ If you're seeing emulated data in the table and only want to see custom device d
 
 :::note
 
-In the screenshot above, the following properties are not part of the [IoT Best Practice Schema](../devs/device-setup/best-practice-schema). Fathym IoT Ensemble is not adding these properties. These are system properties that are added by the IoT Hub.
+In the screenshot above, the following properties are not part of the [IoT Best Practice Schema](../devs/device-setup/best-practice-schema). Fathym Low Code Unit is not adding these properties. These are system properties that are added by the IoT Hub.
 
 - `"_ts": 1613087733`
 - `"EventProcessedUtcTime": "2021-02-11T23:55:30.227905Z"`

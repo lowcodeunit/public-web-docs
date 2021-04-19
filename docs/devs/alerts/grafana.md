@@ -14,13 +14,13 @@ hide_table_of_contents: true
 
 # Sending Email & Text Alerts using Grafana
 
-These instructions show how to send email and text alerts using Grafana and IoT Ensemble data stored in SQL Server.
+These instructions show how to send email and text alerts using Grafana and Low Code Unit data stored in SQL Server.
 
 ## Step 1: SQL Server
 
-The first step is to call the IoT Ensemble warm or cold query and load your device data into Microsoft SQL Server. This doc explains how to use a [Logic App to load the data into SQL Server](/devs/storage/sql-server). If you need help loading your IoT Ensemble data into SQL Server please email support@fathym.com and we'll point you in the right direction.
+The first step is to call the Low Code Unit warm or cold query and load your device data into Microsoft SQL Server. This doc explains how to use a [Logic App to load the data into SQL Server](/devs/storage/sql-server). If you need help loading your Low Code Unit data into SQL Server please email support@fathym.com and we'll point you in the right direction.
 
-This screenshot shows some sample IoT Ensemble data loaded in SQL Server.
+This screenshot shows some sample Low Code Unit data loaded in SQL Server.
 
 ![SQL Server Table](/img/screenshots/alerts/sql-server-data.png)
 
@@ -58,7 +58,7 @@ DateTime as time,
 Temperature
 FROM [grafana-data]`
 
-Modify the query to fit the properties of your IoT Ensemble data.
+Modify the query to fit the properties of your Low Code Unit data.
 :::
 
 ## Step 4: Configure the Grafana Alert

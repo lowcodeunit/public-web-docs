@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 # Storage Access with Logic Apps and SQL Server
 
-These instructions show how to use Logic Apps to call the IoT Ensemble warm query every 12 hours and insert the data into a SQL Server database. Before we get started, here's an overview of the entire Logic App with the steps collapsed.
+These instructions show how to use Logic Apps to call the Low Code Unit warm query every 12 hours and insert the data into a SQL Server database. Before we get started, here's an overview of the entire Logic App with the steps collapsed.
 
 ![Completed Steps](/img/screenshots/logic-apps-sql-server-overview.png)
 
@@ -23,22 +23,22 @@ For the first step of the Logic App, search for 'HTTP'.
 
 ![Search for HTTP](/img/screenshots/alerts/search-for-http.png)
 
-Configure the HTTP trigger with the following settings from your IoT Ensemble account. This example is using the Warm Query.
+Configure the HTTP trigger with the following settings from your Low Code Unit account. This example is using the Warm Query.
 - Method: `GET`
-- URI: `https://fathym-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=true`
+- URI: `https://fathym-prd.azure-api.net/lowcodeunit/WarmQuery?includeEmulated=true`
 - Header: `lcu-subscription-key: f24047c3d5b14f****`
 - How often do you want to check for items?: `12 Hour`
 
 ![HTTP Settings](/img/screenshots/alerts/http-settings.png)
 
 :::note
-Use your primaryKey or secondaryKey from the IoT Ensemble API Keys for the lcu-subscription-key value. For example:
+Use your primaryKey or secondaryKey from the Low Code Unit API Keys for the lcu-subscription-key value. For example:
 
 `lcu-subscription-key: f24047c3d5b14f****`
 :::
 
 :::info
-In the HTTP trigger above, use the 'How often do you want to check for items' fields to control how often the HTTP trigger calls the IoT Ensemble Warm Query for new data.
+In the HTTP trigger above, use the 'How often do you want to check for items' fields to control how often the HTTP trigger calls the Low Code Unit Warm Query for new data.
 :::
 
 ## Step 2: Compose
@@ -47,7 +47,7 @@ For the next step of the Logic App, search for 'Compose'.
 
 ![Search for Compose](/img/screenshots/alerts/search-for-compose.png)
 
-For the Compose step we need to list an example JSON payload the Logic App will receive from the HTTP trigger. For the IoT Ensemble Warm Query, you can use the following:
+For the Compose step we need to list an example JSON payload the Logic App will receive from the HTTP trigger. For the Low Code Unit Warm Query, you can use the following:
 
 ```
 {
@@ -171,7 +171,7 @@ Within the SQL Server option, select 'Import row'.
 
 ![Select SQL Server Import Row](/img/screenshots/logic-apps-sql-server-import-row.png)
 
-After you authorize with the SQL Server, the form will allow you to select your server, database, and table. After those are selected, you can add Parameters for each of your data properties. The screenshot below is based on the IoT Ensemble emulated data.
+After you authorize with the SQL Server, the form will allow you to select your server, database, and table. After those are selected, you can add Parameters for each of your data properties. The screenshot below is based on the Low Code Unit emulated data.
 
 ![List SQL Server Parameters](/img/screenshots/logic-apps-for-each-sql.png)
 
@@ -179,6 +179,6 @@ Save and run the logic app to see it in action.
 
 ## Overview of Steps
 
-Here's an overview of the entire Logic App with the steps collapsed. The Logic App calls the IoT Ensemble warm query every 12 hours and inserts the data into a SQL Server database.
+Here's an overview of the entire Logic App with the steps collapsed. The Logic App calls the Low Code Unit warm query every 12 hours and inserts the data into a SQL Server database.
 
 ![Overview of Steps](/img/screenshots/logic-apps-sql-server-overview.png)

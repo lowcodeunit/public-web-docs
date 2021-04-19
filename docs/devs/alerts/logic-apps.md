@@ -14,7 +14,7 @@ hide_table_of_contents: true
 
 # Sending Email & Text Alerts using Azure Logic Apps
 
-These instructions show how to use Logic Apps to call the IoT Ensemble warm query every 12 hours and check if the Temperature of any of the results is greater than 90. If so, it sends an email alert. Before we get started, here's an overview of the entire Logic App with the steps collapsed.
+These instructions show how to use Logic Apps to call the Low Code Unit warm query every 12 hours and check if the Temperature of any of the results is greater than 90. If so, it sends an email alert. Before we get started, here's an overview of the entire Logic App with the steps collapsed.
 
 ![Completed Steps](/img/screenshots/alerts/completed-steps.png)
 
@@ -24,22 +24,22 @@ For the first step of the Logic App, search for 'HTTP'.
 
 ![Search for HTTP](/img/screenshots/alerts/search-for-http.png)
 
-Configure the HTTP trigger with the following settings from your IoT Ensemble account. This example is using the Warm Query.
+Configure the HTTP trigger with the following settings from your Low Code Unit account. This example is using the Warm Query.
 - Method: `GET`
-- URI: `https://fathym-prd.azure-api.net/iot-ensemble/WarmQuery?includeEmulated=true`
+- URI: `https://fathym-prd.azure-api.net/lowcodeunit/WarmQuery?includeEmulated=true`
 - Header: `lcu-subscription-key: f24047c3d5b14f****`
 - How often do you want to check for items?: `12 Hour`
 
 ![HTTP Settings](/img/screenshots/alerts/http-settings.png)
 
 :::note
-Use your primaryKey or secondaryKey from the IoT Ensemble API Keys for the lcu-subscription-key value. For example:
+Use your primaryKey or secondaryKey from the Low Code Unit API Keys for the lcu-subscription-key value. For example:
 
 `lcu-subscription-key: f24047c3d5b14f****`
 :::
 
 :::info
-In the HTTP trigger above, use the 'How often do you want to check for items' fields to control how often the HTTP trigger calls the IoT Ensemble Warm Query for new data.
+In the HTTP trigger above, use the 'How often do you want to check for items' fields to control how often the HTTP trigger calls the Low Code Unit Warm Query for new data.
 :::
 
 ## Step 2: Compose
@@ -48,7 +48,7 @@ For the next step of the Logic App, search for 'Compose'.
 
 ![Search for Compose](/img/screenshots/alerts/search-for-compose.png)
 
-For the Compose step we need to list an example JSON payload the Logic App will receive from the HTTP trigger. For the IoT Ensemble Warm Query, you can use the following:
+For the Compose step we need to list an example JSON payload the Logic App will receive from the HTTP trigger. For the Low Code Unit Warm Query, you can use the following:
 
 ```
 {
@@ -219,6 +219,6 @@ Texting via email is easy. Type in the recipient's mobile number in front of the
 
 ## Overview of Steps
 
-Here's an overview of the entire Logic App with the steps collapsed. The Logic App calls the IoT Ensemble warm query every 12 hours and checks if the Temperature of any of the results is greater than 90. If so, it sends an email alert.
+Here's an overview of the entire Logic App with the steps collapsed. The Logic App calls the Low Code Unit warm query every 12 hours and checks if the Temperature of any of the results is greater than 90. If so, it sends an email alert.
 
 ![Completed Steps](/img/screenshots/alerts/completed-steps.png)

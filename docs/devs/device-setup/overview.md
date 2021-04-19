@@ -18,8 +18,8 @@ To get started with a device, simply enter a device name and enroll it.
 
 ![Enroll New Device](/img/screenshots/dashboard-enroll-device.png)
 
-We'll start off with a symmetric key protected device, and can move to other security in the future.  Once created, the connection string will be available. Use the connection string to send data from your device to IoT Ensemble.
+We'll start off with a symmetric key protected device, and can move to other security in the future.  Once created, the connection string will be available. Use the connection string to send data from your device to Low Code Unit.
 
 ![Device List](/img/screenshots/dashboard-device-list-first-device.png)
 
-[Click here](https://www.iot-ensemble.com/blog/raspberry-pi-dht11-node-red-iot-ensemble-power-bi) to learn how to connect a Raspberry Pi, a DHT11 temperature sensor, and NodeRed to IoT Ensemble.
+[Click here](https://www.lowcodeunit.com/blog/raspberry-pi-dht11-node-red-lowcodeunit-power-bi) to learn how to connect a Raspberry Pi, a DHT11 temperature sensor, and NodeRed to Low Code Unit.

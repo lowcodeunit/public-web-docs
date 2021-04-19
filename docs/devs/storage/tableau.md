@@ -16,7 +16,7 @@ hide_table_of_contents: true
 
 Tableau Desktop has many options for importing data. You can import data from a file or from a server. Unfortunately, there is no option for loading data from a REST API, so let's use the JSON file option and create a historical report.
 
-At the bottom of the IoT Ensemble Dashboard is your Storage Access. 
+At the bottom of the Low Code Unit Dashboard is your Storage Access. 
 
 ![Storage Access Try It](/img/screenshots/storage-access-tryit.png)
 

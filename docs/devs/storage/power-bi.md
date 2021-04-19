@@ -14,13 +14,13 @@ hide_table_of_contents: true
 
 # Storage Access with Microsoft Power BI
 
-There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  IoT Ensemble provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
+There are a lot of options in Power BI Desktop for importing data to be used in reports and visualizations for data interpretation.  Low Code Unit provides connection URLs and Storage Access Keys so you can import data from your devices into Power BI using the **Web** data source.
 
-Your IoT Ensemble Dashboard will give you access to API Access Storage Keys as well as interactive forms to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
+Your Low Code Unit Dashboard will give you access to API Access Storage Keys as well as interactive forms to obtain request URLs for cold and warm storage queries.  This is all you need to get started visualizing data with Power BI!
 
-## IoT Ensemble Storage Access
+## Low Code Unit Storage Access
 
-IoT Ensemble provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.  Check out the [getting started guide](../../getting-started/connecting-downstream) for more details.
+Low Code Unit provides out of the box APIs that allow you to interact with your data and devices.  Leveraging the cold query endpoint will allow us to easily connect with Power BI.  Check out the [getting started guide](../../getting-started/connecting-downstream) for more details.
 
 ## Configuring Power BI Desktop
 
@@ -35,7 +35,7 @@ Once this has been selected, a popup will appear allowing input of the API URL. 
 The API request URL can be obtained from the dashboard using either the cold or warm query APIs.  Here is a sample cold query URL you can start with, and the dashboard will assist in discovering the parameters for this query.
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON
+https://fathym-prd.azure-api.net/lowcodeunit/ColdQuery?flatten=false&resultType=JSON
 ```
 
 :::note
@@ -43,12 +43,12 @@ https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType
 If you would like to use the [emulated data](../../getting-started/emulated-data), add an additional query string parameter of `includeEmulated=true`:
 
 ```console
-https://fathym-prd.azure-api.net/iot-ensemble/ColdQuery?flatten=false&resultType=JSON&includeEmulated=true
+https://fathym-prd.azure-api.net/lowcodeunit/ColdQuery?flatten=false&resultType=JSON&includeEmulated=true
 ```
 
 :::
 
-Now input the request URL from above (or obtained from the dashboard) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from IoT Ensemble Dashboard in the value text field.
+Now input the request URL from above (or obtained from the dashboard) into the Power BI **URL Parts** text field.  Then enter `lcu-subscription-key` as a header parameter key, along with the **Access Key** copied from Low Code Unit Dashboard in the value text field.
 
 ![Power BI From web Advanced Enter Values](/img/screenshots/power-bi-from-web-advanced-enter-values.png)
 

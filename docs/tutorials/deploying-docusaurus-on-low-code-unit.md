@@ -11,9 +11,9 @@ keywords:
 hide_table_of_contents: true
 ---
 
-## Connecting Sparkfun ESP32 Board and CCS811/BME280 Environmental Sensor with IoT Ensemble
+## Connecting Sparkfun ESP32 Board and CCS811/BME280 Environmental Sensor with Low Code Unit
 
-In this tutorial, we will be taking a generic ESP32 board, connecting a simple environment sensor, and send messages with IoT Ensemble. For simplicity sake, I have chosen to use Sparkfun's "Qwiic" connect ecosystem, which is a plug-and-play method of connecting boards and sensors. 
+In this tutorial, we will be taking a generic ESP32 board, connecting a simple environment sensor, and send messages with Low Code Unit. For simplicity sake, I have chosen to use Sparkfun's "Qwiic" connect ecosystem, which is a plug-and-play method of connecting boards and sensors. 
 
 ### Things you will need
 - [SparkFun Thing Plus - ESP32 WROOM Board](https://www.sparkfun.com/products/15663) (You may also use a different generic ESP32 board, but it won't use the Qwiic system)
@@ -22,7 +22,7 @@ In this tutorial, we will be taking a generic ESP32 board, connecting a simple e
 - A Micro-USB cable to connect the ESP32 to your computer
 - [SparkFun Environmental Combo Breakout - CCS811/BME280](https://www.sparkfun.com/products/14348) (Again, you may choose to use a more generic version of this sensor, but it won't use the Qwiic system)
 - [Arduino IDE](https://www.arduino.cc/en/software) installed on your computer
-- A [Fathym IoT Ensemble](https://www.iot-ensemble.com/dashboard) account (we’re using the free, shared version)
+- A [Fathym Low Code Unit](https://www.lowcodeunit.com/dashboard) account (we’re using the free, shared version)
 
 ## Part 1 - Hook Up Your Hardware 
 First, we need to attach the sensor to your board. Take the qwiic cable, and plug it into the ESP32 "Qwiic" port. Take the other end of the cable, and plug it into either of the two "Qwiic" ports on the Environmental Sensor. Your hardware is ready to go! <br></br>
@@ -314,13 +314,13 @@ Next, in the ArduinoIDE, delete the existing template code. Then, paste the code
 
 Before we can continue, we need to register your ESP32 device with Iot Ensemble
 
-## Part 5 - Configuring IoT Ensemble
+## Part 5 - Configuring Low Code Unit
 
-Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with IoT Ensemble the focus is helping you leverage best practice cloud IoT technology.  Here we'll be using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
+Before we can tell your device where to send data, we first need somewhere to send the data.  There are a number of different ways this can be accomplished, with Low Code Unit the focus is helping you leverage best practice cloud IoT technology.  Here we'll be using the Azure IoT Hub to connect devices to a shared data flow, and then make it avaiable downstream for use in other applications.
 
-Follow these steps to create a new device in IoT Ensemble. For more details on the full IoT Ensemble experience, check out our [full documentation](../getting-started/connecting-first-device).
+Follow these steps to create a new device in Low Code Unit. For more details on the full Low Code Unit experience, check out our [full documentation](../getting-started/connecting-first-device).
 
-Start by navigating to the [IoT Ensemble Dashboard](https://www.iot-ensemble.com/dashboard) and sign in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
+Start by navigating to the [Low Code Unit Dashboard](https://www.lowcodeunit.com/dashboard) and sign in or sign up.  For the purposes of moving forward, you will only need the Free license and no credit card will be required.
 
 ### Enroll a Device
 
@@ -370,7 +370,7 @@ Your ESP32 should now be taking sensor readings, and sending the information up 
 
 ![Serial Monitor](/img/screenshots/serial-monitor.png)
 
-Once you confirm that messages are sending correctly, you can now go to [IoT Ensemble](https://www.iot-ensemble.com/dashboard/) and see your messages in real time. Messages will appear under the "Device Telemetry" section, as shown below:
+Once you confirm that messages are sending correctly, you can now go to [Low Code Unit](https://www.lowcodeunit.com/dashboard/) and see your messages in real time. Messages will appear under the "Device Telemetry" section, as shown below:
 
 ![Iot Ensemble ESP32 Telemetry](/img/screenshots/live-esp32-data.png)
 
