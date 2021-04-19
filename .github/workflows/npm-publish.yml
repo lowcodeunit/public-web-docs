@@ -22,7 +22,7 @@ jobs:
           
       - name: Setup GIT
         run: |
-          git config user.email "git.actions@fathym.com"
+          git config user.email "github.actions@fathym.com"
           git config user.name "$GITHUB_ACTOR"
 
   publish-npm:
