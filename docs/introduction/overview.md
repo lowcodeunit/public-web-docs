@@ -11,7 +11,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Welcome to Fathym Low Code Unit
+# Yes! Welcome to Fathym Low Code Unit
 
 Fathym Low Code Unit is a platform focused on helping you to connect devices, understand data and scale IoT applications.
 
