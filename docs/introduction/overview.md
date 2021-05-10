@@ -16,8 +16,8 @@ hide_table_of_contents: true
 Fathym Low Code Unit is a platform focused on helping you to connect devices, understand data and scale IoT applications.
 
 Managing the learning path, usage and growth of cloud-native IoT development strategies can be a daunting challenge. Use Low Code Unit to reliably deliver IoT applications across hybrid-clouds. [Get started](https://www.lowcodeunit.com/dashboard) today.
-
-![Low Code Unit Diagram](/img/lowcodeunit-diagram.png)
+<!-- 
+![Low Code Unit Diagram](/img/lowcodeunit-diagram.png) -->
 
 ## Connect, Understand, Scale
 
