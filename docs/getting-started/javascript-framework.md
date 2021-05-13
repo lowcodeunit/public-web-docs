@@ -26,6 +26,8 @@ Once this command is complete, the docusaurus site will be initialized in a subf
 
 ![Docusaurus Project Structure](/img/screenshots/docusaurus-project-structure.png)
 
+## Deploying Docusaurus
+
 Now you can run it locally by executing an `npm start` command from the root of the repository.  We've already configured the build script and output folder that will work for docusaurus, so checkin and push your code to start a build.  From the dashboard, wait for the build to complete successfully, then click the <img src="/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
 
 :::note
@@ -33,3 +35,7 @@ Now you can run it locally by executing an `npm start` command from the root of 
 Due to the caching used to deliver your site, it may take a moment for latest code to show on your endpoint.
 
 :::
+
+## Next Steps
+
+you've seen how in a few steps, your able to create an enterprise scalable DevOps process for manaing the deployment of your products and applications.  Next we'll dig into how you can bring a custom domain and SSL certificate to bear.
