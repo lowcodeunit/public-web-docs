@@ -28,7 +28,7 @@ If you don't have any organizations to authorize, you can easily create your fir
 
 ## Setup Repository
 
-Once the GitHub authorization is completed, head back to the Fathym LCU dashboard, where you will find a drop down with your organization options.  Select an organization, then a repository, and finally the branch you want the initial build/deployment setup against.  
+Once the GitHub authorization is completed, head back to the Fathym LCU dashboard, where you will find a drop down with your organization options.  Select an organization, then a repository, and finally the branch you want the initial build/deployment setup against.
 
 ![Setup Repository](/img/screenshots/setup-repository.png)
 

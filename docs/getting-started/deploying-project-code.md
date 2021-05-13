@@ -12,13 +12,13 @@ hide_table_of_contents: true
 
 # Deploying Code
 
-With the initial project created, you should now see it in your dashboard, with an `in_progress` build running on GitHub actions.  This first build will fail if your starting from scratch following this walkthrough, as we don't have our build properly set up (more on that in a second).  There are many different ways to get your code into the Distributed File System, the initial setup leverages GitHub Action artifacts to maintain built assets.
+With the initial project created, you should now see it in your dashboard, with an `in_progress` build running on GitHub actions.  This first build will fail if your starting from scratch following this walkthrough, as we don't have our build properly set up (more on that in a second).  There are many different ways to get your code into the LCU Distributed File System, the initial setup leverages GitHub Action artifacts to maintain built assets.
 
 If you used an existing repository with code inside it, then that will have built if it has the appropriate build script and output folder configured.  If your starting from scratch, let's take a look at how we can get some code deployed.
 
 ## Updating your Application
 
-Go ahead and clone your git repository to your local environment so that you can edit it.  While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits.  A great option, available across platforms is [VS Code](https://code.visualstudio.com/download).  Once you have your repository cloned you can start to make edits.  First, we need to get our package.json created by running `npm init` and filling out the prompts (you can just press enter through everything).
+Go ahead and clone your git repository to your local environment so that you can edit it.  While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits.  A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download).  Once you have your repository cloned you can start to make edits.  First, we need to get our package.json created by running `npm init` and completing the prompts (you can just press enter through everything).
 
 Create a new index.html file at the root alongside the package.json file.  Fill the contents of the index.html file with something like the following
 

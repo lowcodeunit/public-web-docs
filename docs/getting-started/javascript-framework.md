@@ -32,7 +32,7 @@ Now you can run it locally by executing an `npm start` command from the root of 
 
 :::note
 
-Due to the caching used to deliver your site, it may take a moment for latest code to show on your endpoint.
+Due to the caching used to deliver your site, it may take a moment for latest code to show on your endpoint.  Hard reload the cookies and cache for your site to see Docusaurus immediately.
 
 :::
 
