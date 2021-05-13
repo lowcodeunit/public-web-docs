@@ -58,6 +58,6 @@ Your finished package.json file and repository should look something like this:
 
 ![First Project Package JSON](/img/screenshots/first-project-package-json.png)
 
-Checkin and push the changes to your repository, and you'll notice a new build kicks off that should complete successfully.  Once successful click on the <img src="/img/screenshots/deploy-latest-button.png" class="text-image" /> button to push your code to your site.  Once the deploy is complete, select <img src="/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
+Checkin and push the changes to your repository, and you'll notice a new build kicks off that should complete successfully.  Once successful, click on the <img src="/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
 
-<!-- ![] -->
+![My First Project Running](/img/screenshots/my-first-project-running.png)
