@@ -38,4 +38,4 @@ Due to the caching used to deliver your site, it may take a moment for latest co
 
 ## Next Steps
 
-you've seen how in a few steps, your able to create an enterprise scalable DevOps process for manaing the deployment of your products and applications.  Next we'll dig into how you can bring a custom domain and SSL certificate to bear.
+you've seen how in a few steps, your able to create an enterprise scalable DevOps process for manaing the deployment of your products and applications.  Next we'll dig into how you can bring a custom domain and SSL certificate to your application.

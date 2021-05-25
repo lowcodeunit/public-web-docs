@@ -6,6 +6,7 @@ module.exports = {
       'getting-started/create-first-project',
       'getting-started/deploying-project-code',
       'getting-started/javascript-framework',
+      'getting-started/global-edge-network',
     ],
   },
 };
