@@ -10,6 +10,8 @@ keywords:
 hide_table_of_contents: true
 ---
 
+import deployLatestBtn from '../../static/img/screenshots/deploy-latest-button.png';
+
 # Global Edge Nework (GEN)
 
 Its nice to have a projet up and running in minutes, but simple hosting isn't everyhing.  We want to reliably deliver our project in a secure, and scalable way.  The LowCodeUnit Global Edge Network (GEN) will provide your projects with custom domains, free and automatic SSL certificates, as well as a globally scaled content delivery network.
@@ -22,7 +24,7 @@ Most likely your not trying to host your project on flippity-floppity-floop.lowc
 
 Getting your project running on a custom domain is straight forward.  You will need access to your domain's DNS management system (in our example here, GoDaddy) and then you'll be ready to go.
 
-Click the <img src="/img/screenshots/deploy-latest-button.png" class="text-image" /> button to open the settings page for the project.
+Click the <img src={deployLatestBtn} class="text-image" /> button to open the settings page for the project.
 
 ![Configure project settings](/img/screenshots/configure-project-settings.png)
 
