@@ -8,5 +8,6 @@ module.exports = {
       'getting-started/javascript-framework',
       'getting-started/global-edge-network',
     ],
+    Guides: ['guides/overview'],
   },
 };

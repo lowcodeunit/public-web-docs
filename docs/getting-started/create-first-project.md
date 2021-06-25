@@ -10,13 +10,19 @@ keywords:
 hide_table_of_contents: true
 ---
 
+import connectWithGitHubBtn from '../../static/img/screenshots/connect-with-github-button.png';
+import gitHubGrantBtn from '../../static/img/screenshots/github-grant-button.png';
+import saveBtn from '../../static/img/screenshots/save-button.png';
+import addBtn from '../../static/img/screenshots/add-button.png';
+import createNewProjectBtn from '../../static/img/screenshots/create-new-project-button.png';
+
 # Creating your First Project 
 
 At its simplest, Low Code Unit will allow you to host any web application that loads from an **index.html** file (and other default files like index.htm).  For this first step, we'll start with something simple, and then start adding to our application.
 
 ## Connect Git Provider
 
-The first step is to click the <img src="/img/screenshots/connect-with-github-button.png" class="text-image" /> button, then select the organizations that you would like to allow Fathym LCU to have access to by clicking <img src="/img/screenshots/github-grant-button.png" class="text-image" />.  When ready, select the green authorize button to continue back to Low Code Unit.
+The first step is to click the <img src={connectWithGitHubBtn} class="text-image" /> button, then select the organizations that you would like to allow Fathym LCU to have access to by clicking <img src={gitHubGrantBtn} class="text-image" />.  When ready, select the green authorize button to continue back to Low Code Unit.
 
 ![Connect with GitHub](/img/screenshots/connect-with-github.png)
 
@@ -34,13 +40,13 @@ Once the GitHub authorization is completed, head back to the Fathym LCU dashboar
 
 :::note
 
-If you don't have any existing repositories, or would like to create a new one you can do that from the LCU Dashboard during setup with the <img src="/img/screenshots/add-button.png" class="text-image" /> button.  Enter the name of the repository, click <img src="/img/screenshots/save-button.png" class="text-image" /> and once complete it should reload with your new repository selected.  At this point, a `main` branch is all you'll have.
+If you don't have any existing repositories, or would like to create a new one you can do that from the LCU Dashboard during setup with the <img src={addBtn} class="text-image" /> button.  Enter the name of the repository, click <img src={saveBtn} class="text-image" /> and once complete it should reload with your new repository selected.  At this point, a `main` branch is all you'll have.
 
 :::
 
 ## Configure Project
 
-The final step is to to configure the build information for the application.  For the purposes of this walkthrough you'll set the build script to `npm run build` and the output folder to `build`.  After this is all filled in, select the <img src="/img/screenshots/create-new-project-button.png" class="text-image" /> button to create the first project.
+The final step is to to configure the build information for the application.  For the purposes of this walkthrough you'll set the build script to `npm run build` and the output folder to `build`.  After this is all filled in, select the <img src={createNewProjectBtn} class="text-image" /> button to create the first project.
 
 ![Configure Project](/img/screenshots/configure-project.png)
 
