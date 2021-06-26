@@ -8,6 +8,23 @@ module.exports = {
       'getting-started/javascript-framework',
       'getting-started/global-edge-network',
     ],
-    Guides: ['guides/overview'],
+    Guides: [
+      'guides/overview',
+      {
+        'Micro-Frontends': ['guides/micro-frontends/overview'],
+        'Atomic Design': ['guides/atomic-design/overview'],
+        'e-Commerce': [
+          'guides/e-commerce/overview',
+          {
+            'Forestry, 11ty, JamCart': [
+              'guides/e-commerce/forestry-11ty-jamcart/overview',
+              'guides/e-commerce/forestry-11ty-jamcart/setup-11ty',
+              'guides/e-commerce/forestry-11ty-jamcart/connecting-forestry',
+            ],
+          },
+        ],
+        'SaaS Licensing': ['guides/saas-licensing/overview'],
+      },
+    ],
   },
 };
