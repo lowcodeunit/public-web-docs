@@ -13,16 +13,8 @@ hide_table_of_contents: true
 
 # Hosting with LowCodeUnit
 
-Our code so far
+Back at the beginning, when setting up our project, we did most of what is required for LowCodeUnit to host your site.  Right now, go ahead and checkin your latest code from previous steps, and a new build will automatically start inside of your LowCodeUnit dashboard.  After the build completes, you can press `Deploy Latest`, and if all went according to plan... Voila, e-Commerce in action.  Take note of and copy the URL LowCodeUnit is using to host your project.
 
-We have a working shopping cart now, but checkout won't work. JamCart needs to be able to crawl our website to verify the price of items and that requires getting our code hosted. We'll be using Netlify to fix that.
+There are only a few tasks left to complete the configuration of JamCart.  For starters, jump back in the JamCart dashboard and navigate to `Security` and under domain whitelist make sure you add the domain from LowCodeUnit.  Finally, navigate to `Shipping` then press `Create`.  Create whatever shipping options you need, in our case we opted for a free ground shipping option.
 
-Getting our code hosted is really simple. If you haven't already, remember to commit and push your code. Then login to Netlify and, from your Dashboard, hit "New site from Git".
-
-Create Site Form
-
-Select GitHub and follow the prompts to connect your repository. Once the repository is connected, double check the "Basic build settings". Netlify automatically filled these out for me correctly in our tutorial example:
-
-Build Settings
-
-The very last thing we need to do is authorize this domain with JamCart. Returning to your dashboard, fill out "Domain Whitelist" with the domain your website is hosted on.
+Now you've got a working e-commerce store to start selling your products from.
