@@ -18,11 +18,11 @@ import createNewProjectBtn from '../../static/img/screenshots/create-new-project
 
 # Creating your First Project 
 
-At its simplest, Low Code Unit will allow you to host any web application that loads from an **index.html** file (and other default files like index.htm).  For this first step, we'll start with something simple, and then start adding to our application.
+At its simplest, LowCodeUnit will allow you to host any web application that loads from an **index.html** file (and other default files like index.htm).  For this first step, we'll start with something simple, and then start adding to our application.
 
 ## Connect Git Provider
 
-The first step is to click the <img src={connectWithGitHubBtn} class="text-image" /> button, then select the organizations that you would like to allow Fathym LCU to have access to by clicking <img src={gitHubGrantBtn} class="text-image" />.  When ready, select the green authorize button to continue back to Low Code Unit.
+The first step is to click the <img src={connectWithGitHubBtn} class="text-image" /> button, then select the organizations that you would like to allow Fathym LCU to have access to by clicking <img src={gitHubGrantBtn} class="text-image" />.  When ready, select the green authorize button to continue back to LowCodeUnit.
 
 ![Connect with GitHub](/img/screenshots/connect-with-github.png)
 

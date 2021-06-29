@@ -11,6 +11,6 @@ keywords:
 hide_table_of_contents: true
 ---
 
-## Connecting Sparkfun ESP32 Board and CCS811/BME280 Environmental Sensor with Low Code Unit
+## Connecting Sparkfun ESP32 Board and CCS811/BME280 Environmental Sensor with LowCodeUnit
 
-In this tutorial, we will be taking a generic ESP32 board, connecting a simple environment sensor, and send messages with Low Code Unit. For simplicity sake, I have chosen to use Sparkfun's "Qwiic" connect ecosystem, which is a plug-and-play method of connecting boards and sensors. 
+In this tutorial, we will be taking a generic ESP32 board, connecting a simple environment sensor, and send messages with LowCodeUnit. For simplicity sake, I have chosen to use Sparkfun's "Qwiic" connect ecosystem, which is a plug-and-play method of connecting boards and sensors. 

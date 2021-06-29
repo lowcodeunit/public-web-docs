@@ -7,4 +7,4 @@ hide_table_of_contents: true
 
 # Tutorials
 
-Our tutorials look through different ways to use Low Code Unit to deliver end-to-end IoT applications.  
+Our tutorials look through different ways to use LowCodeUnit to deliver end-to-end IoT applications.  

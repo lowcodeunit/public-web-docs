@@ -1,5 +1,5 @@
 ---
-title: Guides - e-Commerce - Forestry, 11ty, JamCart - Overview
+title: Guides - e-Commerce - Forestry, 11ty, JamCart - Setup 11ty
 hide_title: true
 sidebar_label: Setup 11ty
 keywords:
@@ -37,7 +37,6 @@ Now create a new file at the root of the project called `.gitignore` so we don't
 /node_modules
 ```
 
-Now you can go ahead and commit your changes with the Git cli, though I prefer the visual interface of VS Code.  
-Finally, we want to initialize a git repository and push our changes. For this tutorial, let's assume we're using GitHub here although GitLab and BitBucket would work just as well. Don't forget to create a .gitignore file so we don't accidentally commit node_modules.  Click the `Source Control` icon from the left activity bar in VS Code, then enter your commit message `Initial Commit` and click the check mark.  When your ready to push, click the triple dots and push.
+Now you can go ahead and commit your changes with the Git cli, though I prefer the visual interface of VS Code.  Click the `Source Control` icon from the left activity bar in VS Code, then enter your commit message `Initial Commit` and click the check mark.  When your ready to push, click the triple dots and `push`.
 
 Now that our repository is setup on GitHub, we can get Forestry connected.

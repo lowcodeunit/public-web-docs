@@ -16,7 +16,7 @@ While some static html can be valuable, the end goal of most applications is far
 
 ## Initializing Docusaurus
 
-A complete guide to setting up and working with Docusaurus is outside the scope of this guide, so you'll probably find [this](https://docusaurus.io/docs/) useful in expanding on our initial static website.  Here, we'll focus on what it takes to get your Docusaurus site up and running with Low Code Unit.  Start out by deleting the contents of your repository, making sure to keep the `.github/workflows/lcu-build-github-artifact.yml` for use in our automated DevOps.  The docusaurus project can be initialized with the following command.
+A complete guide to setting up and working with Docusaurus is outside the scope of this guide, so you'll probably find [this](https://docusaurus.io/docs/) useful in expanding on our initial static website.  Here, we'll focus on what it takes to get your Docusaurus site up and running with LowCodeUnit.  Start out by deleting the contents of your repository, making sure to keep the `.github/workflows/lcu-build-github-artifact.yml` for use in our automated DevOps.  The docusaurus project can be initialized with the following command.
 
 ```console
 npx @docusaurus/init@latest init my-first-website classic
