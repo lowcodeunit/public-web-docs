@@ -14,7 +14,7 @@ hide_table_of_contents: true
 
 Fathym LowCodeUnit enables developers to rapidly develop, deploy, and maintain their applications and products using best practice workflows.
 
-In this getting started guide, in only a few minutes you'll have your own application up and running in Fathym's LowCodeUnit Runtime, a micro-frontend engine for powering your next prodct delivery.  We'll walk through connecting awith GitHub, and once setup, show how to easily enable an end to end continuous integration and deployment environment for hosting your solutions.  Finally, we'll walk through how to make changes to and upgrade the applications you deliver on your domain.  
+In this getting started guide, in only a few minutes you'll have your own application up and running in Fathym's LowCodeUnit Runtime, a micro-frontend engine for powering your next prodct delivery.  We'll walk through connecting with GitHub, and once setup, show how to easily enable an end to end continuous integration and deployment environment for hosting your solutions.  Finally, we'll walk through how to make changes to and upgrade the applications you deliver on your domain.  
 
 To kick things off, visit the [LowCodeUnit](https://www.lowcodeunit.com/dashboard) sign up page (no credit card required) and access the dashboard.
 

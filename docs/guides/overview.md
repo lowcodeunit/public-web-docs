@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 # Open Source in the Enterprise
 
-There are plenty of off the shelf tools and solutions to choose from, for just about any industry, but these solutions don't work for everyone.  Whether it be you're budget-impaired or that your business doesn't fit quite right, there are plenty of reasons not to choose one (and often more than one) of these over priced dinosaurs.  We can't afford to be handcuffed like that anymore, we need the freedom to move forward as technology moves forward, not after.
+There are plenty of off the shelf tools and solutions to choose from, for just about any industry, but these solutions don't work for everyone.  Whether it be you're budget-impaired or that your business doesn't quite fit right, there are plenty of reasons not to choose one (and often more than one) of these over priced dinosaurs.  We can't afford to be handcuffed like that anymore, we need the freedom to move forward as technology moves forward, not after.
 
 Back in my day, we used to enjoy the thrill of the build.  The art of integrating simple, specialized tools into a cohesive solution that solved the problems of our users.  I must admit though, there was a lot more to it because we were all building our own enterprise stacks, developing our own data layers, api layers, business layers, binding layers, presentation layers...  Its starting to sound like the worlds worst truffle.
 
@@ -25,6 +25,6 @@ We've all gotten a lot smarter sense then, and for those of you fortunate enough
 Our guides are written with 2 core focuses:
 
 1. Help you deliver solutions that solve your users' problems
-2. Show you how LowCodeUnit can nbe be used to accelerate your journey to product  
+2. Show you how LowCodeUnit can be be used to accelerate your journey to product  
 
 Each guide will help users of all skill levels understand the topic at hand and showcase how LowCodeUnit can be used to accelerate the digital journey.
