@@ -67,4 +67,4 @@ Now we can add a couple of scripts to our package.json file so that we can build
 }
 ```
 
-With everything setup, you'll be able to run `npm run build` to build your project.  You can start the development server now with `npm start`, but since we don't have a home page built yet you'll only get an error.  Next we'll jump in and get our home page going as well as the other pages.
+With everything setup, you'll be able to run `npm run build` to build your project.  You can also start the development server now with `npm start`, but since we don't have a home page built yet you'll only get an error.  Next we'll jump in and get our home page going as well as the other pages.

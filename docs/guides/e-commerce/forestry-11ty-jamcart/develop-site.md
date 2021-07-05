@@ -34,7 +34,7 @@ All of the pages we create should share an html skeleton with site navigation an
 
     <link rel="stylesheet" href="/assets/css/main.css" />
 
-    <script type="module" data-currency="USD" data-id="aPv8r8k3Gk" src="https://api.jamcart.io/v1/jamcart.js"></script>
+    <script type="module" data-currency="USD" data-id="INSERT_JAMCART_ACCOUNT_ID" src="https://api.jamcart.io/v1/jamcart.js"></script>
   </head>
 
   <body>
@@ -78,7 +78,7 @@ layout: main.liquid
       <a href="{{ product.url }}">
         <img alt="" src="{{ product.data.image }}" />
 
-        {{ product.data.title }}
+        {{ product.data.name }}
       </a>
 
       <p class="price">{{ product.data.price | money }}</p>
@@ -98,7 +98,7 @@ The way that 11ty works, `collections.product` is a special property that contai
 }
 ```
 
-Go ahead and try out your site, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If your feeling uninspired, you can try out our basic css
+Go ahead and try out your site by running `npm start`, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If your feeling uninspired, you can try out our basic css
 
 ```css
 Some basic css
@@ -120,7 +120,7 @@ layout: main.liquid
   <img alt="" src="{{ image }}" height="959" width="640" />
 
   <form class="body">
-    <h1>{{ title }}</h1>
+    <h1>{{ name }}</h1>
 
     <p class="price">{{ price | money }}</p>
 
