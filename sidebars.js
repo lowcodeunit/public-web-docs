@@ -11,8 +11,8 @@ module.exports = {
     Guides: [
       'guides/overview',
       {
-        'Micro-Frontends': ['guides/micro-frontends/overview'],
-        'Atomic Design': ['guides/atomic-design/overview'],
+        // 'Micro-Frontends': ['guides/micro-frontends/overview'],
+        // 'Atomic Design': ['guides/atomic-design/overview'],
         'e-Commerce': [
           'guides/e-commerce/overview',
           {
@@ -26,7 +26,7 @@ module.exports = {
             ],
           },
         ],
-        'SaaS Licensing': ['guides/saas-licensing/overview'],
+        // 'SaaS Licensing': ['guides/saas-licensing/overview'],
       },
     ],
   },
