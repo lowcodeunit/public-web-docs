@@ -1,48 +1,33 @@
 module.exports = {
   docs: {
     Introduction: ['introduction/overview', 'introduction/support'],
-    // 'Getting Started': [
-    //   'getting-started/setup',
-    //   'getting-started/emulated-data',
-    //   'getting-started/connecting-first-device',
-    //   'getting-started/viewing-device-data',
-    //   'getting-started/connecting-downstream-services',
-    //   'getting-started/buy-and-scale',
-    // ],
-    // Tutorials: [
-    //   "tutorials/arduino-esp32-and-enviro-sensor"
-    // ],
-    // Developers: [
-    //   'devs/licenses',
-    //   // 'devs/azure-iot-hub-explained',
-    //   {
-    //     'Device Setup': [
-    //       'devs/device-setup/overview',
-    //       'devs/device-setup/iot-best-practice-schema-explained',
-    //       {
-    //         Connect: [
-    //           //'devs/device-setup/connect/overview',
-    //           'devs/device-setup/connect/http',
-    //           //'devs/device-setup/connect/azure-iot-devices-sdk',
-    //           //'devs/device-setup/connect/device-simulator',
-    //           //'devs/device-setup/connect/rasp-pi-spark-fun',
-    //           //'devs/device-setup/connect/node-red',
-    //         ],
-    //       },
-    //     ],
-    //     'Alerts/Notifications': [
-    //         "devs/alerts/logic-apps",
-    //         "devs/alerts/grafana"
-    //     ],
-    //     'Storage Access': [
-    //       //  'devs/storage/overview',
-    //           'devs/storage/power-bi', 
-    //           'devs/storage/azure-ml',
-    //           'devs/storage/grafana',
-    //           'devs/storage/tableau',
-    //           'devs/storage/sql-server',
-    //     ],
-    //   },
-    // ],
-  }
+    'Getting Started': [
+      'getting-started/setup',
+      'getting-started/create-first-project',
+      'getting-started/deploying-project-code',
+      'getting-started/javascript-framework',
+      'getting-started/global-edge-network',
+    ],
+    Guides: [
+      'guides/overview',
+      {
+        // 'Micro-Frontends': ['guides/micro-frontends/overview'],
+        // 'Atomic Design': ['guides/atomic-design/overview'],
+        'e-Commerce': [
+          'guides/e-commerce/overview',
+          {
+            'Forestry, 11ty, JamCart': [
+              'guides/e-commerce/forestry-11ty-jamcart/overview',
+              'guides/e-commerce/forestry-11ty-jamcart/setup-11ty',
+              'guides/e-commerce/forestry-11ty-jamcart/connecting-forestry',
+              'guides/e-commerce/forestry-11ty-jamcart/configure-11ty',
+              'guides/e-commerce/forestry-11ty-jamcart/develop-site',
+              'guides/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
+            ],
+          },
+        ],
+        // 'SaaS Licensing': ['guides/saas-licensing/overview'],
+      },
+    ],
+  },
 };

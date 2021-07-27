@@ -1,5 +1,4 @@
 ---
-slug: /
 title: Introduction - Overview
 hide_title: true
 sidebar_label: Overview
@@ -25,4 +24,4 @@ When getting started with a new application, you’re not only working the inter
 
 LowCodeUnit operates as a virtual development team that automates best practices for application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
 
-[Using the platform](https://www.lowcodeunit.com/dashboard) radically reduces the time and work involved in getting applications to your users.
+[Using the platform](https://www.lowcodeunit.com/dashboard) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
