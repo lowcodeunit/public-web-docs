@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 # Javascript Framework
 
-While some static html can be valuable, the end goal of most applications is far more complex and requires the help of javascript frameworks.  Any framework will do (vue, react, angular, svelte, and the list goes on...), so bring your favorite to the table to get started.  For the rest of this walkthrough we are going to utilize a react based, static website generator known as [Docusaurus](https://docusaurus.io/docs/).  Information on using other frameworks can be found further in the documentation.
+While some static html can be valuable, the end goal of most applications is far more complex and requires the help of javascript frameworks.  Any framework will do (vue, react, angular, svelte, and the list goes on...), so bring your favorite to the table to get started.  For the rest of this walkthrough we are going to utilize a react-based, static website generator known as [Docusaurus](https://docusaurus.io/docs/.  Information on using other frameworks can be found further in the documentation.
 
 ## Initializing Docusaurus
 
@@ -28,7 +28,7 @@ Once this command is complete, the docusaurus site will be initialized in a subf
 
 ## Deploying Docusaurus
 
-Now you can run it locally by executing an `npm start` command from the root of the repository.  We've already configured the build script and output folder that will work for docusaurus, so checkin and push your code to start a build.  From the dashboard, wait for the build to complete successfully, then click the <img src="/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
+Now you can run it locally by executing an `npm start` command from the root of the repository.  We've already configured the build script and output folder that will work for docusaurus, so check in and push your code to start a build.  From the dashboard, wait for the build to complete successfully, then click the <img src="https://www.lowcodeunit.com/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="https://www.lowcodeunit.com/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
 
 :::note
 
@@ -38,4 +38,4 @@ Due to the caching used to deliver your site, it may take a moment for latest co
 
 ## Next Steps
 
-You've seen how in a few steps, your able to create an enterprise scalable DevOps process for managing the deployment of your products and applications.  Next we'll dig into how you can bring a custom domain and SSL certificate to your application.
+You've seen how, in a few steps, you're able to create an enterprise scalable DevOps process for managing the deployment of your products and applications.  Next we'll dig into how you can bring a custom domain and SSL certificate to your application.

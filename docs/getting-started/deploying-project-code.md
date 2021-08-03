@@ -37,7 +37,7 @@ Create a new index.html file at the root alongside the package.json file.  Fill 
 </html>
 ```
 
-Now we need to setup a simple build script that will take our index.html file and move it to the specified output folder.  Let's get some build tools installed with `npm i rimraf --save-dev`, then open your package.json file and update the scripts section with a new 'build' script
+Now we need to setup a simple build script that will take our index.html file and move it to the specified output folder.  Let's get some build tools installed with `npm i rimraf --save-dev`, then open your package.json file and update the scripts section with a new 'build' script.
 
 ```json
 {
@@ -58,6 +58,6 @@ Your finished package.json file and repository should look something like this:
 
 ![First Project Package JSON](/img/screenshots/first-project-package-json.png)
 
-Checkin and push the changes to your repository, and you'll notice a new build kicks off that should complete successfully.  Once successful, click on the <img src="/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
+Check in and push the changes to your repository, and you'll notice a new build kicks off that should complete successfully.  Once successful, click on the <img src="https://www.lowcodeunit.com/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="https://www.lowcodeunit.com/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
 
 ![My First Project Running](/img/screenshots/my-first-project-running.png)

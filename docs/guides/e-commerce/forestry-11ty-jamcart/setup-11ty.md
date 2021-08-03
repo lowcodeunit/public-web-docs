@@ -17,7 +17,7 @@ The next step we like to execute is roughing in our code.  This is the phase in 
 
 ## Clone Repository
 
-With VS Code open, press `CTRL + SHIFT + p` to open the Command Palette, type `clone` into the search and select the `Git: Clone` option from the list.  From there you can provide the Git repository URL for your project (found in the details page of your LowCodeUnit Project) or pick the repository source using the interactive options.
+With VS Code open, press `CTRL + SHIFT + p` to open the Command Palette, type `clone` into the search and select the `Git: Clone` option from the list.  From there, you can provide the Git repository URL for your project (found in the details page of your LowCodeUnit Project) or pick the repository source using the interactive options.
 
 After the project is cloned, choose to open it in VS Code.  Now we can rough in the code for our project.  Let's start by setting the project up with node and 11ty:
 
@@ -37,6 +37,6 @@ Now create a new file at the root of the project called `.gitignore` so we don't
 /node_modules
 ```
 
-Now you can go ahead and commit your changes with the Git cli, though I prefer the visual interface of VS Code.  Click the `Source Control` icon from the left activity bar in VS Code, then enter your commit message `Initial Commit` and click the check mark.  When your ready to push, click the triple dots and `push`.
+Now you can go ahead and commit your changes with the Git cli, though I prefer the visual interface of VS Code.  Click the `Source Control` icon from the left activity bar in VS Code, then enter your commit message `Initial Commit` and click the check mark.  When you're ready to push, click the triple dots and `push`.
 
 Now that our repository is setup on GitHub, we can get Forestry connected.

@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 # Develop Site
 
-Alright, with setup and configuration out of the way we can get into the more fun part and bring our store to life.  For this we'll need a main page that lists our products directories as categories and a page for the product details of the selected product.  In addition we'll need to hook up our shopping cart and checkout with JamCart.  So before we head into this next section, head over to [JamCart](https://jamcart.io/) and create your account.  Once the account is created, select the `Install` link in the left sidebar (more on JamCart in a minute).
+Alright, with setup and configuration out of the way we can get into the more fun part and bring our store to life.  For this we'll need a main page that lists our products directories as categories and a page for the product details of the selected product.  In addition, we'll need to hook up our shopping cart and checkout with JamCart.  So before we head into this next section, head over to [JamCart](https://jamcart.io/) and create your account.  Once the account is created, select the `Install` link in the left sidebar (more on JamCart in a minute).
 
 ## Main Layout
 
@@ -61,7 +61,7 @@ This wraps up our main layout, now we can dive into creating our pages.
 
 ## Products List
 
-Creating pages is very straightforward, simply create a new file at `src/index.liquid`.  Then use the following as your homepage contents:
+Creating pages is very straight-forward, simply create a new file at `src/index.liquid`.  Then use the following as your homepage contents:
 
 ```html
 ---
@@ -87,9 +87,9 @@ layout: main.liquid
 </ul>
 ```
 
-A full understanding of the Liquid templating language is outside the scope of this guide, what you will notice is that in the front matter (the part framed in by '---') the `title` and `description` needed by our main layout, and the layout `main.liquid` let's 11ty know to render our page within the main layout.  You'll see the `| money` filter which formats the price into a currency.
+A full understanding of the Liquid templating language is outside the scope of this guide, what you will notice is that in the front matter (the part framed in by '---') the `title` and `description` needed by our main layout, and the layout `main.liquid` lets 11ty know to render our page within the main layout.  You'll see the `| money` filter which formats the price into a currency.
 
-The way that 11ty works, `collections.product` is a special property that contains an array of any document tagged with `product`.  If you've already tried running the site, and didn't see any products, that's because we have haven't tagged any yet.  It may seem like a daunting task to apply these tags manually to every file, 11ty agreed.  So instead, let's use the data cascading feature by creating a new file `src/products/proudcts.json` that 11ty will use, for all documents in the products folder, to apply default tags:
+The way that 11ty works, `collections.product` is a special property that contains an array of any document tagged with `product`.  If you've already tried running the site, and didn't see any products, that's because we haven't tagged any yet.  It may seem like a daunting task to apply these tags manually to every file, 11ty agreed.  So instead, let's use the data cascading feature by creating a new file `src/products/proudcts.json` that 11ty will use, for all documents in the products folder, to apply default tags:
 
 ```json
 {
@@ -98,7 +98,7 @@ The way that 11ty works, `collections.product` is a special property that contai
 }
 ```
 
-Go ahead and try out your site by running `npm start`, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If your feeling uninspired, you can try out our basic css
+Go ahead and try out your site by running `npm start`, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If your feeling uninspired, you can try out our basic css.
 
 ```css
 Some basic css
