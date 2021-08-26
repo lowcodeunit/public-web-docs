@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 In this guide, we'll create an e-commerce site from scratch using 11ty for static website building, Forestry as the CMS, JamCart for the shopping cart and checkout, and LowCodeUnit to bring it all together for your users.  This may seem like a daunting challenge, but the simplicity and specialty each tool brings makes this an easy way to get started with your next e-commerce project.
 
-If you'd like to take a look at the finished project before we kick things off, visit [acme-shop.lowcodeunit.com](https://acme-shop.lowcodeunit.com).  
+<!-- If you'd like to take a look at the finished project before we kick things off, visit [acme-shop.lowcodeunit.com](https://acme-shop.lowcodeunit.com). -->
 
 ## The Setup
 

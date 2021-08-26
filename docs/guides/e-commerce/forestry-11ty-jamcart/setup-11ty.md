@@ -37,6 +37,6 @@ Now create a new file at the root of the project called `.gitignore` so we don't
 /node_modules
 ```
 
-Now you can go ahead and commit your changes with the Git cli, though I prefer the visual interface of VS Code.  Click the `Source Control` icon from the left activity bar in VS Code, then enter your commit message `Initial Commit` and click the check mark.  When you're ready to push, click the triple dots and `push`.
+Now you can go ahead and commit your changes with the Git CLI, though I prefer the visual interface of VS Code.  Click the `Source Control` icon from the left activity bar in VS Code, then enter your commit message `Initial Commit` and click the check mark.  When you're ready to push, click the triple dots and `push`.
 
 Now that our repository is setup on GitHub, we can get Forestry connected.
