@@ -32,4 +32,3 @@ https://martinfowler.com/articles/micro-frontends.html
 
 ### Analytics and Analysis
 
-### 
