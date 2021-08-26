@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 # Configure 11ty
 
-Let's get back to the creative part and start building up our frontend.  For this we'll start to configure the 11ty setup we completed earlier, and get it ready and working with Forestry.
+Let's get back to the creative part and start building up our frontend.  For this we'll start to configure the 11ty setup we completed earlier and get it ready and working with Forestry.
 
 ## 11ty Config
 
