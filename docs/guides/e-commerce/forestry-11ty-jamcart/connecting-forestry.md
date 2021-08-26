@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 When starting a new project, you can always give yourself a leg up by having data to work with right away.  This allows you to build with real data in mind, making it easier to setup layouts, communicate with the team, and will save you time in the long run.  For this guide and project, we are going to use Forestry as the Content Management System (CMS).  Let's get this set up now with some initial data for use while we create our e-commerce project.
 
-One of the reasons we really like Forestry is that like our own technology, forestry works like a virtual developer, controlling its workflow through Git in the same way developers would.  This prevents vendor lock in scenarios, and immediately frees your CMS data to your enterprise.  
+One of the reasons we really like Forestry is that like our own technology, Forestry works like a virtual developer, controlling its workflow through Git in the same way developers would.  This prevents vendor lock in scenarios, and immediately frees your CMS data to your enterprise.  
 
 ## Setup Forestry
 
@@ -33,11 +33,11 @@ Now choose the repository that contains your LowCodeUnit project after authorizi
 
 ## Configure Forestry
 
-Now that our LowCodeUnit project is connected to Forestry, we can seed some data.  You'll need to select `Front Matter` from the sidenav and select to `Add Template`.  Now select the `blank template` and choose the `Fields and big content area` option.  Name your template `Products` and then click `Create Template`.  Now we've got an empty template that we can start to add fields too.  You can add whatever fields that make sense for your product structure, we are going to use `Name`, `Description`, `Price`, and `Image` for this example.  Make sure to click save after adding your fields, and your template will look like this:
+Now that our LowCodeUnit project is connected to Forestry, we can seed some data.  You'll need to select `Front Matter` from the sidenav and select to `Add Template`.  Now select the `blank template` and choose the `Fields and big content area` option.  Name your template `Products` and then click `Create Template`.  Now we've got an empty template to which we can start to add fields.  You can add whatever fields that make sense for your product structure, we are going to use `Name`, `Description`, `Price`, and `Image` for this example.  Make sure to click save after adding your fields, and your template will look like this:
 
 ![product-template-fields](/img/screenshots/forestry/product-template-fields.png)
 
-The template is setup, and its now time to setup the sidebar.  There is a nice wizard that walks you through initial setup, the next step would be to click `Configure sidebar` or navigate to `Settings > Sidebar`.  We'll be creating this as a a collection of products, so select `Directory`.  Give the directory a Label of `Products` and set the Content Directory to `src/products`.  We need to change File Match to `**/*.md` so that it only matches markdown files, this way other files we use to configure 11ty won't get picked up. Finally, select the `Product` template created earlier.  Click done, and remember to save.  Yours will look something like this:
+The template is setup, and it's now time to setup the sidebar.  There is a nice wizard that walks you through initial setup, the next step would be to click `Configure sidebar` or navigate to `Settings > Sidebar`.  We'll be creating this as a collection of products, so select `Directory`.  Give the directory a Label of `Products` and set the Content Directory to `src/products`.  We need to change File Match to `**/*.md` so that it only matches markdown files, this way other files we use to configure 11ty won't get picked up. Finally, select the `Product` template created earlier.  Click done and remember to save.  Yours will look something like this:
 
 ![products-directory](/img/screenshots/forestry/products-directory.png)
 

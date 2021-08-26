@@ -19,7 +19,7 @@ If you'd like to take a look at the finished project before we kick things off, 
 
 ## The Setup
 
-For this guide, you'll need some basic level of knowledge with a few different tools.  Though extensive knowledge is not required:
+For this guide, you'll need some basic level of knowledge with a few different tools, though extensive knowledge is not required:
 
 - Using Node in your local development environment
 - Basic workflows with git
