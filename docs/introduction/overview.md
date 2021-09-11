@@ -13,16 +13,30 @@ hide_table_of_contents: true
 
 # Welcome to Fathym LowCodeUnit
 
-The Fathym LowCodeUnit virtual developer is focused on helping you deliver your products and applications faster and with greater scale.
+Fathym's LowCodeUnit is a virtual development team that automates the delivery of modern web projects.  Take control of DevOps processes with a complete platform for hosting, continuously building, and deploying your applications.  As your project grows, learn how to authenticate your users, build complex micro-frontends, A/B test user experiences and more.
 
-Managing the learning path, usage and growth of development strategies can be a daunting challenge. Use LowCodeUnit to reliably deliver applications at scale. [Get started](https://www.lowcodeunit.com/dashboard) today.
- 
+We take care of the boilerplate aspects of project delivery so you can focus on discovering and providing value to your users.  
+
+Deliver your next project with LowCodeUnit to benefit from incremental upgrades, decoupled codebases, independent deployments, and team autonomy.
+
 <!--![LowCodeUnit Diagram](/img/lowcodeunit-diagram.png) -->
 
-## Create and Deploy
+## Code and Deploy
 
-When getting started with a new application, you’re not only working the interface and functionality goals, but also on how to organize, build and deploy the application. This requires learning and managing a number of various technology skill sets before being able to reliably deliver a solution.
+The first step is to [sign up for LowCodeUnit](https://www.lowcodeunit.com/dashboard), then you'll [connect GitHub](./getting-started/create-first-project) and deploy your projects.  There are a number of different ways to deploy your code from GitHub artifacts and NPM packages to zip files and site builders.  
 
-LowCodeUnit operates as a virtual development team that automates best practices for application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
+## Quickstarts
 
-[Using the platform](https://www.lowcodeunit.com/dashboard) radically reduces the time and work involved in getting applications to your users.
+### Getting Started
+
+The [getting started guide](./getting-started/setup) will walk you through the basics of getting up and running with LowCodeUnit.  Learn how to host applications, setup continuous integration, and configure your first micro-frontends.
+
+<!-- ### Micro-Frontends
+
+Get the most out of LowCodeUnit and explore our micro-frontend features 
+
+### A/B Testing
+
+### User Identity
+
+### Domain Security -->

@@ -18,7 +18,7 @@ import createNewProjectBtn from '../../static/img/screenshots/create-new-project
 
 # Creating your First Project 
 
-At its simplest, LowCodeUnit will allow you to host any web application that loads from an **index.html** file (and other default files like index.htm).  For this first step, we'll start with something simple, and then start adding to our application.
+At its simplest, LowCodeUnit will host static sties and frontend frameworks.  In this step, we'll start simple, and then start adding to our application.
 
 ## Connect Git Provider
 
