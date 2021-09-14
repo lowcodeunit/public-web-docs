@@ -14,11 +14,12 @@ import connectWithGitHubBtn from '../../static/img/screenshots/connect-with-gith
 import gitHubGrantBtn from '../../static/img/screenshots/github-grant-button.png';
 import saveBtn from '../../static/img/screenshots/save-button.png';
 import addBtn from '../../static/img/screenshots/add-button.png';
+import launchBtn from '../../static/img/screenshots/launch-button.png';
 import createNewProjectBtn from '../../static/img/screenshots/create-new-project-button.png';
 
 # Creating your First Project 
 
-At its simplest, LowCodeUnit will host static sties and frontend frameworks.  In this step, we'll start simple, and then start adding to our application.
+At its simplest, LowCodeUnit will host static sites and frontend frameworks of your choosing.  In this step, we'll start simple, and then work on adding some other features to our project.
 
 ## Connect Git Provider
 
@@ -26,30 +27,30 @@ The first step is to click the <img src={connectWithGitHubBtn} class="text-image
 
 ![Connect with GitHub](/img/screenshots/connect-with-github.png)
 
+## Create Project
+
+A project is used to organize your applications and other configurations.  Internally at Fathym, we use projects to organize our different domains/products (that's right, we use all of this great tech to deliver all the Fathym experiences that you... well, experience).  For this guide, let's create a project `My New Project`.
+
+![Configure Project](/img/screenshots/create-project.png)
+
+## Create Application
+
+An application is used to process a request made to your domains.  Routes are defined for your projects and target requests to applications.  There are several types of application processors (view package, redirect, proxy, oauth), each with their own unique way of processing a request to an application.  Here, we'll work with a view package.  Let's start by creating a home page route, and to keep it simple we'll host the Fathym IoT Ensemble home page (a static site built with plain JS, HTML, and CSS).  Let's start by filling out the details where name and description are for your internal use, and the route is the path that, when matched, will handle the request. 
+
+![Create Application - Details](/img/screenshots/create-application-details.png)
+
+Next select the processor type `View Package`, leave the default file as `index.html` and select NPM for the type (currently NPM packages and GitHub action build artifacts are supported).  Now fill in the NPM package information for the IoT Ensemble Public Web, `@iot-ensemble/public-web` and for the version, let's set it to `latest` for now.  Here we are using the tags of the NPM packages to help us identify which version we want released.
+
+![Create Application - Processor](/img/screenshots/create-application-processor.png)
+
+We can see there is a lot more to look at with security and builds/source control, but we'll circle back to that in a bit.  For now, click save application and wait while the application is installed into your DFS (Distributed File System).  Now use the <img src={launchBtn} class="text-image" /> in the '/' project route card, and you'll see the IoT Ensemble public web on the developer domain provided.
+
 :::note
 
-If you don't have any organizations to authorize, you can easily create your first GitHub organization [here](https://github.com/organizations/plan) (for no cost).  Choose the Free plan, give your organization a unique name, enter your contact email, choose who the organization belongs to and then click `next`.  You can optionally choose to add additional organization members or skip this step.  Submit the quick onboarding survey (it is not required, so you can just click submit), and your organization will be created.  Now restart the instructions on this page and an organization will show up for you to grant access to.
+**A note on routes** - Routes are prioritized by the complexity of their configuration.  As a simple example, say we have two routes defined, 1 for `/` and one for `/admin`.  A request to /admin would select the application with the same path route, all other requests would go to the application with path / (this would include other routes not defined like /products, /another/something, etc).
 
 :::
-
-## Setup Repository
-
-Once the GitHub authorization is completed, head back to the Fathym LCU dashboard, where you will find a drop-down with your organization options.  Select an organization, then a repository, and finally the branch you want the initial build/deployment setup against.
-
-![Setup Repository](/img/screenshots/setup-repository.png)
-
-:::note
-
-If you don't have any existing repositories, or would like to create a new one you can do that from the LCU Dashboard during setup with the <img src={addBtn} class="text-image" /> button.  Enter the name of the repository, click <img src={saveBtn} class="text-image" /> and once complete it should reload with your new repository selected.  At this point, a `main` branch is all you'll have.
-
-:::
-
-## Configure Project
-
-The final step is to to configure the build information for the application.  For the purposes of this walkthrough you'll set the build script to `npm run build` and the output folder to `build`.  After this is all filled in, select the <img src={createNewProjectBtn} class="text-image" /> button to create the first project.
-
-![Configure Project](/img/screenshots/configure-project.png)
 
 ## Next Steps
 
-With your first project created, you'll now be able to simply check code into repository in order to view it on your new domain.  As a next step, we'll add some code to the repository and deploy it to your new endpoint.
+That's it, you've deployed your first application with Fathym's LowCodeUnit.  Now it's time to roll up our sleeves, break out our coding sweatpants, and explore how Fathym will help automate DevOps, enable A/B testing, support QA efforts, and turn those coding sweatpants back into couch loungers.
