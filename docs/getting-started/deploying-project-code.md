@@ -36,7 +36,7 @@ If you don't have any existing repositories, or would like to create a new one y
 
 ### Configure NPM
 
-In order for your application to be deployable, you need to own the organization used in the package.json name (milehighjackal in my case) at npmjs.com too.  It is good practice that any organization created in GitHub also be created in npmjs and that you create an npmjs organization with the same name as your GitHub user.  To do this, navigate to [https://npmjs.com](npmjs.com) and signup.  You can use any username you prefer, we recommend using the same username as GitHub plus '-dev'.  This ensures you can create an organization equal to your username from GitHub for use in deploying packages scoped to your user.  Navigate to [create an organization](https://www.npmjs.com/org/create) and create an organization with the same name used in the first part of the package.json name (without the @ symbol).
+In order for your application to be deployable, you need to own the organization used in the package.json name (milehighjackal in my case) at npmjs.com too.  It is good practice that any organization created in GitHub also be created in npmjs and that you create an npmjs organization with the same name as your GitHub user.  To do this, navigate to [npmjs.com](https://npmjs.com) and signup.  You can use any username you prefer, we recommend using the same username as GitHub plus '-dev'.  This ensures you can create an organization equal to your username from GitHub for use in deploying packages scoped to your user.  Navigate to [create an organization](https://www.npmjs.com/org/create) and create an organization with the same name used in the first part of the package.json name (without the @ symbol).
 
 ![NPMJS Create Organization](/img/screenshots/npmjs-create-organization.png)
 
@@ -67,7 +67,7 @@ Now we can configure the build pipeline for our repository. In order to match th
 
 ## Setup Application
 
-Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
+Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.lowcodeunit.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
 Let's clean up the package.json file that was generated so that it is ready to publish. Update the name to include the organization from above (I'm using MileHighJackal, you should replace that with your username or organization), change the version to `0.0.0`, and we'll update the main file to `index.html`.  We can also add a starting point `deploy` script for the build pipeline as shown below.
 
