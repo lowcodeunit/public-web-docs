@@ -20,6 +20,6 @@ To kick things off, visit the [LowCodeUnit](https://www.lowcodeunit.com/dashboar
 
 ## LowCodeUnit Dashboard
 
-Once signed in, the LowCodeUnit Dashboard will load with a free license.  Your all-in-one platform for project management, the dashboard is a control system for DevOps, identity, hosting, QA, security and more.
+Once signed in, the LowCodeUnit Dashboard will load with a free license.  Your all-in-one platform for project management, the dashboard is a control system for applications, DevOps, identity, hosting, QA, security and more.
 
 ![Dashboard New](/img/screenshots/dashboard-new.png)

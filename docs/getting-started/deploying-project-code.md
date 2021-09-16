@@ -12,6 +12,7 @@ hide_table_of_contents: true
 
 import saveBtn from '../../static/img/screenshots/save-button.png';
 import addBtn from '../../static/img/screenshots/add-button.png';
+import devOpsTab from '../../static/img/screenshots/devops-tab.png';
 
 # Deploying Code
 
@@ -19,11 +20,11 @@ With the initial project created, and an application in place, let's swap out th
 
 ## Automated DevOps
 
-To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the DevOps for our project now.
+To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the DevOps for our project now. Start by selecting your project and then switch over to the <img src={devOpsTab} class="text-image" />.
 
-## Source Control
+### Source Control
 
-Head back in to edit the application under the '/' route and enable the `Build & Source` toggle. Here you will find a drop-down with GitHub organization options. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We created a new repository named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
+We'll start by setting up a source control location. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We created a new repository named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
 
 ![Setup Repository](/img/screenshots/setup-repository.png)
 
@@ -33,7 +34,7 @@ If you don't have any existing repositories, or would like to create a new one y
 
 :::
 
-## Configure NPM
+### Configure NPM
 
 In order for your application to be deployable, you need to own the organization used in the package.json name (milehighjackal in my case) at npmjs.com too.  It is good practice that any organization created in GitHub also be created in npmjs and that you create an npmjs organization with the same name as your GitHub user.  To do this, navigate to [npmjs.com](npmjs.com) and signup.  You can use any username you prefer, we recommend using the same username as GitHub plus '-dev'.  This ensures you can create an organization equal to your username from GitHub for use in deploying packages scoped to your user.  Navigate to [create an organization](https://www.npmjs.com/org/create) and create an organization with the same name used in the first part of the package.json name (without the @ symbol).
 
@@ -58,7 +59,7 @@ If you don't have any organizations to authorize, your default user based organi
 
 ::: -->
 
-## Build Pipeline
+### Build Pipeline
 
 Now we can configure the build pipeline for our repository. In order to match the NPM view package we already configured, let's choose `NPM - Release` here as well, so that our build is setup to publish an NPM package with our application contents. Then we can enter `npm run deploy` for our deploy command, `npm ci` for the install command, leave output empty, and then grab your NPM personal access token that we copied in the last step and drop it in the appropriate field.  Click `Save Application` and behind the scenes your DevOps workflows will be setup to automate builds.
 
@@ -123,7 +124,7 @@ Your finished package.json file and repository should look something like this:
 
 ## Deploy Application
 
-Check in and push the changes to your repository, and a new build will kick off that will complete successfully. Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package.  Update the NPM Package with the value from package.json name, and then press save.  After save is complete, you can go back in and see that the current version was updated to the latest version from your new automated DevOps.
+Check in and push the changes to your repository, and a new build will kick off that will complete successfully. Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package.  Update the NPM Package with the value from package.json name.  Also, let's enable the `Build & Source` toggle, select our newly created source control and then press save.  After save is complete, you can go back in and see that the current version was updated to the latest version from your new automated DevOps build pipeline.
 
 ![Update Application Processor](/img/screenshots/update-application-processor.png)
 
