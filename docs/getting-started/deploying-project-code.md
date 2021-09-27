@@ -63,7 +63,7 @@ If you don't have any organizations to authorize, your default user based organi
 
 Now we can configure the build pipeline for our repository. In order to match the NPM view package we already configured, let's choose `NPM - Release` here as well, so that our build is setup to publish an NPM package with our application contents. Then we can enter `npm run deploy` for our deploy command, `npm ci` for the install command, leave output empty, and then grab your NPM personal access token that we copied in the last step and drop it in the appropriate field.  Click `Save Application` and behind the scenes your DevOps workflows will be setup to automate builds.
 
-![Setup Build Pipeline](/img/screenshots/setup-build-pipeline.png)
+![Setup Build Pipeline](/img/screenshots/setup-build-pipeline.png) 
 
 ## Setup Application
 
