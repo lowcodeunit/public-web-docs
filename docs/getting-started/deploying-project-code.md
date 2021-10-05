@@ -13,6 +13,7 @@ hide_table_of_contents: true
 import saveBtn from '../../static/img/screenshots/save-button.png';
 import addBtn from '../../static/img/screenshots/add-button.png';
 import devOpsTab from '../../static/img/screenshots/devops-tab.png';
+import launchBtn from '../../static/img/screenshots/launch-button.png';
 
 # Deploying Code
 
@@ -128,6 +129,6 @@ Check in and push the changes to your repository, and a new build will kick off 
 
 ![Update Application Processor](/img/screenshots/update-application-processor.png)
 
-Now that we have our application configured and deployed (deploy occurred on save after editing an application), click on <img src="/static/img/screenshots/launch-button.png" class="text-image" /> for your project, route or application to test it out.
+Now that we have our application configured and deployed (deploy occurred on save after editing an application), click on <img src={launchBtn} class="text-image" /> button for your project, route or application to test it out.
 
 ![My First Project Running](/img/screenshots/my-first-project-running.png)
