@@ -89,7 +89,7 @@ layout: main.liquid
 
 A full understanding of the Liquid templating language is outside the scope of this guide, what you will notice is that in the front matter (the part framed in by '---') the `title` and `description` needed by our main layout, and the layout `main.liquid` lets 11ty know to render our page within the main layout.  You'll see the `| money` filter which formats the price into a currency.
 
-The way that 11ty works, `collections.product` is a special property that contains an array of any document tagged with `product`.  If you've already tried running the site, and didn't see any products, that's because we haven't tagged any yet.  It may seem like a daunting task to apply these tags manually to every file, 11ty agreed.  So instead, let's use the data cascading feature by creating a new file `src/products/proudcts.json` that 11ty will use, for all documents in the products folder, to apply default tags:
+The way that 11ty works, `collections.product` is a special property that contains an array of any document tagged with `product`.  If you've already tried running the site, and didn't see any products, that's because we haven't tagged any yet.  It may seem like a daunting task to apply these tags manually to every file, 11ty agreed.  So instead, let's use the data cascading feature by creating a new file `src/products/products.json` that 11ty will use, for all documents in the products folder, to apply default tags:
 
 ```json
 {
@@ -101,7 +101,121 @@ The way that 11ty works, `collections.product` is a special property that contai
 Go ahead and try out your site by running `npm start`, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If your feeling uninspired, you can try out our basic css.
 
 ```css
-Some basic css
+header {
+    align-items: center;
+    background: cadetblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  }
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+  }
+  #site-logo{
+    font-family: sans-serif;
+    font-size: 250%;
+    margin: 0;
+  }
+  #site-logo a{
+    text-decoration: none;
+    color: white;
+  }
+  .price {
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0;
+  }
+  #products {
+    color: white;
+    display: grid;
+    grid-gap: 2em 2em;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    margin: 3em 1em;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    
+  }
+  #products img {
+    border-radius: 15px;
+  }
+  #products  li{
+    background-color: #424242;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  #products a {
+    color: white;
+    display: block;
+    font-size: 125%;
+    font-weight: 300;
+    text-decoration: none;
+  }
+  #products img {
+    display: block;
+    height: auto;
+    margin: 0 auto .5em;
+    max-width: 100%;
+  }
+  #category-title  {
+    color: white;
+    font-weight: 300;
+    padding-left: 25px;
+  }
+  #product-view {
+    color: white;
+    margin: 3em 1em;
+  }
+  #product-view h1 {
+    border-bottom: 3px solid currentColor;
+    font-size: 150%;
+    margin: 0 0 .5rem;
+  }
+  #product-view h2 {
+    margin: 1rem 0 0;
+    font-size: 100%;
+    font-weight: 500;
+  }
+  #product-view h2 + p {
+    margin-top: 0;
+  }
+  #product-view img {
+    height: auto;
+    max-width: 100%;
+  }
+  #product-view label {
+    font-size: 110%;
+    font-weight: 500;
+  }
+  #product-view select {
+    border: 0;
+    border-bottom: 1px solid currentColor;
+    font: inherit;
+    font-weight: normal;
+  }
+  @media (min-width: 40em) {
+    #product-view {
+      display: flex;
+      justify-content: center;
+    }
+    #product-view img {
+      margin-right: 1em;
+      max-width: 40vw;
+    }
+    #product-view .body {
+      max-width: 30em;
+    }
+  }
+
+
 ```
 
 With the main page complete, let's set our sights on the product details page.
@@ -123,8 +237,6 @@ layout: main.liquid
     <h1>{{ name }}</h1>
 
     <p class="price">{{ price | money }}</p>
-
-    <h2>Product Description</h2>
 
     <p>{{ description }}</p>
 
