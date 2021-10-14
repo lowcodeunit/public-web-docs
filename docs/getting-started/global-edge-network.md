@@ -32,7 +32,7 @@ We'll need to create a CNAME record that maps our preferred subdomain (apex doma
 
 ![Configure project host input](/img/screenshots/configure-project-host-input.png)
 
-Use this information to complete your DNS management form for a CNAME record where the **Host** is your subdomain (`www` in our example), the **Point To** value is the GEN endpoint from the LowCodeUnit UI (should start with `fathym-cloud-prd-lcu-customers-`), and the TTL is a value of your choosing.  Here is an example setup in GoDaddy.
+Use this information to complete your DNS management form for a CNAME record where the **Host** is your subdomain (`www` in our example), the **Point To** value is the GEN endpoint from the LowCodeUnit UI (should start with `fathym-cloud-prd-lcu-customers-`), and the **TTL** is a value of your choosing.  Here is an example setup in GoDaddy.
 
 ![GoDaddy CNAME Add](/img/screenshots/godaddy-cname-add.png)
 
@@ -62,7 +62,7 @@ When leveraging LowCodeUnit for your SSL certificates, you can rest easy knowing
 
 #### Microsoft Azure
 
-Leveraged for SSL certificates for many of our different deployment scenarios, Microsoft Azure is a world-class leader for many development needs.  Learn more about SSL with Azure.
+Leveraged for SSL certificates for many of our different deployment scenarios, Microsoft Azure is a world-class leader for many development needs.  [Learn more about SSL with Azure](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate).
 
 <!-- #### Let's Encrypt -->
 

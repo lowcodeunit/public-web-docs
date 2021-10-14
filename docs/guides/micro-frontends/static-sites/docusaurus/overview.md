@@ -26,7 +26,7 @@ Once this command is complete, the docusaurus site will be initialized in a subf
 
 ## Deploying Docusaurus
 
-Now you can run it locally by executing an `npm start` command from the root of the repository.  We've already configured the build script and output folder that will work for docusaurus, so check in and push your code to start a build.  From the dashboard, wait for the build to complete successfully, then click the <img src="/static/img/screenshots/deploy-latest-button.png" class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src="/static/img/screenshots/launch-button.png" class="text-image" /> for your project to test it out.
+Now you can run it locally by executing an `npm start` command from the root of the repository.  We've already configured the build script and output folder that will work for docusaurus, so check in and push your code to start a build.  From the dashboard, wait for the build to complete successfully, then click the <img src={deploylatestBtn} class="text-image" /> button to deploy your code to your site.  Once the deploy is complete, select <img src={launchBtn} class="text-image" /> button for your project to test it out.
 
 :::note
 
