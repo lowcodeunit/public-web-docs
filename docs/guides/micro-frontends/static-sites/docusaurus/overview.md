@@ -9,6 +9,8 @@ keywords:
     - micro-frontends
 hide_table_of_contents: true
 ---
+<!-- 
+import deployLatestBtn from '../../../static/img/screenshots/deploy-latest-button.png';
 
 # Docusaurus on Fathym
 
@@ -32,4 +34,4 @@ Now you can run it locally by executing an `npm start` command from the root of 
 
 Due to the caching used to deliver your site, it may take a moment for latest code to show on your endpoint.  Hard reload the cookies and cache for your site to see Docusaurus immediately.
 
-:::
+::: -->
