@@ -1,18 +1,16 @@
 ---
-title: Getting Started - Javascript Framework
+title: Introduction - Overview - Docusaurus on Fathym
 hide_title: true
-sidebar_label: Javascript Framework
+sidebar_label: Overview
 keywords:
+    - websites
     - applications
-    - azure
-    - deployment
+    - docusaurus
     - micro-frontends
 hide_table_of_contents: true
 ---
 
-# Javascript Framework
-
-While some static html can be valuable, the end goal of most applications is far more complex and requires the help of javascript frameworks.  Any framework will do (vue, react, angular, svelte, and the list goes on...), so bring your favorite to the table to get started.  For the rest of this walkthrough we are going to utilize a react-based, static website generator known as [Docusaurus](https://docusaurus.io/docs).  Information on using other frameworks can be found further in the documentation.
+# Docusaurus on Fathym
 
 ## Initializing Docusaurus
 
@@ -35,7 +33,3 @@ Now you can run it locally by executing an `npm start` command from the root of 
 Due to the caching used to deliver your site, it may take a moment for latest code to show on your endpoint.  Hard reload the cookies and cache for your site to see Docusaurus immediately.
 
 :::
-
-## Next Steps
-
-You've seen how, in a few steps, you're able to create an enterprise scalable DevOps process for managing the deployment of your products and applications.  Next we'll dig into how you can bring a custom domain and SSL certificate to your application.

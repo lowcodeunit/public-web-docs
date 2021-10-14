@@ -18,7 +18,7 @@ It's nice to have a project up and running in minutes, but simple hosting isn't 
 
 ## Custom Domains
 
-Most likely you're not trying to host your project on flippity-floppity-floop.lowcodeunit.com, and you're looking to host on your own custom domain.  Custom domains provide your users with a more comfortable browsing experience for your project.  While you could use the provided domain we gave you to get started, most likely you are wanting to bring your own domain.  There are many places to get a domain, one of the easiest is at [GoDaddy](https://www.godaddy.com).
+Most likely you're not trying to host your project on flippity-floppity-floop.lowcodeunit.com, but rather you're looking to host on your own custom domain.  Custom domains provide your users with a more comfortable browsing experience for your project.  While you could use the provided domain we gave you to get started, most likely you are wanting to bring your own domain.  There are many places to get a domain, one of the easiest is at [GoDaddy](https://www.godaddy.com).
 
 ### Bring Your Own Domain
 
@@ -28,7 +28,7 @@ Click the <img src={deployLatestBtn} class="text-image" /> button to open the se
 
 ![Configure project settings](/img/screenshots/configure-project-settings.png)
 
-We'll need to create a CNAME record that maps our preferred subdomain (apex domains are not currently supported for projects) to the appropriate Global Edge Network (GEN) endpoint for your project.  You can grab your GEN endpoint from the UI just under the host input
+We'll need to create a CNAME record that maps our preferred subdomain (apex domains are not currently supported for projects) to the appropriate Global Edge Network (GEN) endpoint for your project.  You can grab your GEN endpoint from the UI just under the host input.
 
 ![Configure project host input](/img/screenshots/configure-project-host-input.png)
 

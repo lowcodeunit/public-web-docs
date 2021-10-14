@@ -20,7 +20,7 @@ With the initial project created, and an application in place, let's swap out th
 
 ## Automated DevOps
 
-To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the DevOps for our project now. Start by selecting your project and then switch over to the <img src={devOpsTab} class="text-image" />.
+To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the DevOps for our project now. Start by selecting your project and then switch over to the <img src={devOpsTab} class="text-image" /> tab.
 
 ### Source Control
 
@@ -34,52 +34,28 @@ If you don't have any existing repositories, or would like to create a new one y
 
 :::
 
-### Configure NPM
-
-In order for your application to be deployable, you need to own the organization used in the package.json name (milehighjackal in my case) at npmjs.com too.  It is good practice that any organization created in GitHub also be created in npmjs and that you create an npmjs organization with the same name as your GitHub user.  To do this, navigate to [npmjs.com](https://npmjs.com) and signup.  You can use any username you prefer, we recommend using the same username as GitHub plus '-dev'.  This ensures you can create an organization equal to your username from GitHub for use in deploying packages scoped to your user.  Navigate to [create an organization](https://www.npmjs.com/org/create) and create an organization with the same name used in the first part of the package.json name (without the @ symbol).
-
-![NPMJS Create Organization](/img/screenshots/npmjs-create-organization.png)
-
-:::note
-
-If you used the same username in GitHub and npmjs, then you can click the **Convert** button in npmjs while creating a new organization to change your username to an organization and update your username (add '-dev').
-
-:::
-
-While we are in npmjs, let's go ahead and create and make note of a personal access token (PAT) for use in publishing your NPM packages.  In the top right of npmjs.com, while logged in, click on your profile icon and then Access Tokens.
-
-![NPMJS Account Popout Access Tokens](/img/screenshots/npmjs-account-popout-access-tokens.png)
-
-Now choose to **Generate New Token**, on the next screen make sure to select `Publish` as the type.  After it has been generated, make sure to copy the token and save it temporarily on your computer.  We'll use this key in the next step to configure our build pipeline. 
-
-<!-- TODO:  Move to its own article...  Working with organnizations...    
-:::note
-
-If you don't have any organizations to authorize, your default user based organization will be available or you can easily create your first GitHub organization [here](https://github.com/organizations/plan) (for no cost).  Choose the Free plan, give your organization a unique name, enter your contact email, choose who the organization belongs to and then click `next`.  You can optionally choose to add additional organization members or skip this step.  Submit the quick onboarding survey (it is not required, so you can just click submit), and your organization will be created.  Now restart the instructions on this page and an organization will show up for you to grant access to.
-
-::: -->
-
 ### Build Pipeline
 
-Now we can configure the build pipeline for our repository. In order to match the NPM view package we already configured, let's choose `NPM - Release` here as well, so that our build is setup to publish an NPM package with our application contents. Then we can enter `npm run deploy` for our deploy command, `npm ci` for the install command, leave output empty, and then grab your NPM personal access token that we copied in the last step and drop it in the appropriate field.  Click `Save Application` and behind the scenes your DevOps workflows will be setup to automate builds.
+Now we can configure the build pipeline for our repository. In order to deploy the built code, we'll use a GitHub artifact. Let's choose `GitHub Artifacts - Release` to do this and give it a name of `GitHub Artifacts - Release - Basic`. Then we can enter `npm run build` for our build command, `npm ci` for the install command, and ensure output is set to `./`. Click `Save Application` and behind the scenes your DevOps workflows will be setup to automate builds.
 
-![Setup Build Pipeline](/img/screenshots/setup-build-pipeline.png) 
+![Setup Build Pipeline](/img/screenshots/setup-build-pipeline.png)
 
 ## Setup Application
 
 Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.lowcodeunit.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
-Let's clean up the package.json file that was generated so that it is ready to publish. Update the name to include the organization from above (I'm using MileHighJackal, you should replace that with your username or organization), change the version to `0.0.0`, and we'll update the main file to `index.html`.  We can also add a starting point `deploy` script for the build pipeline as shown below.
+Let's clean up the package.json file that was generated so that it is ready to publish. Update the name to include the organization from above (I'm using milehighjackal, you should replace that with your username or organization), change the version to `0.0.0`, and we'll update the main file to `index.html`. We can also add a starting point `build` and `deploy` script for the build pipeline as shown below.
 
 ```json
 {
-    "name": "@milehighjackal-dev/my-first-project-public-web",
+    "name": "@milehighjackal/my-first-project-public-web",
     "version": "0.0.0",
     "description": "",
     "main": "index.html",
     "scripts": {
         ...
-        "deploy": "npm version patch && npm publish --access public",
+        "deploy": "npm run build && npm publish --access public",
+        "build": "npm version patch",
         ...
     }
 }
@@ -91,6 +67,12 @@ Open up the terminal now in the root folder of your application and run the foll
 
 npm install
 
+```
+
+Next add a .gitignore file at the root with a single line of content to ignore any node modules you may add in the future.
+
+```
+/node_modules
 ```
 
 ## Code Application
@@ -112,19 +94,13 @@ Create a new index.html file at the root alongside the package.json file. Fill t
 </html>
 ```
 
-Finally add a .gitignore file at the root with a single line of content to ignore any node modules you may add in the future.
-
-```console
-/node_modules
-```
-
 Your finished package.json file and repository should look something like this:
 
 ![First Project Package JSON](/img/screenshots/first-project-package-json.png)
 
 ## Deploy Application
 
-Check in and push the changes to your repository, and a new build will kick off that will complete successfully. Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package.  Update the NPM Package with the value from package.json name.  Also, let's enable the `Build & Source` toggle, select our newly created source control and then press save.  After save is complete, you can go back in and see that the current version was updated to the latest version from your new automated DevOps build pipeline.
+Check in and push the changes to your repository, and a new build will kick off that will complete successfully (this is due to the source control and build pipeline setup previously). Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package. Update the NPM type to GitHub.  Now you'll re-select the same organization and repository.  Now select the `github-artifacts-release`, set the build to `latest` and then press save. After save is complete, you can go back in and see that the current build was updated to the latest build number from your new automated DevOps build pipeline.
 
 ![Update Application Processor](/img/screenshots/update-application-processor.png)
 
