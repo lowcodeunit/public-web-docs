@@ -12,7 +12,8 @@ module.exports = {
       'guides/overview',
       {
         // 'Micro-Frontends': ['guides/micro-frontends/overview'],
-        // 'Atomic Design': ['guides/atomic-design/overview'],
+        'End-to-End IoT': ['guides/end-to-end-iot/overview'],
+        'Report Delviery': ['guides/secure-power-bi-report-delivery/overview'],
         'e-Commerce': [
           'guides/e-commerce/overview',
           {
@@ -26,6 +27,7 @@ module.exports = {
             ],
           },
         ],
+        // 'Atomic Design': ['guides/atomic-design/overview'],
         // 'SaaS Licensing': ['guides/saas-licensing/overview'],
       },
     ],
