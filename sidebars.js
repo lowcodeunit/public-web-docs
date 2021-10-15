@@ -13,7 +13,7 @@ module.exports = {
       {
         // 'Micro-Frontends': ['guides/micro-frontends/overview'],
         'End-to-End IoT': ['guides/end-to-end-iot/overview'],
-        'Report Delviery': ['guides/secure-power-bi-report-delivery/overview'],
+        'PowerBI Report Delviery': ['guides/secure-power-bi-report-delivery/overview'],
         'e-Commerce': [
           'guides/e-commerce/overview',
           {
