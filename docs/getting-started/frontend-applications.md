@@ -6,7 +6,7 @@ keywords:
     - applications
     - azure
     - deployment
-    - micro-frontends
+    - micro frontends
 hide_table_of_contents: true
 ---
 
@@ -20,7 +20,7 @@ A javascript framework is a collection of JS libraries, rules and guidelines.  D
 
 A common topic of discussion in the software community is the difference between a framework and a library. In truth, experts have suggested that the line between them can be blurry, but it is useful to make the distinction — as a matter of conversation. While a framework is a full toolset that helps shape and organize your website or application, a library, on the other hand, is a collection of pre-written code snippets that are less about shaping your application and more about providing a use-as-needed library of features. 
 
-Any javascript framework that generates an HTML/CSS/JS based site will work with Fathym LowCodeUnit.  See our [frameworks docs](../guides/micro-frontends/frameworks/overview) for more infomration on getting started with a new javascript framework project.
+Any javascript framework that generates an HTML/CSS/JS based site will work with Fathym LowCodeUnit.  See our [frameworks docs](../guides/micro-frontends/js-frameworks/overview) for more infomration on getting started with a new javascript framework project or [static site docs](../guides/micro-frontends/static-sites/overview) to dig in there.
 
 ## Static Site Generators
 

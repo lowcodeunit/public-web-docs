@@ -11,9 +11,21 @@ module.exports = {
     Guides: [
       'guides/overview',
       {
-        // 'Micro-Frontends': ['guides/micro-frontends/overview'],
+        'Micro Frontends': [
+          'guides/micro-frontends/overview',
+          {
+            Explained: ['guides/micro-frontends/explained/overview'],
+          },
+          'guides/micro-frontends/static-sites-vs-js-frameworks',
+          {
+            'Static Sites': ['guides/micro-frontends/static-sites/overview'],
+            'JS Frameworks': ['guides/micro-frontends/js-frameworks/overview'],
+          },
+        ],
         'End-to-End IoT': ['guides/end-to-end-iot/overview'],
-        'PowerBI Report Delviery': ['guides/secure-power-bi-report-delivery/overview'],
+        'PowerBI Report Delviery': [
+          'guides/secure-power-bi-report-delivery/overview',
+        ],
         'e-Commerce': [
           'guides/e-commerce/overview',
           {

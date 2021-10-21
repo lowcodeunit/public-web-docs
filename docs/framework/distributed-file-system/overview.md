@@ -5,7 +5,7 @@ sidebar_label: Setup
 keywords:
     - applications
     - deployment
-    - micro-frontends
+    - micro frontends
     - distributed file system
 hide_table_of_contents: true
 ---

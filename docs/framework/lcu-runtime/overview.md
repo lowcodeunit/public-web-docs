@@ -5,7 +5,7 @@ sidebar_label: Setup
 keywords:
     - applications
     - deployment
-    - micro-frontends
+    - micro frontends
     - lcu runtime
 hide_table_of_contents: true
 ---

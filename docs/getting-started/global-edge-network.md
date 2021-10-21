@@ -6,7 +6,7 @@ keywords:
     - applications
     - azure
     - deployment
-    - micro-frontends
+    - micro frontends
 hide_table_of_contents: true
 ---
 
@@ -68,7 +68,7 @@ Leveraged for SSL certificates for many of our different deployment scenarios, M
 
 ## Content Delivery
 
-The final piece of the Fathym GEN is our content delivery system.  While the full set of features is outside the scope of this document, the Fathym Distributed File System (DFS) is a cutting-edge system for delivering content and micro-frontends at scale.  
+The final piece of the Fathym GEN is our content delivery system.  While the full set of features is outside the scope of this document, the Fathym Distributed File System (DFS) is a cutting-edge system for delivering content and micro frontends at scale.  
 
 ### Fathym Distributed File System (DFS)
 

@@ -5,7 +5,8 @@ sidebar_label: Setup
 keywords:
     - applications
     - deployment
-    - micro-frontends
+    - fathym framework
+    - micro frontends
     - global edge network
 hide_table_of_contents: true
 ---

@@ -1,12 +1,12 @@
 ---
-title: Micro-frontends - Static Site Generators - Overview
+title: Micro Frontends - Static Site Generators - Overview
 hide_title: true
 sidebar_label: Overview
 keywords:
     - websites
     - applications
     - static site generators
-    - micro-frontends
+    - micro frontends
 hide_table_of_contents: true
 ---
 

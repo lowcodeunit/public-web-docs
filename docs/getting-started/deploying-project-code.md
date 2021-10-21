@@ -6,7 +6,7 @@ keywords:
   - applications
   - azure
   - deployment
-  - micro-frontends
+  - micro frontends
 hide_table_of_contents: true
 ---
 
