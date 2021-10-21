@@ -16,10 +16,16 @@ module.exports = {
           {
             Explained: ['guides/micro-frontends/explained/overview'],
           },
-          'guides/micro-frontends/static-sites-vs-js-frameworks',
+        ],
+        'Static vs Framework': [
+          'guides/static-vs-framework/overview',
           {
-            'Static Sites': ['guides/micro-frontends/static-sites/overview'],
-            'JS Frameworks': ['guides/micro-frontends/js-frameworks/overview'],
+            'Static Sites': [
+              'guides/static-vs-framework/static-sites/overview',
+            ],
+            'JS Frameworks': [
+              'guides/static-vs-framework/js-frameworks/overview',
+            ],
           },
         ],
         'End-to-End IoT': ['guides/end-to-end-iot/overview'],

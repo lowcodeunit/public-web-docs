@@ -1,7 +1,7 @@
 ---
-title: Micro Frontends - Static Sites vs Javascript Frameworks
+title: Micro Frontends - Static vs Framework - Overview
 hide_title: true
-sidebar_label: Static vs Framework
+sidebar_label: Overview
 keywords:
     - websites
     - applications
