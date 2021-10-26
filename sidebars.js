@@ -29,8 +29,8 @@ module.exports = {
           },
         ],
         'End-to-End IoT': ['guides/end-to-end-iot/overview'],
-        'PowerBI Report Delviery': [
-          'guides/secure-power-bi-report-delivery/overview',
+        'Easily Host Power BI Reports': [
+          'guides/easily-host-power-bi-reports/overview',
         ],
         'e-Commerce': [
           'guides/e-commerce/overview',
