@@ -6,7 +6,7 @@ keywords:
     - applications
     - azure
     - deployment
-    - micro-frontends
+    - micro frontends
 hide_table_of_contents: true
 ---
 
@@ -18,7 +18,7 @@ It's nice to have a project up and running in minutes, but simple hosting isn't 
 
 ## Custom Domains
 
-Most likely you're not trying to host your project on flippity-floppity-floop.lowcodeunit.com, and you're looking to host on your own custom domain.  Custom domains provide your users with a more comfortable browsing experience for your project.  While you could use the provided domain we gave you to get started, most likely you are wanting to bring your own domain.  There are many places to get a domain, one of the easiest is at [GoDaddy](https://www.godaddy.com).
+Most likely you're not trying to host your project on flippity-floppity-floop.lowcodeunit.com, but rather you're looking to host on your own custom domain.  Custom domains provide your users with a more comfortable browsing experience for your project.  While you could use the provided domain we gave you to get started, most likely you are wanting to bring your own domain.  There are many places to get a domain, one of the easiest is at [GoDaddy](https://www.godaddy.com).
 
 ### Bring Your Own Domain
 
@@ -28,11 +28,11 @@ Click the <img src={deployLatestBtn} class="text-image" /> button to open the se
 
 ![Configure project settings](/img/screenshots/configure-project-settings.png)
 
-We'll need to create a CNAME record that maps our preferred subdomain (apex domains are not currently supported for projects) to the appropriate Global Edge Network (GEN) endpoint for your project.  You can grab your GEN endpoint from the UI just under the host input
+We'll need to create a CNAME record that maps our preferred subdomain (apex domains are not currently supported for projects) to the appropriate Global Edge Network (GEN) endpoint for your project.  You can grab your GEN endpoint from the UI just under the host input.
 
 ![Configure project host input](/img/screenshots/configure-project-host-input.png)
 
-Use this information to complete your DNS management form for a CNAME record where the **Host** is your subdomain (`www` in our example), the **Point To** value is the GEN endpoint from the LowCodeUnit UI (should start with `fathym-cloud-prd-lcu-customers-`), and the TTL is a value of your choosing.  Here is an example setup in GoDaddy.
+Use this information to complete your DNS management form for a CNAME record where the **Host** is your subdomain (`www` in our example), the **Point To** value is the GEN endpoint from the LowCodeUnit UI (should start with `fathym-cloud-prd-lcu-customers-`), and the **TTL** is a value of your choosing.  Here is an example setup in GoDaddy.
 
 ![GoDaddy CNAME Add](/img/screenshots/godaddy-cname-add.png)
 
@@ -62,13 +62,13 @@ When leveraging LowCodeUnit for your SSL certificates, you can rest easy knowing
 
 #### Microsoft Azure
 
-Leveraged for SSL certificates for many of our different deployment scenarios, Microsoft Azure is a world-class leader for many development needs.  Learn more about SSL with Azure.
+Leveraged for SSL certificates for many of our different deployment scenarios, Microsoft Azure is a world-class leader for many development needs.  [Learn more about SSL with Azure](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-certificate).
 
 <!-- #### Let's Encrypt -->
 
 ## Content Delivery
 
-The final piece of the Fathym GEN is our content delivery system.  While the full set of features is outside the scope of this document, the Fathym Distributed File System (DFS) is a cutting-edge system for delivering content and micro-frontends at scale.  
+The final piece of the Fathym GEN is our content delivery system.  While the full set of features is outside the scope of this document, the Fathym Distributed File System (DFS) is a cutting-edge system for delivering content and micro frontends at scale.  
 
 ### Fathym Distributed File System (DFS)
 
