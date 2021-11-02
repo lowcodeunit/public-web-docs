@@ -244,7 +244,7 @@ layout: main.liquid
       <jamcart-add
         include-form-data
         image="{{ image }}"
-        name="{{ title }}"
+        name="{{ name }}"
         price="{{ price }}"
         url="{{ page.url }}"></jamcart-add>
     </div>
