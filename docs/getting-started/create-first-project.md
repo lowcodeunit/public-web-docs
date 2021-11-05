@@ -6,7 +6,7 @@ keywords:
     - applications
     - azure
     - deployment
-    - micro-frontends
+    - micro frontends
 hide_table_of_contents: true
 ---
 
@@ -47,10 +47,12 @@ We can see there is a lot more to look at with security and builds/source contro
 
 :::note
 
-**A note on routes** - Routes are prioritized by the complexity of their configuration.  As a simple example, say we have two routes defined, 1 for `/` and one for `/admin`.  A request to /admin would select the application with the same path route, all other requests would go to the application with path / (this would include other routes not defined like /products, /another/something, etc).
+**A note on routes** - Routes are prioritized by the complexity of their configuration.  As a simple example, say we have two routes defined, one for `/` and another for `/admin`.  A request to /admin would select the application with the same path route, all other requests would go to the application with path / (this would include other routes not defined like /products, /another/something, etc).
 
 :::
 
 ## Next Steps
 
 That's it, you've deployed your first application with Fathym's LowCodeUnit.  Now it's time to roll up our sleeves, break out our coding sweatpants, and explore how Fathym will help automate DevOps, enable A/B testing, support QA efforts, and turn those coding sweatpants back into couch loungers.
+
+![Couch Lounger](https://media.istockphoto.com/photos/retro-computer-office-nerd-at-home-office-picture-id617888054?k=20&m=617888054&s=612x612&w=0&h=mqzkJH9n_rSWtfYYFhb8blMFm53BJdxC2yy8J323RyA=)

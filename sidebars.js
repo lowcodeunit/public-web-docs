@@ -5,14 +5,32 @@ module.exports = {
       'getting-started/setup',
       'getting-started/create-first-project',
       'getting-started/deploying-project-code',
-      'getting-started/javascript-framework',
       'getting-started/global-edge-network',
     ],
     Guides: [
       'guides/overview',
       {
-        // 'Micro-Frontends': ['guides/micro-frontends/overview'],
-        // 'Atomic Design': ['guides/atomic-design/overview'],
+        'Micro Frontends': [
+          'guides/micro-frontends/overview',
+          {
+            Explained: ['guides/micro-frontends/explained/overview'],
+          },
+        ],
+        'Static vs Framework': [
+          'guides/static-vs-framework/overview',
+          {
+            'Static Sites': [
+              'guides/static-vs-framework/static-sites/overview',
+            ],
+            'JS Frameworks': [
+              'guides/static-vs-framework/js-frameworks/overview',
+            ],
+          },
+        ],
+        'End-to-End IoT': ['guides/end-to-end-iot/overview'],
+        'PowerBI Report Delviery': [
+          'guides/secure-power-bi-report-delivery/overview',
+        ],
         'e-Commerce': [
           'guides/e-commerce/overview',
           {
@@ -26,6 +44,7 @@ module.exports = {
             ],
           },
         ],
+        // 'Atomic Design': ['guides/atomic-design/overview'],
         // 'SaaS Licensing': ['guides/saas-licensing/overview'],
       },
     ],

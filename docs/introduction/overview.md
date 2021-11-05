@@ -7,15 +7,15 @@ keywords:
     - websites
     - applications
     - azure
-    - micro-frontends
+    - micro frontends
 hide_table_of_contents: true
 ---
 
 # Welcome to Fathym LowCodeUnit
 
-Fathym's LowCodeUnit is a virtual development team that automates the delivery of modern web projects.  Take control of DevOps processes with a complete platform for hosting, continuously building, and deploying your applications.  As your project grows, learn how to authenticate your users, build complex micro-frontends, A/B test user experiences and more.
+Fathym's LowCodeUnit is a virtual development team that automates the delivery of modern web projects.  Take control of DevOps processes with a complete platform for hosting, continuously building, and deploying your applications.  As your project grows, learn how to authenticate your users, build complex micro frontends, A/B test user experiences and more.
 
-We take care of the boilerplate aspects of project delivery so you can focus on discovering and providing value to your users.  
+We take care of the tediuos, boilerplate aspects of project delivery so you can focus on discovering and providing value to your users.  
 
 Deliver your next project with LowCodeUnit to benefit from incremental upgrades, decoupled codebases, independent deployments, and team autonomy.
 
@@ -29,11 +29,19 @@ The first step is to [sign up for LowCodeUnit](https://www.lowcodeunit.com/dashb
 
 ### Getting Started
 
-The [getting started guide](./getting-started/setup) will walk you through the basics of getting up and running with LowCodeUnit.  Learn how to host applications, setup continuous integration, and configure your first micro-frontends.
+The [getting started guide](./getting-started/setup) will walk you through the basics of getting up and running with LowCodeUnit.  Learn how to host applications, setup continuous integration, and configure your first micro frontends.
 
-<!-- ### Micro-Frontends
+### End-to-end IoT
 
-Get the most out of LowCodeUnit and explore our micro-frontend features 
+The [end-to-end IoT guide](./guides/end-to-end-iot/overview) takes you through how to get your data from IoT Ensemble (an easy way to start working with IoT) up and running with LowCodeUnit.  Learn how to connect applications with your IoT data, setup continuous integration, and configure your first micro frontends.
+
+### Secure Power BI Report Delivery
+
+The [secure Power BI report delivery guide](./guides/secure-power-bi-report-delivery/overview) shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first micro frontends.
+
+<!-- ### Micro Frontends
+
+Get the most out of LowCodeUnit and explore our micro frontend features 
 
 ### A/B Testing
 
