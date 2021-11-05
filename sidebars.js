@@ -13,22 +13,22 @@ module.exports = {
       {
         'Micro Frontends': [
           'guides/micro-frontends/overview',
-          {
-            Explained: ['guides/micro-frontends/explained/overview'],
-          },
+          //{
+          //  Explained: ['guides/micro-frontends/explained/overview'],
+          //},
         ],
-        'Static vs Framework': [
-          'guides/static-vs-framework/overview',
-          {
-            'Static Sites': [
-              'guides/static-vs-framework/static-sites/overview',
-            ],
-            'JS Frameworks': [
-              'guides/static-vs-framework/js-frameworks/overview',
-            ],
-          },
-        ],
-        'End-to-End IoT': ['guides/end-to-end-iot/overview'],
+        //'Static vs Framework': [
+        //  'guides/static-vs-framework/overview',
+        //  {
+        //    'Static Sites': [
+        //      'guides/static-vs-framework/static-sites/overview',
+        //    ],
+        //    'JS Frameworks': [
+        //      'guides/static-vs-framework/js-frameworks/overview',
+        //    ],
+        //  },
+        //],
+        //'End-to-End IoT': ['guides/end-to-end-iot/overview'],
         'Easily Host Power BI Reports': [
           'guides/easily-host-power-bi-reports/overview',
         ],
