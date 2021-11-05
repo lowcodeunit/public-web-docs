@@ -1,7 +1,7 @@
 ---
-title: Getting Started - Javascript Framework
+title: Getting Started - Frontend Applications
 hide_title: true
-sidebar_label: Javascript Framework
+sidebar_label: Frontend Applications
 keywords:
     - applications
     - azure
@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 # Frontend Applications
 
-While some static html can be valuable, the end goal of most applications is far more complex and requires the help of javascript frameworks.  Any framework will do (vue, react, angular, svelte, and the list goes on...), so bring your favorite to the table to get started.
+While some static html can be valuable, the end goal of most applications is far more complex and requires the help of javascript frameworks.  Any framework will do (vue, react, angular, svelte, vanilla JS, and the list goes on...), so bring your favorite to the table to get started.
 
 ## Javascript Frameworks
 
