@@ -28,6 +28,10 @@
   height: 24px;
 }
 
+.medium-zoom-overlay {
+  background-color: rgb(24,25,26) !important;
+}
+
 .feature-image {
   height: 300px;
   width: 300px;
