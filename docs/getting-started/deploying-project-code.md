@@ -101,7 +101,7 @@ Your finished package.json file and repository should look something like this:
 
 ## Deploy Application
 
-Check in and push the changes to your repository, and a new build will kick off that will complete successfully (this is due to the source control and build pipeline setup previously). Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package. Update the NPM type to GitHub.  Now you'll re-select the same organization and repository.  Now select the `github-artifacts-release`, set the build to `latest` and then press save. After save is complete, you can go back in and see that the current build was updated to the latest build number from your new automated DevOps build pipeline.
+Check in and push the changes to your repository, and a new build will kick off that will complete successfully (this is due to the source control and build pipeline setup previously). Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package. Delete the existing NPM configuration and re-create a new one with your desired settings.  This time selecing GitHub for the view package type (not NPM).  Now you'll re-select the same organization and repository used for source control setup.  Select the `github-artifacts-release` build path, set the build to `latest` and then press save. After save is complete, you can go back in and see that the current build was updated to the latest build number from your new automated DevOps build pipeline.
 
 ![Update Application Processor](/img/screenshots/update-application-processor.png)
 
