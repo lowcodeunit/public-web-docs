@@ -23,6 +23,7 @@ module.exports = {
       // Useful if you want to support a single color mode
       disableSwitch: true,
     },
+    zoomSelector: '.markdown :not(em) > img',
     navbar: {
       title: 'LowCodeUnit Beta',
       logo: {
@@ -133,5 +134,9 @@ module.exports = {
       },
     ],
   ],
-  // plugins: [path.resolve(__dirname, 'plugins/oribi')],
+  plugins: [
+    'plugin-image-zoom',
+    //path.resolve(__dirname, 'plugins/oribi')
+  ],
+  
 };
