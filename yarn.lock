@@ -6612,11 +6612,6 @@
   "resolved" "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz"
   "version" "0.3.0"
 
-"medium-zoom@^1.0.4":
-  "integrity" "sha512-UdiUWfvz9fZMg1pzf4dcuqA0W079o0mpqbTnOz5ip4VGYX96QjmbM+OgOU/0uOzAytxC0Ny4z+VcYQnhdifimg=="
-  "resolved" "https://registry.npmjs.org/medium-zoom/-/medium-zoom-1.0.6.tgz"
-  "version" "1.0.6"
-
 "memory-fs@^0.4.1":
   "integrity" "sha1-OpoguEYlI+RHz7x+i7gO1me/xVI="
   "resolved" "https://registry.npmjs.org/memory-fs/-/memory-fs-0.4.1.tgz"
@@ -7565,12 +7560,6 @@
   "version" "3.1.0"
   dependencies:
     "find-up" "^3.0.0"
-
-"plugin-image-zoom@github:ataft/plugin-image-zoom":
-  "resolved" "git+ssh://git@github.com/ataft/plugin-image-zoom.git#076a3318689e815e7defd42d572c0854e33ed6ac"
-  "version" "0.0.0"
-  dependencies:
-    "medium-zoom" "^1.0.4"
 
 "pnp-webpack-plugin@^1.6.4":
   "integrity" "sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg=="
