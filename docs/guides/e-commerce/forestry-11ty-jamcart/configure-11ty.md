@@ -17,7 +17,7 @@ Let's get back to the creative part and start building up our frontend.  For thi
 
 ## 11ty Config
 
-To start, we need to create a new file `.eleventy.js` in the root of our LowCodeUnit project.  We'll seed it with some code that unlocks the `uploads` folder from Forestry and the `static` folder we'll use in a minute as well as a few other changes for our setup:
+To start, we need to create a new file `.eleventy.js` in the root of our LowCodeUnit project.  We'll seed it with some code that unlocks the `uploads` folder from Forestry and the `assets` folder we'll use in a minute. We also need to passthrough `package.json` to support the NPM packaging process when it comes to deploying our project along with a few other changes for our setup:
 
 ```javascript
 module.exports = (config) => {
@@ -26,6 +26,9 @@ module.exports = (config) => {
 
   //  Passthrough the assets folder used for our css, favicon and other assets
   config.addPassthroughCopy('assets');
+
+  //  Passthrough the package.json file
+  config.addPassthroughCopy('package.json');
 
   //  Configure our money filter so the price will be properly displayed
   config.addFilter('money', function (value) {
@@ -63,8 +66,9 @@ Now we can add a couple of scripts to our package.json file so that we can build
 ```json
 {
   "build": "eleventy",
-  "start": "eleventy --serve"
+  "start": "eleventy --serve",
+  "deploy": "npm version patch && npm run build && npm publish ./_site --access public"
 }
 ```
 
-With everything setup, you'll be able to run `npm run build` to build your project.  You can also start the development server now with `npm start`, but since we don't have a home page built yet you'll only get an error.  Next we'll jump in and get our home page going as well as the other pages.
+These scripts that we add will allow you to run `npm run build` to build your project, and `npm start` to start the development server. Since we don't have a home page built these commands will only give you errors.  Next we'll jump in and get our home page going as well as the other pages.
