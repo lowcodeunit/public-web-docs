@@ -135,7 +135,7 @@ module.exports = {
     ],
   ],
   plugins: [
-    'plugin-image-zoom',
+    // 'plugin-image-zoom',
     //path.resolve(__dirname, 'plugins/oribi')
   ],
   
