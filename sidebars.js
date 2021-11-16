@@ -5,8 +5,7 @@ module.exports = {
       'getting-started/setup',
       'getting-started/create-first-project',
       'getting-started/deploying-project-code',
-      'getting-started/frontend-applications',
-      'getting-started/global-edge-network',
+      // 'getting-started/global-edge-network',
     ],
     Guides: [
       'guides/overview',
