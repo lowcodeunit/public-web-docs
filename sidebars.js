@@ -31,6 +31,9 @@ module.exports = {
         'Easily Host Power BI Reports': [
           'guides/easily-host-power-bi-reports/overview',
         ],
+        'Hosting Plasmic Sites': [
+          'guides/hosting-plasmic-sites/overview',
+        ],
         'e-Commerce': [
           'guides/e-commerce/overview',
           {
