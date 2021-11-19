@@ -11,7 +11,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Static Sties vs Javascript Frameworks
+# Static Sites vs Javascript Frameworks
 
 While some static html can be valuable, the end goal of most applications is far more complex and requires the help of javascript frameworks.  Any framework will do (vue, react, angular, svelte, vanilla JS, and the list goes on...), so bring your favorite to the table to get started.
 
