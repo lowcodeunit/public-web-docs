@@ -47,12 +47,6 @@ module.exports = {
           target: '_top',
         },
         {
-          href: 'https://www.lowcodeunit.com/dashboard',
-          label: 'Sign Up',
-          position: 'left',
-          target: '_top',
-        },
-        {
           href: 'https://www.lowcodeunit.com/pricing',
           label: 'Pricing',
           position: 'right',
@@ -72,6 +66,12 @@ module.exports = {
         {
           href: 'https://www.lowcodeunit.com/dashboard',
           label: 'Sign In',
+          position: 'right',
+          target: '_top',
+        },
+        {
+          href: 'https://www.lowcodeunit.com/dashboard',
+          label: 'Sign Up',
           position: 'right',
           target: '_top',
         },

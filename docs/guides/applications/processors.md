@@ -28,6 +28,8 @@ Once a route has been selected, an application processor is then assigned to han
 
 ## Redirect Processors
 
+When selected, the redirect processor will allow you to redirect any matched route to the URL of your choosing.  Use a 301, 302, 307 or 308 redirect code as configured.
+
 ## OAuth Processors
 
 ### GitHub OAuth LCU
