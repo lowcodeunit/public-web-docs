@@ -1,7 +1,7 @@
 ---
 title: Easily Host Power BI Reports
 hide_title: true
-sidebar_label: Overview
+sidebar_label: PowerBI Reports
 keywords:
     - applications
     - powerbi
@@ -10,7 +10,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-import launchBtn from '../../../static/img/screenshots/launch-button.png';
+import launchBtn from '../../../../static/img/screenshots/launch-button.png';
 
 # Easily Host Power BI Reports
 

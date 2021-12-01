@@ -10,6 +10,55 @@ module.exports = {
     Guides: [
       'guides/overview',
       {
+        Hosting: [
+          {
+            'Site Builders': ['guides/hosting/plasmic-sites/overview'],
+            Reporting: ['guides/hosting/power-bi-reports/overview'],
+            //'End-to-End IoT': ['guides/hosting/end-to-end-iot/overview'],
+            'e-Commerce': [
+              'guides/hosting/e-commerce/overview',
+              {
+                'Forestry, 11ty, JamCart': [
+                  'guides/hosting/e-commerce/forestry-11ty-jamcart/overview',
+                  'guides/hosting/e-commerce/forestry-11ty-jamcart/setup-11ty',
+                  'guides/hosting/e-commerce/forestry-11ty-jamcart/connecting-forestry',
+                  'guides/hosting/e-commerce/forestry-11ty-jamcart/configure-11ty',
+                  'guides/hosting/e-commerce/forestry-11ty-jamcart/develop-site',
+                  'guides/hosting/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
+                ],
+              },
+            ],
+          },
+        ],
+        Applications: [
+          'guides/applications/routes',
+          'guides/applications/processors',
+          'guides/applications/updating',
+          'guides/applications/testing-use-cases',
+          // {
+          //   Modifiers: [
+          //     {
+          //       System: ['guides/hosting/plasmic-sites/overview'],
+          //       Javascript: [
+          //         {
+          //           Google: [
+          //             {
+          //               'Tag Manager': [
+          //                 'guides/hosting/plasmic-sites/overview',
+          //               ],
+          //               Analytics: ['guides/hosting/power-bi-reports/overview'],
+          //               Optimize: ['guides/hosting/power-bi-reports/overview'],
+          //             },
+          //           ],
+          //           Oribi: ['guides/hosting/power-bi-reports/overview'],
+          //           GetGist: ['guides/hosting/power-bi-reports/overview'],
+          //           Custom: ['guides/hosting/power-bi-reports/overview'],
+          //         },
+          //       ],
+          //     },
+          //   ],
+          // },
+        ],
         'Micro Frontends': [
           'guides/micro-frontends/overview',
           //{
@@ -27,26 +76,6 @@ module.exports = {
         //    ],
         //  },
         //],
-        //'End-to-End IoT': ['guides/end-to-end-iot/overview'],
-        'Easily Host Power BI Reports': [
-          'guides/easily-host-power-bi-reports/overview',
-        ],
-        'Hosting Plasmic Sites': [
-          'guides/hosting-plasmic-sites/overview',
-        ],
-        'e-Commerce': [
-          'guides/e-commerce/overview',
-          {
-            'Forestry, 11ty, JamCart': [
-              'guides/e-commerce/forestry-11ty-jamcart/overview',
-              'guides/e-commerce/forestry-11ty-jamcart/setup-11ty',
-              'guides/e-commerce/forestry-11ty-jamcart/connecting-forestry',
-              'guides/e-commerce/forestry-11ty-jamcart/configure-11ty',
-              'guides/e-commerce/forestry-11ty-jamcart/develop-site',
-              'guides/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
-            ],
-          },
-        ],
         // 'Atomic Design': ['guides/atomic-design/overview'],
         // 'SaaS Licensing': ['guides/saas-licensing/overview'],
       },
