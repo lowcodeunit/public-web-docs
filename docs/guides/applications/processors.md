@@ -28,14 +28,21 @@ The GitHub LCU provides a way to leverage GitHub artifacts as the source of cont
 
 ## Proxy Processors
 
+Serving as a reverse proxy, the proxy processor makes it possible to access your APIs without divulging sensitive security keys.  This can also serve as a work around for many cross-origin request errors.
+
 ### API LCU
 
+The API LCU allows for the configuration of a reverse proxy to API instances like Azure Functions, AWS lambdas, or almost any other API.
+
 ### SPA LCU
+
+The SPA LCU allows for the configuration of a reverse proxy to existing applications.  This is used most often in our local development environments, but in theory should work for almost any other site.
 
 ## Redirect Processors
 
 When selected, the redirect processor will allow you to redirect any matched route to the URL of your choosing.  Use a 301, 302, 307 or 308 redirect code as configured.
 
+<!-- 
 ## OAuth Processors
 
-### GitHub OAuth LCU
+### GitHub OAuth LCU -->
