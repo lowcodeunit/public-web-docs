@@ -23,21 +23,6 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
 - When publishing your site from Plasmic Studio, use the CodeGen mode and publish to GitHub. 
 :::
 
-:::caution Update the plasmic-push.yml file
-- When viewing your repo in GitHub, click on the `.github/workflows` folder and then select the `plasmic-push.yml` file.
-- At the bottom of the file, add the following lines, and then commit the file:
-
- ```jsx
- # publish github artifacts
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: jeremytomlinson-designsthatadapt
-          path: ${{ steps.build.outputs.publish_dir }}
-
-- Replace `jeremytomlinson-designsthatadapt` with your project settings. Use your `githubUsername-nameOfgithubRepo` 
-:::
-
 ## Let's Get Started
 
 1. Create a LowCodeUnit Account. Signup at https://www.lowcodeunit.com.  
