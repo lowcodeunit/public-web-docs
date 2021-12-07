@@ -15,7 +15,11 @@ Routes are used to determine which applications are used to handle a request to 
 
 ## Route Filters
 
-Filters are applied during routing to further determine which routes are used to handle a request.
+Filters are applied during routing to further determine which routes are used to handle a request.  Filter values can be any valid RegEx.  A route filter must define a path filter, and additionally the other filter types to route the request at an application.
+
+### Path Filters
+
+Path filters allow you to target the incoming path of a request, and are used with all types of processors.  A path filter is required for every route filter definition.
 
 ### Query String Filters
 
