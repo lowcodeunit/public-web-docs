@@ -28,4 +28,4 @@ For this guide, you'll need some basic level of knowledge with a few different t
 
 ## Creating a Project
 
-We'll start by creating a project inside LowCodeUnit.  This will help setup our GitHub repository, our hosting, and our DevOps pipeline so that we can just check in our code and deploy it.  Before continuing, please [create a project](../../../getting-started/create-first-project) following our getting started guide.  For the build command you will want to use `build` and Output Directory set to `_site`.
+We'll start by creating a project inside LowCodeUnit.  This will help setup our GitHub repository, our hosting, and our DevOps pipeline so that we can just check in our code and deploy it.  Before continuing, please [create a project](../../../../getting-started/create-first-project) following our getting started guide.  For the build command you will want to use `build` and Output Directory set to `_site`.
