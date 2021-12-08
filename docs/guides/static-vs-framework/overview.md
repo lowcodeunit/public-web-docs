@@ -2,6 +2,7 @@
 title: Micro Frontends - Static vs Framework - Overview
 hide_title: true
 sidebar_label: Overview
+pagination_label: Guides - Static vs Framework
 keywords:
     - websites
     - applications
