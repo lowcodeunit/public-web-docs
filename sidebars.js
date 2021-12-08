@@ -68,8 +68,8 @@ module.exports = {
             //  Explained: ['guides/micro-frontends/explained/overview'],
             //},
           ],
-          //'Static vs Framework': [
-          //  'guides/static-vs-framework/overview',
+          'Static vs Framework': [
+           'guides/static-vs-framework/overview',
           //  {
           //    'Static Sites': [
           //      'guides/static-vs-framework/static-sites/overview',
@@ -78,7 +78,7 @@ module.exports = {
           //      'guides/static-vs-framework/js-frameworks/overview',
           //    ],
           //  },
-          //],
+          ],
           // 'Atomic Design': ['guides/atomic-design/overview'],
           // 'SaaS Licensing': ['guides/saas-licensing/overview'],
         },
