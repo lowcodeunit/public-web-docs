@@ -39,7 +39,7 @@ The [end-to-end IoT guide](./guides/end-to-end-iot/overview) takes you through h
 
 ### Easily Host Power BI Reports
 
-The [Easily Host Power BI Reports](./guides/hosting/power-bi-reports/overview) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first LowCodeUnit application.
+The [Easily Host Power BI Reports](./guides/hosting/reporting/powerbi-reports) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first LowCodeUnit application.
 
 <!-- ### Micro Frontends
 
