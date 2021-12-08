@@ -64,7 +64,7 @@ Now that we are in a project, let's start by setting up the DevOps from the <img
 
 Save the configuration and a new GitHub action will be created, and a new build will have automatically kicked off for your repository.  Once this is complete, we'll be able to setup the application.
 
-### Deploying the Code
+### LowCodeUnit Application
 
 With our DevOps pipeline in place and a build completed, we can now use the GitHub artifact to deploy our code.  From the Applications Flow tab, you should already be on the create application screen.  Fill out the information for your repository, and select the correct GitHub view package settings.  Your configuration should look like the following:
 
