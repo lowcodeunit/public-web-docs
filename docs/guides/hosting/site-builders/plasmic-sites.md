@@ -2,7 +2,7 @@
 title: Hosting Plasmic Sites
 hide_title: true
 sidebar_label: Plasmic Sites
-pagination_label: Guides - Hosting - Plasmic Sites
+pagination_label: Guides - Hosting - Site Builders - Plasmic Sites
 keywords:
     - plasmic
     - app

@@ -41,8 +41,11 @@ module.exports = {
           ],
           Hosting: [
             {
-              'Site Builders': ['guides/hosting/plasmic-sites/overview'],
-              Reporting: ['guides/hosting/power-bi-reports/overview'],
+              'Site Builders': [
+                'guides/hosting/site-builders/plasmic-sites',
+                'guides/hosting/site-builders/docusaurus-sites',
+              ],
+              Reporting: ['guides/hosting/reporting/powerbi-reports'],
               //'End-to-End IoT': ['guides/hosting/end-to-end-iot/overview'],
               'e-Commerce': [
                 'guides/hosting/e-commerce/overview',
@@ -81,6 +84,6 @@ module.exports = {
         },
       ],
     },
-    'introduction/support'
+    'introduction/support',
   ],
 };
