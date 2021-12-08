@@ -2,6 +2,7 @@
 title: Getting Started - Setup
 hide_title: true
 sidebar_label: Setup
+pagination_label: Getting Started - Setup
 keywords:
     - applications
     - azure

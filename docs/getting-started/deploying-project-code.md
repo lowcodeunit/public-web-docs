@@ -2,6 +2,7 @@
 title: Getting Started - Deploy Project Code
 hide_title: true
 sidebar_label: Deploy Code
+pagination_label: Getting Started - Deploy Code
 keywords:
   - applications
   - azure

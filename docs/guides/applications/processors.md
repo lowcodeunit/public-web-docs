@@ -2,6 +2,7 @@
 title: Application Processors
 hide_title: true
 sidebar_label: Processors
+pagination_label: Guides - Applications - Processors
 keywords:
     - applications
     - routes

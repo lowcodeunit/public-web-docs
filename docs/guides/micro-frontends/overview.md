@@ -2,6 +2,7 @@
 title: Micro Frontends - Overview
 hide_title: true
 sidebar_label: Overview
+pagination_label: Guides - Micro Frontends
 keywords:
     - websites
     - applications
@@ -37,4 +38,4 @@ From here, we'll dig into what the LowCodeUnit micro frontend platform can do fo
 
 If you're looking to get your hands on code, and actually deploying some micro frontends right away, then you can dive into some of the documentation we've pulled together for modern web development approaches.  This spans static site generators to javascript frameworks, and can serve as your starting point for deploying micro frontends on Fathym LowCodeUnit. 
 
-For more information on static site options and javascript frameworks, you can [start here](../static-vs-framework/overview).
+<!-- For more information on static site options and javascript frameworks, you can [start here](../static-vs-framework/overview). -->

@@ -9,28 +9,7 @@ module.exports = {
         'getting-started/global-edge-network',
       ],
       Guides: [
-        'guides/overview',
         {
-          Hosting: [
-            {
-              'Site Builders': ['guides/hosting/plasmic-sites/overview'],
-              Reporting: ['guides/hosting/power-bi-reports/overview'],
-              //'End-to-End IoT': ['guides/hosting/end-to-end-iot/overview'],
-              'e-Commerce': [
-                'guides/hosting/e-commerce/overview',
-                {
-                  'Forestry, 11ty, JamCart': [
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/overview',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/setup-11ty',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/connecting-forestry',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/configure-11ty',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/develop-site',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
-                  ],
-                },
-              ],
-            },
-          ],
           Applications: [
             'guides/applications/routes',
             'guides/applications/processors',
@@ -59,6 +38,26 @@ module.exports = {
             //     },
             //   ],
             // },
+          ],
+          Hosting: [
+            {
+              'Site Builders': ['guides/hosting/plasmic-sites/overview'],
+              Reporting: ['guides/hosting/power-bi-reports/overview'],
+              //'End-to-End IoT': ['guides/hosting/end-to-end-iot/overview'],
+              'e-Commerce': [
+                'guides/hosting/e-commerce/overview',
+                {
+                  'Forestry, 11ty, JamCart': [
+                    'guides/hosting/e-commerce/forestry-11ty-jamcart/overview',
+                    'guides/hosting/e-commerce/forestry-11ty-jamcart/setup-11ty',
+                    'guides/hosting/e-commerce/forestry-11ty-jamcart/connecting-forestry',
+                    'guides/hosting/e-commerce/forestry-11ty-jamcart/configure-11ty',
+                    'guides/hosting/e-commerce/forestry-11ty-jamcart/develop-site',
+                    'guides/hosting/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
+                  ],
+                },
+              ],
+            },
           ],
           'Micro Frontends': [
             'guides/micro-frontends/overview',

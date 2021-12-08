@@ -2,6 +2,7 @@
 title: Getting Started - Create First Project
 hide_title: true
 sidebar_label: Create Project
+pagination_label: Getting Started - Create Project
 keywords:
     - applications
     - azure

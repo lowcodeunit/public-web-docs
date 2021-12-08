@@ -2,6 +2,7 @@
 title: Guides - e-Commerce - Overview
 hide_title: true
 sidebar_label: Overview
+pagination_label: Guides - Hosting - e-Commerce
 keywords:
     - websites
     - applications

@@ -2,6 +2,7 @@
 title: Application Routes
 hide_title: true
 sidebar_label: Routes
+pagination_label: Guides - Applications - Routes
 keywords:
     - applications
     - routes
@@ -27,7 +28,7 @@ Query string filters allow you to target specific query string attributes, and a
 
 ### Header Filters
 
-Header filters work great with all the different types of processors, but do require a bit of extra configuration.  You'll need to add some sort of extension to your browser (like [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en) for Chrome).  This works great for view packages, as all child requests (except for a limited set) do receive the header, allowing for [dynamic testing scenarios](testing-use-cases). 
+Header filters work great with all the different types of processors, but do require a bit of extra configuration.  You'll need to add some sort of extension to your browser (like [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en) for Chrome) to use these while browsing your site.  This works great for view packages, as all child requests (except for a limited types like web socket connection) do receive the header, allowing for [dynamic testing scenarios](testing-use-cases). 
 
 ### Security Filters
 

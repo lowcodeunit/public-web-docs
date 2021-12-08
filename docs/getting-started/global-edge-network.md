@@ -2,6 +2,7 @@
 title: Getting Started - Global Edge Network
 hide_title: true
 sidebar_label: Global Edge Network
+pagination_label: Getting Started - Global Edge Network
 keywords:
     - applications
     - azure
@@ -79,5 +80,8 @@ To power the GEN, we need a system to store and process the files, this is where
 ## Next Steps
 
 This concludes our getting started journey and gives you what you need to bring your complete applications to bear.  
+
+Next you can dig into relevant guides to get your projects up and running using the static sites and frameworks you love.
+
 <!-- 
 In this form, you have to bring your own Authentication/Authorization strategies, and the complete application in as a single project.  In our next section, we will dive into LowCodeUnit's Micro-frontend capabilities, and how you can leverage more from the LCU Runtime to accelerate your path to complete projects. -->

@@ -2,6 +2,7 @@
 title: Guides - e-Commerce - Forestry, 11ty, JamCart - Hosting with LowCodeUnit
 hide_title: true
 sidebar_label: Hosting with LowCodeUnit
+pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, JamCart - Hosting with LCU
 keywords:
     - websites
     - applications
