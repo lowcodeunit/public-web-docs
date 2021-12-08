@@ -46,12 +46,12 @@ module.exports = {
           position: 'left',
           target: '_top',
         },
-        {
-          href: 'https://www.lowcodeunit.com/pricing',
-          label: 'Pricing',
-          position: 'right',
-          target: '_top',
-        },
+        // {
+        //   href: 'https://www.lowcodeunit.com/pricing',
+        //   label: 'Pricing',
+        //   position: 'right',
+        //   target: '_top',
+        // },
         {
           to: '/',
           label: 'Docs',
@@ -87,10 +87,10 @@ module.exports = {
               label: 'Getting Started',
               to: 'https://www.lowcodeunit.com/dashboard',
             },
-            {
-              label: 'Pricing',
-              to: 'https://www.lowcodeunit.com/pricing',
-            },
+            // {
+            //   label: 'Pricing',
+            //   to: 'https://www.lowcodeunit.com/pricing',
+            // },
             {
               label: 'Support',
               to: '/introduction/support',
