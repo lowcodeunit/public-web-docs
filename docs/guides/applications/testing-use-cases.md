@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 # Testing Use Cases
 
-When working with LowCodeUnit, there are many different approaches to take when testing new application versions.  Depending on your needs, team size, and application footprint you may find that you need a combination of these or that one approach may work.
+When working with LowCodeUnit, there are many different approaches to take when testing new application versions.  Depending on your needs, team size, and application footprint you may find that you need a combination of these or that one approach may work.  We'll use the rest of this guide to explore how LowCodeUnit's micro frontend capabilities can be used to orchestrate testing.
 
 ## Testing Routes
 
