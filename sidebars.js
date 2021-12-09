@@ -18,21 +18,27 @@ module.exports = {
             // {
             //   Modifiers: [
             //     {
-            //       System: ['guides/hosting/plasmic-sites/overview'],
+            //       System: [
+            //         // 'guides/hosting/plasmic-sites/overview'
+            //       ],
             //       Javascript: [
             //         {
             //           Google: [
             //             {
             //               'Tag Manager': [
-            //                 'guides/hosting/plasmic-sites/overview',
+            //                 // 'guides/hosting/plasmic-sites/overview',
             //               ],
-            //               Analytics: ['guides/hosting/power-bi-reports/overview'],
-            //               Optimize: ['guides/hosting/power-bi-reports/overview'],
+            //               Analytics: [
+            //                 // 'guides/hosting/power-bi-reports/overview'
+            //               ],
+            //               Optimize: [
+            //                 // 'guides/hosting/power-bi-reports/overview'
+            //               ],
             //             },
             //           ],
-            //           Oribi: ['guides/hosting/power-bi-reports/overview'],
-            //           GetGist: ['guides/hosting/power-bi-reports/overview'],
-            //           Custom: ['guides/hosting/power-bi-reports/overview'],
+            //           // Oribi: ['guides/hosting/power-bi-reports/overview'],
+            //           // GetGist: ['guides/hosting/power-bi-reports/overview'],
+            //           // Custom: ['guides/hosting/power-bi-reports/overview'],
             //         },
             //       ],
             //     },
