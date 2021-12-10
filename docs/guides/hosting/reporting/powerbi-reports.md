@@ -2,7 +2,7 @@
 title: Easily Host Power BI Reports
 hide_title: true
 sidebar_label: PowerBI Reports
-pagination_label: Guides - Hosting - Reporting - PowerBI Reports
+pagination_label: Guides - Deploying - Reporting - PowerBI Reports
 keywords:
     - applications
     - powerbi

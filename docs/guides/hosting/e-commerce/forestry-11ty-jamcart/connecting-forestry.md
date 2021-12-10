@@ -2,7 +2,7 @@
 title: Guides - e-Commerce - Forestry, 11ty, JamCart - Connect Forestry
 hide_title: true
 sidebar_label: Connect Forestry
-pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, JamCart - Connect Forestry
+pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, JamCart - Connect Forestry
 keywords:
     - websites
     - applications

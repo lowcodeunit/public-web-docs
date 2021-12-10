@@ -2,7 +2,7 @@
 title: Hosting Docusaurus Sites
 hide_title: true
 sidebar_label: Docusaurus Sites
-pagination_label: Guides - Hosting - Site Builders - Docusaurus Sites
+pagination_label: Guides - Deploying - Site Builders - Docusaurus Sites
 keywords:
     - docusaurus
     - app

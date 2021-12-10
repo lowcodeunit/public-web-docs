@@ -1,20 +1,21 @@
 ---
-title: Hosting Svelte Sites
+title: Deploying Svelte Sites
 hide_title: true
 sidebar_label: Svelte Sites
-pagination_label: Guides - Hosting - Frameworks - Svelte Sites
+pagination_label: Guides - Deploying - Frameworks - Svelte Sites
 keywords:
     - docusaurus
     - app
     - website
     - hosting
+    - deploying
     - svelte
 hide_table_of_contents: true
 ---
 
 import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
-# Hosting Svelte Sites
+# Deploying Svelte Sites
 
 Getting your next site up and running with Svelte is a breeze with LowCodeUnit.  Here, we'll quickly look at setting up the basics: a generic Svelte site and the LowCodeUnit setup (to power DevOps and deployment) so that you can focus on customizing your user experience.
 
@@ -98,4 +99,4 @@ Talk through shifting to docs only mode, and configuring to run on a base path l
 
 Now your all setup with a functioning development through deployment workflow for your Svelte project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
 
-LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for hosting most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.lowcodeunit.com](https://www.lowcodeunit.com)
+LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for deploying most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.lowcodeunit.com](https://www.lowcodeunit.com)

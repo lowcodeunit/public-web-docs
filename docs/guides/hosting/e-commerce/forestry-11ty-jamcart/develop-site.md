@@ -2,7 +2,7 @@
 title: Guides - e-Commerce - Forestry, 11ty, JamCart - Develop Site
 hide_title: true
 sidebar_label: Develop Site
-pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, JamCart - Develop Site
+pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, JamCart - Develop Site
 keywords:
     - websites
     - applications

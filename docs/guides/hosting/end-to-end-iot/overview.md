@@ -2,7 +2,7 @@
 title: End-to-End IoT Guide - Overview
 hide_title: true
 sidebar_label: End-to-End IoT
-pagination_label: Guides - Hosting - End-to-End IoT
+pagination_label: Guides - Deploying - End-to-End IoT
 keywords:
     - applications
     - deployment

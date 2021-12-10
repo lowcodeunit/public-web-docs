@@ -19,51 +19,51 @@ module.exports = {
             //   Modifiers: [
             //     {
             //       System: [
-            //         // 'guides/hosting/plasmic-sites/overview'
+            //         // 'guides/deploying/plasmic-sites/overview'
             //       ],
             //       Javascript: [
             //         {
             //           Google: [
             //             {
             //               'Tag Manager': [
-            //                 // 'guides/hosting/plasmic-sites/overview',
+            //                 // 'guides/deploying/plasmic-sites/overview',
             //               ],
             //               Analytics: [
-            //                 // 'guides/hosting/power-bi-reports/overview'
+            //                 // 'guides/deploying/power-bi-reports/overview'
             //               ],
             //               Optimize: [
-            //                 // 'guides/hosting/power-bi-reports/overview'
+            //                 // 'guides/deploying/power-bi-reports/overview'
             //               ],
             //             },
             //           ],
-            //           // Oribi: ['guides/hosting/power-bi-reports/overview'],
-            //           // GetGist: ['guides/hosting/power-bi-reports/overview'],
-            //           // Custom: ['guides/hosting/power-bi-reports/overview'],
+            //           // Oribi: ['guides/deploying/power-bi-reports/overview'],
+            //           // GetGist: ['guides/deploying/power-bi-reports/overview'],
+            //           // Custom: ['guides/deploying/power-bi-reports/overview'],
             //         },
             //       ],
             //     },
             //   ],
             // },
           ],
-          Hosting: [
+          Deploying: [
             {
-              Frameworks: ['guides/hosting/frameworks/svelte'],
+              Frameworks: ['guides/deploying/frameworks/svelte'],
               'Site Builders': [
-                'guides/hosting/site-builders/plasmic-sites',
-                'guides/hosting/site-builders/docusaurus-sites',
+                'guides/deploying/site-builders/plasmic-sites',
+                'guides/deploying/site-builders/docusaurus-sites',
               ],
-              Reporting: ['guides/hosting/reporting/powerbi-reports'],
-              //'End-to-End IoT': ['guides/hosting/end-to-end-iot/overview'],
+              Reporting: ['guides/deploying/reporting/powerbi-reports'],
+              //'End-to-End IoT': ['guides/deploying/end-to-end-iot/overview'],
               'e-Commerce': [
-                'guides/hosting/e-commerce/overview',
+                'guides/deploying/e-commerce/overview',
                 {
                   'Forestry, 11ty, JamCart': [
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/overview',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/setup-11ty',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/connecting-forestry',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/configure-11ty',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/develop-site',
-                    'guides/hosting/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
+                    'guides/deploying/e-commerce/forestry-11ty-jamcart/overview',
+                    'guides/deploying/e-commerce/forestry-11ty-jamcart/setup-11ty',
+                    'guides/deploying/e-commerce/forestry-11ty-jamcart/connecting-forestry',
+                    'guides/deploying/e-commerce/forestry-11ty-jamcart/configure-11ty',
+                    'guides/deploying/e-commerce/forestry-11ty-jamcart/develop-site',
+                    'guides/deploying/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
                   ],
                 },
               ],
