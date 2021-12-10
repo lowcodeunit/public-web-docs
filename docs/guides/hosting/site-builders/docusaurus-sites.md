@@ -24,7 +24,7 @@ The first step for this guide is going to be setting up our source code and init
 
 ### Source Control
 
-We strongly believe in the use of source code, and so should you.  So let's get started setting up our GitHub repository.  Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo.  Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this).  Now that we have a repository setup, let's clone it to our local system and open the folder with VS Code.  
+Let's get started setting up our GitHub repository.  Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo.  Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this).  Now that we have a repository setup, let's clone it to our local system and open the folder with VS Code.  
 
 ### Docusaurus Project
 

@@ -47,6 +47,7 @@ module.exports = {
           ],
           Hosting: [
             {
+              Frameworks: ['guides/hosting/frameworks/svelte'],
               'Site Builders': [
                 'guides/hosting/site-builders/plasmic-sites',
                 'guides/hosting/site-builders/docusaurus-sites',
@@ -75,20 +76,23 @@ module.exports = {
             //},
           ],
           'Static vs Framework': [
-           'guides/static-vs-framework/overview',
-          //  {
-          //    'Static Sites': [
-          //      'guides/static-vs-framework/static-sites/overview',
-          //    ],
-          //    'JS Frameworks': [
-          //      'guides/static-vs-framework/js-frameworks/overview',
-          //    ],
-          //  },
+            'guides/static-vs-framework/overview',
+            //  {
+            //    'Static Sites': [
+            //      'guides/static-vs-framework/static-sites/overview',
+            //    ],
+            //    'JS Frameworks': [
+            //      'guides/static-vs-framework/js-frameworks/overview',
+            //    ],
+            //  },
           ],
           // 'Atomic Design': ['guides/atomic-design/overview'],
           // 'SaaS Licensing': ['guides/saas-licensing/overview'],
         },
       ],
+      // Recipes: [
+
+      // ]
     },
     'introduction/support',
   ],
