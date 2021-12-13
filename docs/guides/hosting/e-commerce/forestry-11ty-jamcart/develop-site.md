@@ -1,8 +1,8 @@
 ---
-title: Guides - e-Commerce - Forestry, 11ty, JamCart - Develop Site
+title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Develop Site
 hide_title: true
 sidebar_label: Develop Site
-pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, JamCart - Develop Site
+pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, Snipcart - Develop Site
 keywords:
     - websites
     - applications
@@ -14,7 +14,7 @@ hide_table_of_contents: true
 
 # Develop Site
 
-Alright, with setup and configuration out of the way we can get into the more fun part and bring our store to life.  For this we'll need a main page that lists our products directories as categories and a page for the product details of the selected product.  In addition, we'll need to hook up our shopping cart and checkout with JamCart.  So before we head into this next section, head over to [JamCart](https://jamcart.io/) and create your account.  Once the account is created, select the `Install` link in the left sidebar (more on JamCart in a minute).
+Alright, with setup and configuration out of the way we can get into the more fun part and bring our store to life.  For this we'll need a main page that lists our products directories as categories and a page for the product details of the selected product.  In addition, we'll need to hook up our shopping cart and checkout with Snipcart.  So before we head into this next section, head over to [Snipcart](https://www.snipcart.com/) and create your account.  Once the account is created, select the `Install Snipcart` under the tab with the checkbox 1/8 (more on Snipcart in a minute).
 
 ## Main Layout
 
@@ -35,7 +35,15 @@ All of the pages we create should share an html skeleton with site navigation an
 
     <link rel="stylesheet" href="/assets/css/main.css" />
 
-    <script type="module" data-currency="USD" data-id="INSERT_JAMCART_ACCOUNT_ID" src="https://api.jamcart.io/v1/jamcart.js"></script>
+    <link rel="preconnect" href="https://app.snipcart.com" />
+
+    <link rel="preconnect" href="https://cdn.snipcart.com" />
+
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+
+    <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+
+    <div hidden id="snipcart" data-api-key="YOUR_PUBLIC_API_KEY"></div>
   </head>
 
   <body>
@@ -44,9 +52,10 @@ All of the pages we create should share an html skeleton with site navigation an
         <a href="/">LowCodeUnit Acme Shop</a>
       </p>
 
-      <jamcart-open>
-        My Cart (<jamcart-cart-count></jamcart-cart-count>)
-      </jamcart-open>
+      <span class="snipcart-checkout material-icons">shopping_cart</span>
+      <span>(</span>
+      <span class="snipcart-items-count"></span>
+      <span>)</span>
     </header>
 
     {{ content | safe }}
@@ -56,7 +65,7 @@ All of the pages we create should share an html skeleton with site navigation an
 
 This is standard html setup with only a few minor adjustments.  You'll notice the `title` and `description` values within double curly braces, this is how data is injected with Liquid.  The `content` value is a special variable provided by 11ty and is how layouts are nested inside of each other, its `| safe` filter simply lets Liquid know that no html escaping is necessary.
 
-The other additions are in place to support some of the JamCart experience.  For starters, the JamCart script is installed in the `<head>` tag of the html, take a moment to grab your account id from the `data-id` in the script on the install page of JamCart then replace `INSERT_JAMCART_ACCOUNT_ID` with the located account id.  Next you'll notice the html (`<jamcart-open>...</jamcart-open>`) that is responsible for opening the shopping cart.
+The other additions are in place to support some of the Snipcart experience.  For starters, the Snipcart script, styles and preconnects are installed in the `<head>` tag of the html, take a moment to grab your test API Key from the Snipcart dashboard by navigating to your `Account -> API Keys` and replace `YOUR_PUBLIC_API_KEY` with the public test API key.  Next you'll notice the html (`class="snipcart-checkout`) that is responsible for opening the shopping cart, Snipcart will look for this class name so it could be in a `<div>` but here we put it in a `<span>`.
 
 This wraps up our main layout, now we can dive into creating our pages.
 
@@ -66,7 +75,7 @@ Creating pages is very straight-forward, simply create a new file at `src/index.
 
 ```html
 ---
-title: Acme shop with LowCodeUnit, 11ty, Forestry, and Jamcart 
+title: Acme shop with LowCodeUnit, 11ty, Forestry, and Snipcart 
 description: Simple demo of an e-commerce site.
 layout: main.liquid
 ---
@@ -241,16 +250,18 @@ layout: main.liquid
 
     <p>{{ description }}</p>
 
-    <div>
-      <jamcart-add
-        include-form-data
-        image="{{ image }}"
-        name="{{ name }}"
-        price="{{ price }}"
-        url="{{ page.url }}"></jamcart-add>
-    </div>
+      <button class="snipcart-add-item"
+            data-item-id="{{ name }}"
+            data-item-price="{{ price }}"
+            data-item-url="{{ page.url }}"
+            data-item-description="{{ description }}"
+            data-item-image="{{ image }}"
+            data-item-name="{{ name }}"
+            >
+            Add to cart
+    </button>
   </form>
 </div>
 ```
 
-Much like before, we are using the main layout to load in our product details and setting the title to the name of the product.  Everything else is pretty standard, with the exception of the `<jamcart-add>...</jamcart-add>` html which is the JamCart hook for adding an item into a shopping cart.  The `page` variable is an 11ty hook into the current page's information (such as `url`).  The use of JamCart's `include-form-data` attribute instructs JamCart to send any other data collected in the form along in the cart.  This would allow you to add any additional form inputs like size or color.
+Much like before, we are using the main layout to load in our product details and setting the title to the name of the product.  Everything else is pretty standard, with the exception of the `<button class="snipcart-add-item"...</button>` html which is the Snipcart hook for adding an item into a shopping cart.  The `page` variable is an 11ty hook into the current page's information (such as `url`).  The use of Snipcart's `data-item-*` attribute instructs Snipcart to send any other data collected in the form along in the cart.  This would allow you to add any additional form inputs like weight or description. Snipcart will also do a check against the `page.url` to ensure that a user hasn't opened up the dev console and changed the price of any items.
