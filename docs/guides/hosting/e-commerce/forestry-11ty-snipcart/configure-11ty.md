@@ -1,8 +1,8 @@
 ---
-title: Guides - e-Commerce - Forestry, 11ty, JamCart - Configure 11ty
+title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Configure 11ty
 hide_title: true
 sidebar_label: Configure 11ty
-pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, JamCart - Configure 11ty
+pagination_label: Guides - Hosting - e-Commerce - Forestry, 11ty, Snipcart - Configure 11ty
 keywords:
     - websites
     - applications
