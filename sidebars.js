@@ -57,13 +57,13 @@ module.exports = {
               'e-Commerce': [
                 'guides/deploying/e-commerce/overview',
                 {
-                  'Forestry, 11ty, JamCart': [
-                    'guides/deploying/e-commerce/forestry-11ty-jamcart/overview',
-                    'guides/deploying/e-commerce/forestry-11ty-jamcart/setup-11ty',
-                    'guides/deploying/e-commerce/forestry-11ty-jamcart/connecting-forestry',
-                    'guides/deploying/e-commerce/forestry-11ty-jamcart/configure-11ty',
-                    'guides/deploying/e-commerce/forestry-11ty-jamcart/develop-site',
-                    'guides/deploying/e-commerce/forestry-11ty-jamcart/hosting-with-lowcodeunit',
+                  'Forestry, 11ty, Snipcart': [
+                    'guides/hosting/e-commerce/forestry-11ty-snipcart/overview',
+                    'guides/hosting/e-commerce/forestry-11ty-snipcart/setup-11ty',
+                    'guides/hosting/e-commerce/forestry-11ty-snipcart/connecting-forestry',
+                    'guides/hosting/e-commerce/forestry-11ty-snipcart/configure-11ty',
+                    'guides/hosting/e-commerce/forestry-11ty-snipcart/develop-site',
+                    'guides/hosting/e-commerce/forestry-11ty-snipcart/hosting-with-lowcodeunit',
                   ],
                 },
               ],

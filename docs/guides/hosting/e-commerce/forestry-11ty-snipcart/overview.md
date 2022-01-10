@@ -1,5 +1,5 @@
 ---
-title: Guides - e-Commerce - Forestry, 11ty, JamCart - Overview
+title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Overview
 hide_title: true
 sidebar_label: Overview
 pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, JamCart
@@ -12,9 +12,9 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# e-Commerce with Forestry, 11ty, and JamCart
+# e-Commerce with Forestry, 11ty, and Snipcart
 
-In this guide, we'll create an e-commerce site from scratch using 11ty for static website building, Forestry as the CMS, JamCart for the shopping cart and checkout, and LowCodeUnit to bring it all together for your users.  This may seem like a daunting challenge, but the simplicity and specialty each tool brings makes this an easy way to get started with your next e-commerce project.
+In this guide, we'll create an e-commerce site from scratch using 11ty for static website building, Forestry as the CMS, Snipcart for the shopping cart and checkout, and LowCodeUnit to bring it all together for your users.  This may seem like a daunting challenge, but the simplicity and specialty each tool brings makes this an easy way to get started with your next e-commerce project.
 
 If you'd like to take a look at the finished project before we kick things off, visit [acme-shop.lowcodeunit.com](https://acme-shop.lowcodeunit.com).  
 
