@@ -58,12 +58,12 @@ module.exports = {
                 'guides/deploying/e-commerce/overview',
                 {
                   'Forestry, 11ty, Snipcart': [
-                    'guides/hosting/e-commerce/forestry-11ty-snipcart/overview',
-                    'guides/hosting/e-commerce/forestry-11ty-snipcart/setup-11ty',
-                    'guides/hosting/e-commerce/forestry-11ty-snipcart/connecting-forestry',
-                    'guides/hosting/e-commerce/forestry-11ty-snipcart/configure-11ty',
-                    'guides/hosting/e-commerce/forestry-11ty-snipcart/develop-site',
-                    'guides/hosting/e-commerce/forestry-11ty-snipcart/hosting-with-lowcodeunit',
+                    'guides/deploying/e-commerce/forestry-11ty-snipcart/overview',
+                    'guides/deploying/e-commerce/forestry-11ty-snipcart/setup-11ty',
+                    'guides/deploying/e-commerce/forestry-11ty-snipcart/connecting-forestry',
+                    'guides/deploying/e-commerce/forestry-11ty-snipcart/configure-11ty',
+                    'guides/deploying/e-commerce/forestry-11ty-snipcart/develop-site',
+                    'guides/deploying/e-commerce/forestry-11ty-snipcart/hosting-with-lowcodeunit',
                   ],
                 },
               ],

@@ -2,7 +2,7 @@
 title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Setup 11ty
 hide_title: true
 sidebar_label: Setup 11ty
-pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, JamCart - Setup 11ty
+pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, Snipcart - Setup 11ty
 keywords:
     - websites
     - applications

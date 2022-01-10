@@ -2,7 +2,7 @@
 title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Hosting with LowCodeUnit
 hide_title: true
 sidebar_label: Hosting with LowCodeUnit
-pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, JamCart - Hosting with LCU
+pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, Snipcart - Hosting with LCU
 keywords:
     - websites
     - applications

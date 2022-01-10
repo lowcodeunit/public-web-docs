@@ -11,8 +11,8 @@ keywords:
     - easy
 hide_table_of_contents: true
 ---
-import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
+import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 # Hosting Docusaurus Sites
 

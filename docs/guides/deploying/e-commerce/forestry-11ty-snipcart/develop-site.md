@@ -2,7 +2,7 @@
 title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Develop Site
 hide_title: true
 sidebar_label: Develop Site
-pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, JamCart - Develop Site
+pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, Snipcart - Develop Site
 keywords:
     - websites
     - applications
