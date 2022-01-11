@@ -18,7 +18,7 @@ module.exports = {
     },
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'primary',
+      defaultMode: 'light',
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
       disableSwitch: true,
