@@ -4,6 +4,7 @@ hide_title: true
 sidebar_label: Svelte Sites
 pagination_label: Guides - Deploying - Frameworks - Svelte Sites
 keywords:
+    - docusaurus
     - app
     - website
     - hosting

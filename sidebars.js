@@ -47,7 +47,10 @@ module.exports = {
           ],
           Deploying: [
             {
-              Frameworks: ['guides/deploying/frameworks/svelte'],
+              Frameworks: [
+                'guides/deploying/frameworks/svelte',
+                'guides/deploying/frameworks/vue',
+              ],
               'Site Builders': [
                 'guides/deploying/site-builders/plasmic-sites',
                 'guides/deploying/site-builders/docusaurus-sites',
