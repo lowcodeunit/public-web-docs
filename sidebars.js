@@ -48,6 +48,8 @@ module.exports = {
           Deploying: [
             {
               Frameworks: [
+                'guides/deploying/frameworks/angular',
+                'guides/deploying/frameworks/react',
                 'guides/deploying/frameworks/svelte',
                 'guides/deploying/frameworks/vue',
               ],
