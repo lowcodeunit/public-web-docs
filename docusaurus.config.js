@@ -4,7 +4,7 @@ module.exports = {
   title: 'Fathym LowCodeUnit Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.lowcodeunit.com',
-  baseUrl: '/tdocs/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
@@ -18,10 +18,10 @@ module.exports = {
     },
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'light',
+      defaultMode: 'dark',
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode
-      disableSwitch: false,
+      disableSwitch: true,
     },
     zoom: {
       selector: '.markdown :not(em) > img',
