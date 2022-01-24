@@ -4,7 +4,7 @@ module.exports = {
   title: 'Fathym LowCodeUnit Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.lowcodeunit.com',
-  baseUrl: '/docs/',
+  baseUrl: '/tdocs/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
