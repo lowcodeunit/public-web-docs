@@ -11,6 +11,8 @@ keywords:
 hide_table_of_contents: true
 ---
 
+import launchBtn from '../../../static/img/screenshots/launch-button.png';
+
 # Applications Overview
 
   Here, we'll work with a view package.  Let's start by creating a home page route, and to keep it simple we'll host the Fathym IoT Ensemble home page (a static site built with plain JS, HTML, and CSS).  Let's start by filling out the details where name and description are for your internal use, and the route is the path that, when matched, will handle the request. 
