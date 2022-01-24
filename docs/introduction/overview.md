@@ -43,15 +43,19 @@ If your looking for something with a more rapid starting point checkout [Docusau
 
 Looking to better understand what we offer you can head over to our [Applications guide](./guides/applications/overview).
 
+### JAMStack e-Commerce
+
+The [JAMStack e-Commerce](./guides/deploying/e-commerce/forestry-11ty-snipcart/overview) guide shows how to use Forestry, 11ty, and snipcart to rapidly pull together a working e-commerce site.
+
+### Easily Host Power BI Reports
+
+The [Easily Host Power BI Reports](./guides/deploying/reporting/powerbi-reports) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first LowCodeUnit application.
+
 <!-- 
 ### End-to-end IoT
 
 The [end-to-end IoT guide](./guides/end-to-end-iot/overview) takes you through how to get your data from IoT Ensemble (an easy way to start working with IoT) up and running with LowCodeUnit.  Learn how to connect applications with your IoT data, setup continuous integration, and configure your first micro frontends.
 -->
-
-### Easily Host Power BI Reports
-
-The [Easily Host Power BI Reports](./guides/deploying/reporting/powerbi-reports) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first LowCodeUnit application.
 
 <!-- ### Micro Frontends
 
