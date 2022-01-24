@@ -70,7 +70,7 @@ module.exports = {
           target: '_top',
         },
         {
-          href: 'https://www.lowcodeunit.com/dashboard',
+          href: 'https://www.lowcodeunit.com/dashboard/create-project',
           label: 'Sign Up',
           position: 'right',
           target: '_top',
@@ -85,7 +85,7 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.lowcodeunit.com/dashboard',
+              to: 'https://www.lowcodeunit.com/dashboard/create-project',
             },
             // {
             //   label: 'Pricing',

@@ -14,7 +14,7 @@ hide_table_of_contents: true
 
 The Fathym LowCodeUnit virtual developer is focused on helping you deliver your products and applications faster and with greater scale.
 
-Managing the learning path, usage and growth of development strategies can be a daunting challenge. Use LowCodeUnit to reliably deliver applications at scale. [Get started](https://www.lowcodeunit.com/dashboard) today.
+Managing the learning path, usage and growth of development strategies can be a daunting challenge. Use LowCodeUnit to reliably deliver applications at scale. [Get started](https://www.lowcodeunit.com/dashboard/create-project) today.
  
 <!--![LowCodeUnit Diagram](/img/lowcodeunit-diagram.png) -->
 
@@ -24,4 +24,4 @@ When getting started with a new application, you’re not only working the inter
 
 LowCodeUnit operates as a virtual development team that automates best practices for application delivery.  In order to help you focus on building applications and creating value, we built the platform to augment your team’s skills and do the heavy lifting.
 
-[Using the platform](https://www.lowcodeunit.com/dashboard) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.
+[Using the platform](https://www.lowcodeunit.com/dashboard/create-project) radically reduces the time and work involved in getting devices connected, understanding their data, and delivering end-to-end customer driven IoT applications.

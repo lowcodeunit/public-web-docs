@@ -62,7 +62,7 @@ If your using VS Code, make sure to install the latest [official extension](http
 
 ## Deploying the Code
 
-Now we'll need to setup a couple of things to get our project DevOps and deployments working.  You'll need to setup your free account at [www.lowcodeunit.com](https://www.lowcodeunit.com/dashboard) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
+Now we'll need to setup a couple of things to get our project DevOps and deployments working.  You'll need to setup your free account at [www.lowcodeunit.com](https://www.lowcodeunit.com/dashboard/create-project) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
 
 :::note
 

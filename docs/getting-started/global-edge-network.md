@@ -35,7 +35,7 @@ Use this information to complete your DNS management form for a CNAME record whe
 
 ![GoDaddy CNAME Add](/img/screenshots/godaddy-cname-add.png)
 
-Click save to capture the changes in the DNS management system, then come back to the LowCodeUnit UI and save the new domain your domains input.  Once saved, the custom domain will be registered with the GEN, and your project will be up and running on it, instead of the LowCodeUnit provided domain.  This will include a fully manage
+Click save to capture the changes in the DNS management system, then come back to the LowCodeUnit UI and save the new domain your domains input.  Once saved, the custom domain will be registered with the GEN, and your project will be up and running on it, instead of the LowCodeUnit provided domain.  This will include a fully managed SSL certificate.
 
 ![Configure domains custom](/img/screenshots/domains-configuration-custom.png)
 
