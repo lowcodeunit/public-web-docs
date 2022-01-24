@@ -11,6 +11,7 @@ module.exports = {
       Guides: [
         {
           Applications: [
+            'guides/applications/overview',
             'guides/applications/routes',
             'guides/applications/processors',
             'guides/applications/updating',
@@ -47,7 +48,12 @@ module.exports = {
           ],
           Deploying: [
             {
-              Frameworks: ['guides/deploying/frameworks/svelte'],
+              Frameworks: [
+                'guides/deploying/frameworks/angular',
+                'guides/deploying/frameworks/react',
+                'guides/deploying/frameworks/svelte',
+                'guides/deploying/frameworks/vue',
+              ],
               'Site Builders': [
                 'guides/deploying/site-builders/plasmic-sites',
                 'guides/deploying/site-builders/docusaurus-sites',
