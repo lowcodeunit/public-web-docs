@@ -67,7 +67,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 ### Project Setup
 
-Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Vue example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./public` (this is where the contents of the compiled app, and index.html or other default file lives).
+Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Vue example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./dist` (this is where the contents of the compiled app, and index.html or other default file lives).
 
 ![Create Project Wizard Custom Project Build Pipeline Vue](/img/screenshots/create-project-wizard-custom-project-build-pipeline-vue.png)
 
