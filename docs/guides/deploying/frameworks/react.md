@@ -1,43 +1,43 @@
 ---
-title: Deploying Svelte Sites
+title: Deploying React Sites
 hide_title: true
-sidebar_label: Svelte Sites
-pagination_label: Guides - Deploying - Frameworks - Svelte Sites
+sidebar_label: React Sites
+pagination_label: Guides - Deploying - Frameworks - React Sites
 keywords:
     - docusaurus
     - app
     - website
     - hosting
     - deploying
-    - svelte
+    - React
 hide_table_of_contents: true
 ---
 
 import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
-# Deploying Svelte Sites
+# Deploying React Sites
 
-Getting your next site up and running with Svelte is a breeze with LowCodeUnit.  Here, we'll quickly look at setting up the basics: a generic Svelte site and the LowCodeUnit setup (to power DevOps and deployment) so that you can focus on customizing your user experience.
+Getting your next site up and running with React is a breeze with LowCodeUnit.  Here, we'll quickly look at setting up the basics: a generic React site and the LowCodeUnit setup (to power DevOps and deployment) so that you can focus on customizing your user experience.
 
 ## Setting up the code
 
-The first step for this guide is going to be setting up our source code and initial svelte project.
+The first step for this guide is going to be setting up our source code and initial React project.
 
 ### Source Control
 
 Let's get started setting up our GitHub repository.  Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo.  Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this).  Now that we have a repository setup, let's clone it to our local system and open the folder with VS Code.  
 
-### Svelte Project
+### React Project
 
-A full, in-depth dive into Svelte is not the purpose of this article.  Generally you'll want to follow along with the [latest Svelte docs](https://svelte.dev/) when creating a new project.  Sometimes things change over there, but in general you'll want to run the following commands from within your new project to get it setup (replace `svelte-typescript-app` with a name of your choosing).
+A full, in-depth dive into React is not the purpose of this article.  Generally you'll want to follow along with the [latest React docs](https://React.dev/) when creating a new project.  Sometimes things change over there, but in general you'll want to run the following commands from within your new project to get it setup (replace `React-typescript-app` with a name of your choosing).
 
 ```console
-npx degit sveltejs/template svelte-typescript-app
+npx degit Reactjs/template React-typescript-app
 ```
 
-Next, we like to move the contents of the `svelte-typescript-app` (or whatever you may have named your project) directory up to the root of the project.  This will leave a starting point that looks something like the following:
+Next, we like to move the contents of the `React-typescript-app` (or whatever you may have named your project) directory up to the root of the project.  This will leave a starting point that looks something like the following:
 
-![svelte raw project](/img/screenshots/svelte-raw-project.png)
+![React raw project](/img/screenshots/React-raw-project.png)
 
 Optionally if you want to enable typescript, run this command:
 
@@ -53,11 +53,11 @@ npm run build
 npm start
 ```
 
-With the site up and running, go ahead and commit the changes back into your repository so that our working (albeit basic) svelte site is up and ready for deployment.
+With the site up and running, go ahead and commit the changes back into your repository so that our working (albeit basic) React site is up and ready for deployment.
 
 :::note
 
-If your using VS Code, make sure to install the latest [official extension](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+If your using VS Code, make sure to install the latest [official extension](https://marketplace.visualstudio.com/items?itemName=React.React-vscode).
 
 :::
 
@@ -75,7 +75,7 @@ For an in-depth look at some of the configurations we use here, check out the [g
 
 Now that we are in a project, let's start by setting up the DevOps from the <img src={devOpsTab} class="text-image" /> tab.  Once there, setup a new source control like the following (replacing the organization and repository with your own).  The only major change from the defaults is to make sure the Output Folder is set to `./public`.
 
-![svelte source control config](/img/screenshots/svelte-source-control-config.png)
+![React source control config](/img/screenshots/React-source-control-config.png)
 
 Save the configuration and a new GitHub action will be created, and a new build will have automatically kicked off for your repository.  Once this is complete, we'll be able to setup the application.
 
@@ -83,7 +83,7 @@ Save the configuration and a new GitHub action will be created, and a new build 
 
 With our DevOps pipeline in place and a build completed, we can now use the GitHub artifact to deploy our code.  From the Applications Flow tab, you should already be on the create application screen.  Fill out the information for your repository, and select the correct GitHub view package settings.  Your configuration should look like the following:
 
-![svelte application config](/img/screenshots/svelte-application-config.png)
+![React application config](/img/screenshots/React-application-config.png)
 
 Save this form and your GitHub artifacts will be unpacked in the DFS for delivery to your users.
 
@@ -97,6 +97,6 @@ Talk through shifting to docs only mode, and configuring to run on a base path l
 
 ## Next Steps
 
-Now your all setup with a functioning development through deployment workflow for your Svelte project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
+Now your all setup with a functioning development through deployment workflow for your React project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
 
 LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for deploying most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.lowcodeunit.com](https://www.lowcodeunit.com)
