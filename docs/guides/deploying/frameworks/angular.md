@@ -37,7 +37,7 @@ npx degit Angularjs/template Angular-typescript-app
 
 Next, we like to move the contents of the `Angular-typescript-app` (or whatever you may have named your project) directory up to the root of the project.  This will leave a starting point that looks something like the following:
 
-![Angular raw project](/img/screenshots/Angular-raw-project.png)
+<!-- ![Angular raw project](/img/screenshots/angular-raw-project.png) -->
 
 Optionally if you want to enable typescript, run this command:
 
@@ -63,29 +63,27 @@ If your using VS Code, make sure to install the latest [official extension](http
 
 ## Deploying the Code
 
-Now we'll need to setup a couple of things to get our project DevOps and deployments working.  You'll need to setup your free account at [www.lowcodeunit.com](https://www.lowcodeunit.com/dashboard/create-project) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
+With code ready to go, we can setup our LowCodeUnit project for builds, deployments, and hosting. You'll need a free account from LowCodeUnit to get started. Open the create project wizard to the [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow.
 
 :::note
 
-For an in-depth look at some of the configurations we use here, check out the [getting started guide](../../../getting-started/setup).
+For an in-depth look at the setup and configuration, check out the [getting started guide](../../../getting-started/setup).
 
 :::
 
-### DevOps Setup
+### Project Setup
 
-Now that we are in a project, let's start by setting up the DevOps from the <img src={devOpsTab} class="text-image" /> tab.  Once there, setup a new source control like the following (replacing the organization and repository with your own).  The only major change from the defaults is to make sure the Output Folder is set to `./public`.
+Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Angular example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./dist` (this is where the contents of the compiled app, and index.html or other default file lives).
 
-![Angular source control config](/img/screenshots/Angular-source-control-config.png)
+<!-- ![Create Project Wizard Custom Project Build Pipeline Angular](/img/screenshots/create-project-wizard-custom-project-build-pipeline-angular.png) -->
 
-Save the configuration and a new GitHub action will be created, and a new build will have automatically kicked off for your repository.  Once this is complete, we'll be able to setup the application.
+You can now deploy your project, and after complete head into the dashboard.  A new build will be running, and once that is done you can launch your custom Angular project and see it running at your temporary domain.
 
-### LowCodeUnit Application
+:::note
 
-With our DevOps pipeline in place and a build completed, we can now use the GitHub artifact to deploy our code.  From the Applications Flow tab, you should already be on the create application screen.  Fill out the information for your repository, and select the correct GitHub view package settings.  Your configuration should look like the following:
+For more details on the custom project flow, read through the [deploying code](../../../getting-started/deploying-project-code) portion of the getting started guide.
 
-![Angular application config](/img/screenshots/Angular-application-config.png)
-
-Save this form and your GitHub artifacts will be unpacked in the DFS for delivery to your users.
+:::
 
 ### Custom Domains
 

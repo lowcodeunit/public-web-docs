@@ -76,7 +76,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Svelte example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./public` (this is where the contents of the compiled app, and index.html or other default file lives).
 
-![Create Project Wizard Custom Project Build Pipeline Vue](/img/screenshots/create-project-wizard-custom-project-build-pipeline-svelte.png)
+![Create Project Wizard Custom Project Build Pipeline Svelte](/img/screenshots/create-project-wizard-custom-project-build-pipeline-svelte.png)
 
 You can now deploy your project, and after complete head into the dashboard.  A new build will be running, and once that is done you can launch your custom Svelte project and see it running at your temporary domain.
 
