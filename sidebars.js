@@ -11,7 +11,7 @@ module.exports = {
       Guides: [
         {
           Applications: [
-            'guides/applications/overview',
+            // 'guides/applications/overview',
             'guides/applications/routes',
             'guides/applications/processors',
             'guides/applications/updating',
