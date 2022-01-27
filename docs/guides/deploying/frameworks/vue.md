@@ -18,7 +18,7 @@ import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 Getting your next site up and running with Vue is easier than ever with LowCodeUnit. Here, we'll quickly look at setting up the basics: a generic Vue site and the LowCodeUnit setup, to power DevOps and deployment, so that you can focus on customizing and developing your user experience.
 
-<!-- If you'd like to skip ahead and get right to deploying, try a fork of this [Vue example]() and be coding in minutes. -->
+If you'd like to skip ahead and get right to deploying, try a fork of this [Vue example](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000003) and be coding in minutes.
 
 ## Setting up the code
 
@@ -82,10 +82,6 @@ For more details on the custom project flow, read through the [deploying code](.
 ### Custom Domains
 
 As a bonus last step, you can follow our [custom domain guide](../../../getting-started/global-edge-network) from the getting started to get your site up and running on your own domain.
-
-<!-- ## Docs only mode
-
-Talk through shifting to docs only mode, and configuring to run on a base path like `/docs` -->
 
 ## Next Steps
 
