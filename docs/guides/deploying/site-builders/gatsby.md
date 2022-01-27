@@ -31,27 +31,35 @@ Let's get started setting up our GitHub repository.  Choose the organization (or
 
 ### React Project
 
-A full, in-depth dive into React is not the purpose of this article.  Generally you'll want to follow along with the [latest React docs](https://create-react-app.dev/docs/adding-typescript) when creating a new project.  Sometimes things change over there, but in general you'll want to run the following commands from within your new project to get it setup (replace `react-typescript-app` with a name of your choosing).
+A full, in-depth dive into React is not the purpose of this article.  Generally you'll want to follow along with the [latest React docs](https://reactjs.org/docs/getting-started.html) when creating a new project.  Sometimes things change over there, but in general you'll want to run the following commands from within your new project to get it setup (replace `react-typescript-app` with a name of your choosing).
 
 ```console
-npx create-react-app react-typescript-app --template typescript
+npx degit reactjs/template react-typescript-app
 ```
 
 Next, we like to move the contents of the `react-typescript-app` (or whatever you may have named your project) directory up to the root of the project.  This will leave a starting point that looks something like the following:
 
-![React raw project](/img/screenshots/react-raw-project.png)
+<!-- ![React raw project](/img/screenshots/react-raw-project.png) -->
 
-The npm packages were already installed, so you can now run the following command to start your site:
+Optionally if you want to enable typescript, run this command:
 
 ```console
+node scripts/setupTypeScript.js
+```
+
+Now install packages, then start and run the site locally using the following commands:
+
+```console
+npm install
+npm run build
 npm start
 ```
 
-With the site up and running on `localhost:3000`, go ahead and commit the changes back into your repository so that our working (albeit basic) React site is up and ready for deployment.
+With the site up and running, go ahead and commit the changes back into your repository so that our working (albeit basic) React site is up and ready for deployment.
 
 :::note
 
-If your using VS Code, make sure to install the latest [react extension pack](https://marketplace.visualstudio.com/items?itemName=jawandarajbir.react-vscode-extension-pack).
+If your using VS Code, make sure to install the latest [official extension](https://marketplace.visualstudio.com/items?itemName=React.React-vscode).
 
 :::
 
@@ -69,7 +77,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your React example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./build` (this is where the contents of the compiled app, and index.html or other default file lives).
 
-![Create Project Wizard Custom Project Build Pipeline React](/img/screenshots/create-project-wizard-custom-project-build-pipeline-react.png)
+<!-- ![Create Project Wizard Custom Project Build Pipeline React](/img/screenshots/create-project-wizard-custom-project-build-pipeline-react.png) -->
 
 You can now deploy your project, and after complete head into the dashboard.  A new build will be running, and once that is done you can launch your custom React project and see it running at your temporary domain.
 
@@ -82,6 +90,10 @@ For more details on the custom project flow, read through the [deploying code](.
 ### Custom Domains
 
 As a bonus last step, you can follow our [custom domain guide](../../../getting-started/global-edge-network) from the getting started to get your site up and running on your own domain.
+
+<!-- ## Docs only mode
+
+Talk through shifting to docs only mode, and configuring to run on a base path like `/docs` -->
 
 ## Next Steps
 
