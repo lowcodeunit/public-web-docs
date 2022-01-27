@@ -18,7 +18,7 @@ import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 Getting your next site up and running with Vue is easier than ever with LowCodeUnit. Here, we'll quickly look at setting up the basics: a generic Vue site and the LowCodeUnit setup, to power DevOps and deployment, so that you can focus on customizing and developing your user experience.
 
-<!-- If you'd like to skip ahead and get right to deploying, try a fork of this [Vue example]() and be coding in minutes. -->
+If you'd like to skip ahead and get right to deploying, try a fork of this [Vue example](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000003) and be coding in minutes.
 
 ## Setting up the code
 
@@ -67,7 +67,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 ### Project Setup
 
-Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Vue example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./public` (this is where the contents of the compiled app, and index.html or other default file lives).
+Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Vue example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./dist` (this is where the contents of the compiled app, and index.html or other default file lives).
 
 ![Create Project Wizard Custom Project Build Pipeline Vue](/img/screenshots/create-project-wizard-custom-project-build-pipeline-vue.png)
 
@@ -82,10 +82,6 @@ For more details on the custom project flow, read through the [deploying code](.
 ### Custom Domains
 
 As a bonus last step, you can follow our [custom domain guide](../../../getting-started/global-edge-network) from the getting started to get your site up and running on your own domain.
-
-<!-- ## Docs only mode
-
-Talk through shifting to docs only mode, and configuring to run on a base path like `/docs` -->
 
 ## Next Steps
 
