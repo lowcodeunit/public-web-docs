@@ -16,7 +16,7 @@ import launchBtn from '../../../../static/img/screenshots/launch-button.png';
 
 # Hosting Plasmic Sites
 
-You’ve built a new Plasmic website and now you need to get it online. Where do you host it? What's the easiest? This is where LowCodeUnit saves the day! Follow these steps to get your Plasmic site up and running in minutes. 
+You’ve built a new Plasmic website and now you need to get it online. Where do you host it? What's the easiest? This is where Fathym saves the day! Follow these steps to get your Plasmic site up and running in minutes. 
 
 ![plasmic preview](/img/screenshots/designs-that-adapt-preview.png)
 
@@ -41,13 +41,13 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
 
 ## Let's Get Started
 
-1. Create a LowCodeUnit Account. Signup at https://www.lowcodeunit.com.  
+1. Create a Fathym Account. Signup at https://www.fathym.com.  
 
-2. After signup, authorize with GitHub and select which organization(s) to make available inside of LowCodeUnit. 
+2. After signup, authorize with GitHub and select which organization(s) to make available inside of Fathym. 
 
 3. On the Projects page, select `Create New Project`. 
 
-4. In LowCodeUnit, select your application and fill out the `Create an Application` form. Note: the route is the path your app will be served on. For example, https://shared.lowcodeunit.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
+4. In Fathym, select your application and fill out the `Create an Application` form. Note: the route is the path your app will be served on. For example, https://shared.fathym.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
 
 6. In the `Processor Details` section, select the type of project. In this case we're using a `View Package`. 
 
@@ -59,9 +59,9 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
     - Build Path: Select `plasmic-push.yml`
     - Build Number: You can select any build of your repository. It doesn't have to be the latest build. If you're not sure what build to use, enter `latest`.
 
-10. Your Plasmic site is now ready to rock! Click the Launch icon <img src={launchBtn} class="text-image" /> to view your site hosted on lowcodeunit.com. 
+10. Your Plasmic site is now ready to rock! Click the Launch icon <img src={launchBtn} class="text-image" /> to view your site hosted on fathym.com. 
 
-Start a free trial at https://www.lowcodeunit.com
+Start a free trial at https://www.fathym.com
 
 ## Learn More
-LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for hosting most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at https://www.lowcodeunit.com
+Fathym is an all-in-one platform for running web projects. This means you can use Fathym for hosting most, if not all, of your web projects. Fathym is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at https://www.fathym.com
