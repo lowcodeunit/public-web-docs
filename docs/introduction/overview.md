@@ -33,23 +33,23 @@ The [Getting Started](./getting-started/setup) guide will walk you through the b
 
 ### Javascript Frameworks
 
-No matter your flavor, the frameworks you use and love will work with LowCodeUnit.  Try out [React](./guides/deploying/frameworks/react), [Svelte](./guides/deploying/frameworks/svelte), [Angular](./guides/deploying/frameworks/angular), or [Vue](./guides/deploying/frameworks/vue).
+No matter your flavor, the frameworks you use and love will work with LowCodeUnit.  Try out [React](../guides/deploying/frameworks/react), [Svelte](../guides/deploying/frameworks/svelte), [Angular](../guides/deploying/frameworks/angular), or [Vue](../guides/deploying/frameworks/vue).
 
 ### Staic Site Builders
 
-If your looking for something with a more rapid starting point checkout [Docusaurus](./guides/deploying/site-builders/docusaurus-sites) or [Plasmic](./guides/deploying/site-builders/plasmic-sites).
+If your looking for something with a more rapid starting point checkout [Docusaurus](./guides/deploying/site-builders/docusaurus-sites) or [Plasmic](../guides/deploying/site-builders/plasmic-sites).
 
 ### Framework Understanding
 
-Looking to better understand what we offer you can head over to our [Applications guide](./guides/applications/overview).
+Looking to better understand what we offer you can head over to our [Applications guide](../guides/applications/overview).
 
 ### JAMStack e-Commerce
 
-The [JAMStack e-Commerce](./guides/deploying/e-commerce/forestry-11ty-snipcart/overview) guide shows how to use Forestry, 11ty, and snipcart to rapidly pull together a working e-commerce site.
+The [JAMStack e-Commerce](../guides/deploying/e-commerce/forestry-11ty-snipcart/overview) guide shows how to use Forestry, 11ty, and snipcart to rapidly pull together a working e-commerce site.
 
 ### Easily Host Power BI Reports
 
-The [Easily Host Power BI Reports](./guides/deploying/reporting/powerbi-reports) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first LowCodeUnit application.
+The [Easily Host Power BI Reports](../guides/deploying/reporting/powerbi-reports) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with LowCodeUnit.  Learn how to leverage open source applications, setup continuous integration, and configure your first LowCodeUnit application.
 
 <!-- 
 ### End-to-end IoT
