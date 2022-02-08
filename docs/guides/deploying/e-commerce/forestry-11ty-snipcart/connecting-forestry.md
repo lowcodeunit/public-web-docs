@@ -28,13 +28,13 @@ Next you'll choose your Git provider, GitHub.
 
 ![new-site-github-git-provider](/img/screenshots/forestry/new-site-github-git-provider.png)
 
-Now choose the repository that contains your LowCodeUnit project after authorizing Forestry to access your GitHub applications (identical to the flow from the create project flow, this time for Forestry's access).
+Now choose the repository that contains your Fathym project after authorizing Forestry to access your GitHub applications (identical to the flow from the create project flow, this time for Forestry's access).
 
 ![new-site-github-repository](/img/screenshots/forestry/new-site-github-repository.png)
 
 ## Configure Forestry
 
-Now that our LowCodeUnit project is connected to Forestry, we can seed some data.  You'll need to select `Front Matter` from the sidenav and select to `Add Template`.  Now select the `blank template` and choose the `Fields and big content area` option.  Name your template `Products` and then click `Create Template`.  Now we've got an empty template to which we can start to add fields.  You can add whatever fields that make sense for your product structure, we are going to use `Name`, `Description`, `Price`, and `Image` for this example.  Make sure to click save after adding your fields, and your template will look like this:
+Now that our Fathym project is connected to Forestry, we can seed some data.  You'll need to select `Front Matter` from the sidenav and select to `Add Template`.  Now select the `blank template` and choose the `Fields and big content area` option.  Name your template `Products` and then click `Create Template`.  Now we've got an empty template to which we can start to add fields.  You can add whatever fields that make sense for your product structure, we are going to use `Name`, `Description`, `Price`, and `Image` for this example.  Make sure to click save after adding your fields, and your template will look like this:
 
 ![product-template-fields](/img/screenshots/forestry/product-template-fields.png)
 

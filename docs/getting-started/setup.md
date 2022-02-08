@@ -11,17 +11,17 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Setting Up LowCodeUnit
+# Setting Up Fathym
 
-Fathym LowCodeUnit enables you to rapidly develop, deploy, and maintain projects using best practice workflows for modern web.
+Fathym enables you to rapidly develop, deploy, and maintain projects using best practice workflows for the modern web.
 
-In this getting started guide, you'll have your own application up and running in Fathym's LowCodeUnit Runtime, the micro-frontend engine that powers your projects.  We'll walk through connecting with GitHub, and once setup, show how to easily enable an end-to-end continuous integration and deployment environment for building and hosting your solutions.  Finally, we'll walk through how to make changes to and upgrade the applications you deliver on your domain.  
+In this getting started guide, you'll have your own application up and running in Fathym's Fathym Runtime, the micro-frontend engine that powers your projects.  We'll walk through connecting with GitHub, and once setup, show how to easily enable an end-to-end continuous integration and deployment environment for building and hosting your solutions.  Finally, we'll walk through how to make changes to and upgrade the applications you deliver on your domain.  
 
-To kick things off, visit the [LowCodeUnit](https://www.lowcodeunit.com/dashboard/create-project) sign up page (no credit card required) and access the dashboard.
+To kick things off, visit the [Fathym](https://www.lowcodeunit.com/dashboard/create-project) sign up page (no credit card required) and access the dashboard.
 
-## LowCodeUnit Dashboard
+## Fathym Dashboard
 
-Once signed in for the first time, the LowCodeUnit create project wizard will load to help setup your free license.  The [next step](create-first-project) in this guide will walk you through this wizard.
+Once signed in for the first time, the Fathym create project wizard will load to help setup your free license.  The [next step](create-first-project) in this guide will walk you through this wizard.
 
 ![Create Project Wizard Select Recipe](/img/screenshots/create-project-wizard-select-recipe.png)
 

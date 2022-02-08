@@ -22,7 +22,7 @@ import deployProjectBtn from '../../static/img/screenshots/deploy-project-button
 
 So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project", no worries, we've got you covered with the custom project option.
 
-Let's create our own project with GitHub source control, automated devops, and a LowCodeUnit project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
+Let's create our own project with GitHub source control, automated devops, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
 
 ## Automated DevOps
 
@@ -94,13 +94,13 @@ You won't yet have any `.github/workflows` files, those will be created in the n
 
 ## Deploy Application
 
-Now head back into the LowCodeUnit dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
+Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
 
 ![Create Project Wizard Custom Project Name](/img/screenshots/create-project-wizard-custom-project-name.png)
 
 :::note
 
-If you see the GitHub authorization screen, authorize with GitHub and provide LowCodeUnit with access to the desired organizations. Once completed you will be directed back into the custom project flow. More details can be found in the [create project](create-first-project) part of this guide.
+If you see the GitHub authorization screen, authorize with GitHub and provide Fathym with access to the desired organizations. Once completed you will be directed back into the custom project flow. More details can be found in the [create project](create-first-project) part of this guide.
 
 :::
 

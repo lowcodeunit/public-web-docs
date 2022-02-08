@@ -18,7 +18,7 @@ The next step we like to execute is roughing in our code.  This is the phase in 
 
 ## Clone Repository
 
-With VS Code open, press `CTRL + SHIFT + p` to open the Command Palette, type `clone` into the search and select the `Git: Clone` option from the list.  From there, you can provide the Git repository URL for your project (found in the details page of your LowCodeUnit Project) or pick the repository source using the interactive options.
+With VS Code open, press `CTRL + SHIFT + p` to open the Command Palette, type `clone` into the search and select the `Git: Clone` option from the list.  From there, you can provide the Git repository URL for your project (found in the details page of your Fathym Project) or pick the repository source using the interactive options.
 
 After the project is cloned, choose to open it in VS Code.  Now we can rough in the code for our project.  Let's start by setting the project up with node and 11ty:
 
