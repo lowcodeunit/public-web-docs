@@ -49,7 +49,7 @@ All of the pages we create should share an html skeleton with site navigation an
   <body>
     <header>
       <p id="site-logo">
-        <a href="/">LowCodeUnit Acme Shop</a>
+        <a href="/">Fathym Acme Shop</a>
       </p>
 
       <span class="snipcart-checkout material-icons">shopping_cart</span>
@@ -75,7 +75,7 @@ Creating pages is very straight-forward, simply create a new file at `src/index.
 
 ```html
 ---
-title: Acme shop with LowCodeUnit, 11ty, Forestry, and Snipcart 
+title: Acme shop with Fathym, 11ty, Forestry, and Snipcart 
 description: Simple demo of an e-commerce site.
 layout: main.liquid
 ---
