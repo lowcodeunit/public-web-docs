@@ -37,15 +37,15 @@ No matter your flavor, the frameworks you use and love will work with Fathym.  T
 
 ### Static Site Builders
 
-If your looking for something with a more rapid starting point checkout [Docusaurus](./guides/deploying/site-builders/docusaurus-sites) or [Plasmic](../guides/deploying/site-builders/plasmic-sites).
+If your looking for something with a more rapid starting point checkout [Docusaurus](./guides/deploying/site-builders/docusaurus-sites) or [Plasmic](./guides/deploying/site-builders/plasmic-sites).
 
 ### Framework Understanding
 
-Looking to better understand what we offer you can head over to our [Applications guide](../guides/applications/overview).
+Looking to better understand what we offer you can head over to our [Applications guide](./guides/applications/overview).
 
 ### JAMStack e-Commerce
 
-The [JAMStack e-Commerce](../guides/deploying/e-commerce/forestry-11ty-snipcart/overview) guide shows how to use Forestry, 11ty, and snipcart to rapidly pull together a working e-commerce site.
+The [JAMStack e-Commerce](./guides/deploying/e-commerce/forestry-11ty-snipcart/overview) guide shows how to use Forestry, 11ty, and snipcart to rapidly pull together a working e-commerce site.
 
 ### Easily Host Power BI Reports
 
