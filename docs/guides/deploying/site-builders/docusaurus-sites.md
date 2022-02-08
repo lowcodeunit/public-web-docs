@@ -16,7 +16,7 @@ import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 # Hosting Docusaurus Sites
 
-Getting your next site up and running with Docusaurus is a breeze with LowCodeUnit.  Here, we'll quickly look at setting up the basics: a generic Docusaurus site and the LowCodeUnit setup (to power DevOps and deployment) so that you can focus on customizing your user experience.
+Getting your next site up and running with Docusaurus is a breeze with Fathym.  Here, we'll quickly look at setting up the basics: a generic Docusaurus site and the Fathym setup (to power DevOps and deployment) so that you can focus on customizing your user experience.
 
 ## Setting up the code
 
@@ -48,7 +48,7 @@ With the site up and running, go ahead and commit the changes back into your rep
 
 ## Deploying the Code
 
-Now we'll need to setup a couple of things to get our project DevOps and deployments working.  You'll need to setup your free account at [www.lowcodeunit.com](https://www.lowcodeunit.com/dashboard/create-project) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
+Now we'll need to setup a couple of things to get our project DevOps and deployments working.  You'll need to setup your free account at [www.fathym.com](https://www.fathym.com/dashboard/create-project) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
 
 :::note
 
@@ -64,7 +64,7 @@ Now that we are in a project, let's start by setting up the DevOps from the <img
 
 Save the configuration and a new GitHub action will be created, and a new build will have automatically kicked off for your repository.  Once this is complete, we'll be able to setup the application.
 
-### LowCodeUnit Application
+### Fathym Application
 
 With our DevOps pipeline in place and a build completed, we can now use the GitHub artifact to deploy our code.  From the Applications Flow tab, you should already be on the create application screen.  Fill out the information for your repository, and select the correct GitHub view package settings.  Your configuration should look like the following:
 
@@ -84,4 +84,4 @@ Talk through shifting to docs only mode, and configuring to run on a base path l
 
 Now your all setup with a functioning development through deployment workflow for your Docusaurus project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
 
-LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for hosting most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.lowcodeunit.com](https://www.lowcodeunit.com)
+Fathym is an all-in-one platform for running web projects. This means you can use Fathym for hosting most, if not all, of your web projects. Fathym is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.fathym.com](https://www.fathym.com)

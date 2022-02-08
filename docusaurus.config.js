@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym LowCodeUnit Beta',
+  title: 'Fathym Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.lowcodeunit.com',
   baseUrl: '/docs/',
@@ -34,9 +34,9 @@ module.exports = {
       }
     },
     navbar: {
-      title: 'LowCodeUnit Beta',
+      title: 'Fathym Beta',
       logo: {
-        alt: 'LowCodeUnit',
+        alt: 'Fathym',
         src: 'img/Fathym-logo-aqua-01.png',
       },
       items: [

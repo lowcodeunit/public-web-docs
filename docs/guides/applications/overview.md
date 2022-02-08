@@ -2,7 +2,6 @@
 title: Application Overview
 hide_title: true
 sidebar_label: Overview
-pagination_label: Guides - Applications - Overview
 keywords:
     - applications
     - routes
