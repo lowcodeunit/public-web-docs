@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym LowCodeUnit Beta',
+  title: 'Fathym Beta',
   tagline: 'Experience IoT in minutes | No credit card required',
   url: 'https://www.lowcodeunit.com',
   baseUrl: '/docs/',
@@ -23,12 +23,21 @@ module.exports = {
       // Useful if you want to support a single color mode
       disableSwitch: true,
     },
-    zoomSelector: '.markdown :not(em) > img',
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgb(24,25,26)',
+          dark: 'rgb(24,25,26)',
+        }
+      }
+    },
     navbar: {
-      title: 'LowCodeUnit Beta',
+      title: 'Fathym Beta',
       logo: {
-        alt: 'LowCodeUnit',
-        src: 'img/Fathym-logo-white-01.png',
+        alt: 'Fathym',
+        src: 'img/Fathym-logo-aqua-01.png',
       },
       items: [
         {
@@ -37,18 +46,12 @@ module.exports = {
           position: 'left',
           target: '_top',
         },
-        {
-          href: 'https://www.lowcodeunit.com/dashboard',
-          label: 'Sign Up',
-          position: 'left',
-          target: '_top',
-        },
-        {
-          href: 'https://www.lowcodeunit.com/pricing',
-          label: 'Pricing',
-          position: 'right',
-          target: '_top',
-        },
+        // {
+        //   href: 'https://www.lowcodeunit.com/pricing',
+        //   label: 'Pricing',
+        //   position: 'right',
+        //   target: '_top',
+        // },
         {
           to: '/',
           label: 'Docs',
@@ -66,6 +69,12 @@ module.exports = {
           position: 'right',
           target: '_top',
         },
+        {
+          href: 'https://www.lowcodeunit.com/dashboard/create-project',
+          label: 'Sign Up',
+          position: 'right',
+          target: '_top',
+        },
       ],
     },
     footer: {
@@ -76,12 +85,12 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.lowcodeunit.com/dashboard',
+              to: 'https://www.lowcodeunit.com/dashboard/create-project',
             },
-            {
-              label: 'Pricing',
-              to: 'https://www.lowcodeunit.com/pricing',
-            },
+            // {
+            //   label: 'Pricing',
+            //   to: 'https://www.lowcodeunit.com/pricing',
+            // },
             {
               label: 'Support',
               to: '/introduction/support',
@@ -135,7 +144,7 @@ module.exports = {
     ],
   ],
   plugins: [
-    'plugin-image-zoom',
+    require.resolve('docusaurus-plugin-image-zoom'),
     //path.resolve(__dirname, 'plugins/oribi')
   ],
   

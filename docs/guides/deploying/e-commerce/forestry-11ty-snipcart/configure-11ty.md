@@ -1,7 +1,8 @@
 ---
-title: Guides - e-Commerce - Forestry, 11ty, JamCart - Configure 11ty
+title: Guides - e-Commerce - Forestry, 11ty, Snipcart - Configure 11ty
 hide_title: true
 sidebar_label: Configure 11ty
+pagination_label: Guides - Deploying - e-Commerce - Forestry, 11ty, Snipcart - Configure 11ty
 keywords:
     - websites
     - applications
@@ -17,7 +18,7 @@ Let's get back to the creative part and start building up our frontend.  For thi
 
 ## 11ty Config
 
-To start, we need to create a new file `.eleventy.js` in the root of our LowCodeUnit project.  We'll seed it with some code that unlocks the `uploads` folder from Forestry and the `assets` folder we'll use in a minute. We also need to passthrough `package.json` to support the NPM packaging process when it comes to deploying our project along with a few other changes for our setup:
+To start, we need to create a new file `.eleventy.js` in the root of our Fathym project.  We'll seed it with some code that unlocks the `uploads` folder from Forestry and the `assets` folder we'll use in a minute. We also need to passthrough `package.json` to support the NPM packaging process when it comes to deploying our project along with a few other changes for our setup:
 
 ```javascript
 module.exports = (config) => {

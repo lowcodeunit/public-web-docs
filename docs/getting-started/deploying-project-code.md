@@ -1,7 +1,8 @@
 ---
 title: Getting Started - Deploy Project Code
 hide_title: true
-sidebar_label: Deploy Code
+sidebar_label: Deploy Custom Code
+pagination_label: Getting Started - Deploy Code
 keywords:
   - applications
   - azure
@@ -14,34 +15,24 @@ import saveBtn from '../../static/img/screenshots/save-button.png';
 import addBtn from '../../static/img/screenshots/add-button.png';
 import devOpsTab from '../../static/img/screenshots/devops-tab.png';
 import launchBtn from '../../static/img/screenshots/launch-button.png';
+import continueToDashboardBtn from '../../static/img/screenshots/continue-to-dashboard-button.png';
+import deployProjectBtn from '../../static/img/screenshots/deploy-project-button.png';
 
-# Deploying Code
+# Deploying Custom Code
 
-With the initial project created, and an application in place, let's swap out the IoT Ensemble site for a public web page of your own. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue...) approach will work.
+So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project", no worries, we've got you covered with the custom project option.
+
+Let's create our own project with GitHub source control, automated devops, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
 
 ## Automated DevOps
 
-To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the DevOps for our project now. Start by selecting your project and then switch over to the <img src={devOpsTab} class="text-image" /> tab.
+To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the source control for our project now.
 
 ### Source Control
 
-We'll start by setting up a source control location. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We created a new repository named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
+Head into your organization inside of GitHub and create a new repository (we called ours `my-first-project-public-web`). Once that is done, we'll setup some lightweight application code.
 
-![Setup Repository](/img/screenshots/setup-repository.png)
-
-:::note
-
-If you don't have any existing repositories, or would like to create a new one you can do that from the LCU Dashboard during setup with the <img src={addBtn} class="text-image" /> button. Enter the name of the repository, click <img src={saveBtn} class="text-image" /> and once complete it will reload with your new repository selected. At this point, a `main` branch is all you'll have.
-
-:::
-
-### Build Pipeline
-
-Now we can configure the build pipeline for our repository. In order to deploy the built code, we'll use a GitHub artifact. Let's choose `GitHub Artifacts - Release` to do this and give it a name of `GitHub Artifacts - Release - Basic`. Then we can enter `npm run build` for our build command, `npm ci` for the install command, and ensure output is set to `./`. Click `Save Application` and behind the scenes your DevOps workflows will be setup to automate builds.
-
-![Setup Build Pipeline](/img/screenshots/setup-build-pipeline.png)
-
-## Setup Application
+## Setup Application Code
 
 Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.lowcodeunit.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
@@ -49,25 +40,21 @@ Let's clean up the package.json file that was generated so that it is ready to p
 
 ```json
 {
-    "name": "@milehighjackal/my-first-project-public-web",
-    "version": "0.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-        ...
-        "deploy": "npm run build && npm publish --access public",
-        "build": "npm version patch",
-        ...
-    }
+  "name": "@milehighjackal/my-first-project-public-web",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "npm run build && npm publish --access public",
+    "build": "npm version patch"
+  }
 }
 ```
 
 Open up the terminal now in the root folder of your application and run the following command:
 
 ```
-
 npm install
-
 ```
 
 Next add a .gitignore file at the root with a single line of content to ignore any node modules you may add in the future.
@@ -95,16 +82,50 @@ Create a new index.html file at the root alongside the package.json file. Fill t
 </html>
 ```
 
-Your finished package.json file and repository should look something like this:
+Your finished package.json file and repository should look more or less like this:
 
 ![First Project Package JSON](/img/screenshots/first-project-package-json.png)
 
+:::note
+
+You won't yet have any `.github/workflows` files, those will be created in the next step.
+
+:::
+
 ## Deploy Application
 
-Check in and push the changes to your repository, and a new build will kick off that will complete successfully (this is due to the source control and build pipeline setup previously). Once successful, we'll need to jump back into the LowCodeUnit Dashboard, and adjust our Public Web application's procesor details to leverage the new package. Delete the existing NPM configuration and re-create a new one with your desired settings.  This time selecing GitHub for the view package type (not NPM).  Now you'll re-select the same organization and repository used for source control setup.  Select the `github-artifacts-release` build path, set the build to `latest` and then press save. After save is complete, you can go back in and see that the current build was updated to the latest build number from your new automated DevOps build pipeline.
+Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
 
-![Update Application Processor](/img/screenshots/update-application-processor.png)
+![Create Project Wizard Custom Project Name](/img/screenshots/create-project-wizard-custom-project-name.png)
 
-Now that we have our application configured and deployed (deploy occurred on save after editing an application), click on <img src={launchBtn} class="text-image" /> button for your project, route or application to test it out.
+:::note
 
-![My First Project Running](/img/screenshots/my-first-project-running.png)
+If you see the GitHub authorization screen, authorize with GitHub and provide Fathym with access to the desired organizations. Once completed you will be directed back into the custom project flow. More details can be found in the [create project](create-first-project) part of this guide.
+
+:::
+
+### Source Control Connection
+
+Input a name for your project (we're using `My Custom Project`) and then click next.  This will bring up the source control information. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We'll use the repository we created above named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
+
+![Create Project Wizard Custom Project Source](/img/screenshots/create-project-wizard-custom-project-source.png)
+
+<!-- :::note
+
+If you don't have any existing repositories, or would like to create a new one you can do that from the LCU Dashboard during setup with the <img src={addBtn} class="text-image" /> button. Enter the name of the repository, click <img src={saveBtn} class="text-image" /> and once complete it will reload with your new repository selected. At this point, a `main` branch is all you'll have.
+
+::: -->
+
+### Build Pipeline
+
+After connecting your repository, click next and it is time to configure the build pipeline which will help deploy your code for hosting.  The form fields should be auto populated, if not then enter `npm run build` for build command, `npm ci` for the install command, and ensure output directory is set to `./`. Now click on the <img src={deployProjectBtn} class="text-image" /> to kick off project setup where build pipelines and deployment hosting will be configured.
+
+![Create Project Wizard Custom Project Build Pipelines](/img/screenshots/create-project-wizard-custom-project-build-pipelines.png)
+
+Like before, the loading screen will show, and once complete you can continue to the dashboard.  On the dashboard, you will now see all three of your deployed projects and should be able to launch them.
+
+:::note
+
+If the version of the site does not display right away, you may be waiting on the build in GitHub to complete.  Wait a minute or two and try again and your site should load.
+
+:::
