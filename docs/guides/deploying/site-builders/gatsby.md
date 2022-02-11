@@ -19,7 +19,7 @@ import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 Getting your next site up and running with React is a breeze with LowCodeUnit.  Here, we'll quickly look at setting up the basics: a generic React site and the LowCodeUnit setup, to power DevOps and deployment, so that you can focus on customizing and developing your user experience.
 
-If you'd like to skip ahead and get right to deploying, try a fork of this [React example](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000002) and be coding in minutes.
+If you'd like to skip ahead and get right to deploying, try a fork of this [React example](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000002) and be coding in minutes.
 
 ## Setting up the code
 
@@ -65,7 +65,7 @@ If your using VS Code, make sure to install the latest [official extension](http
 
 ## Deploying the Code
 
-With code ready to go, we can setup our LowCodeUnit project for builds, deployments, and hosting. You'll need a free account from LowCodeUnit to get started. Open the create project wizard to the [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow.
+With code ready to go, we can setup our LowCodeUnit project for builds, deployments, and hosting. You'll need a free account from LowCodeUnit to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow.
 
 :::note
 
@@ -99,4 +99,4 @@ Talk through shifting to docs only mode, and configuring to run on a base path l
 
 Now your all setup with a functioning development through deployment workflow for your React project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
 
-LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for deploying most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.lowcodeunit.com](https://www.lowcodeunit.com)
+LowCodeUnit is an all-in-one platform for running web projects. This means you can use LowCodeUnit for deploying most, if not all, of your web projects. LowCodeUnit is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.fathym.com](https://www.fathym.com)
