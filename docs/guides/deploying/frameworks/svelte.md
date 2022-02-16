@@ -64,7 +64,7 @@ If your using VS Code, make sure to install the latest [official extension](http
 
 ## Deploying the Code
 
-With code ready to go, we can setup our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow.
+With code ready to go, we can setup our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow.
 
 :::note
 

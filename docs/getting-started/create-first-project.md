@@ -27,7 +27,7 @@ At its simplest, Fathym will host static sites and frontend frameworks of your c
 
 A project is used to organize your applications and other configurations. Internally at Fathym, we use projects to organize our different domains/products (that's right, we use all of this great tech to deliver all the Fathym experiences that you... well, experience).
 
-Get started with the [create project wizard](https://www.lowcodeunit.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](./guides/applications/routes), [processors](./guides/applications/processors) and automated build pipelines (DevOps).
+Get started with the [create project wizard](https://www.fathym.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](./guides/applications/routes), [processors](./guides/applications/processors) and automated build pipelines (DevOps).
 
 ![Create Project Wizard Select Recipe](/img/screenshots/create-project-wizard-select-recipe.png)
 
@@ -35,7 +35,7 @@ Get started with the [create project wizard](https://www.lowcodeunit.com/dashboa
 
 There are a few different ways to jump in with our recipes. Start with a custom project to bring your own code, automate builds, and easily deploy and deliver to your users. Looking for a pre-baked starting point? Select a recipe and choose an open source deployment to see the system in action. Choose to fork the recipe and generate your own source code to update and deploy for your users.
 
-We'll take the open source deployment path using the Docusaurus recipe to start (though you should be able to follow along no matter which recipe you choose). Select the Docusaurus icon and you will land on the [Docusaurus recipe page](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005).
+We'll take the open source deployment path using the Docusaurus recipe to start (though you should be able to follow along no matter which recipe you choose). Select the Docusaurus icon and you will land on the [Docusaurus recipe page](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005).
 
 ![Create Project Wizard Docusaurus Recipe](/img/screenshots/create-project-wizard-docusaurus-recipe.png)
 
@@ -67,7 +67,7 @@ Now let's use the same Docusaurus recipe to create a fork in our own organizatio
 
 ![Create New Project](/img/screenshots/create-new-project.png)
 
-Once back on the [Docusaurus recipe](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005), select the <img src={forkRecipeBtn} class="text-image" /> button to launch that flow. First you'll need to connect your GitHub account so we can fork the repo and setup the initial build pipeline.
+Once back on the [Docusaurus recipe](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005), select the <img src={forkRecipeBtn} class="text-image" /> button to launch that flow. First you'll need to connect your GitHub account so we can fork the repo and setup the initial build pipeline.
 
 ![Create Project Wizard GitHub Auth](/img/screenshots/create-project-wizard-github-auth.png)
 

@@ -23,7 +23,7 @@ Deliver your next project with Fathym to benefit from incremental upgrades, deco
 
 ## Code and Deploy
 
-Developed as a complete micro-frontend platform, Fathym makes the deployment of your next JAMStack, legacy, and single page applications straightforward.  The first step is to [sign up for Fathym](https://www.lowcodeunit.com/dashboard/create-project), then you can deploy existing recipes from open source or [connect GitHub](./getting-started/create-first-project) to deploy your own projects.  There are a number of different ways to deploy your code from GitHub artifacts and NPM packages to zip files and site builders.  
+Developed as a complete micro-frontend platform, Fathym makes the deployment of your next JAMStack, legacy, and single page applications straightforward.  The first step is to [sign up for Fathym](https://www.fathym.com/dashboard/create-project), then you can deploy existing recipes from open source or [connect GitHub](./getting-started/create-first-project) to deploy your own projects.  There are a number of different ways to deploy your code from GitHub artifacts and NPM packages to zip files and site builders.  
 
 ## Quickstarts
 

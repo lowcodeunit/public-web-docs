@@ -17,7 +17,7 @@ Fathym enables you to rapidly develop, deploy, and maintain projects using best 
 
 In this getting started guide, you'll have your own application up and running in Fathym's Fathym Runtime, the micro-frontend engine that powers your projects.  We'll walk through connecting with GitHub, and once setup, show how to easily enable an end-to-end continuous integration and deployment environment for building and hosting your solutions.  Finally, we'll walk through how to make changes to and upgrade the applications you deliver on your domain.  
 
-To kick things off, visit the [Fathym](https://www.lowcodeunit.com/dashboard/create-project) sign up page (no credit card required) and access the dashboard.
+To kick things off, visit the [Fathym](https://www.fathym.com/dashboard/create-project) sign up page (no credit card required) and access the dashboard.
 
 ## Fathym Dashboard
 
