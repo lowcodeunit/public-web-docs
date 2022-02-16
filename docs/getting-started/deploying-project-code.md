@@ -34,7 +34,7 @@ Head into your organization inside of GitHub and create a new repository (we cal
 
 ## Setup Application Code
 
-Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.lowcodeunit.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
+Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.fathym.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
 Let's clean up the package.json file that was generated so that it is ready to publish. Update the name to include the organization from above (I'm using milehighjackal, you should replace that with your username or organization), change the version to `0.0.0`, and we'll update the main file to `index.html`. We can also add a starting point `build` and `deploy` script for the build pipeline as shown below.
 
@@ -94,7 +94,7 @@ You won't yet have any `.github/workflows` files, those will be created in the n
 
 ## Deploy Application
 
-Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
+Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
 
 ![Create Project Wizard Custom Project Name](/img/screenshots/create-project-wizard-custom-project-name.png)
 

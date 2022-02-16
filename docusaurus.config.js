@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
   title: 'Fathym Beta',
-  tagline: 'Experience IoT in minutes | No credit card required',
-  url: 'https://www.lowcodeunit.com',
+  tagline: 'Build, deploy, and scale modern web projects',
+  url: 'https://www.fathym.com',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -34,20 +34,20 @@ module.exports = {
       }
     },
     navbar: {
-      title: 'Fathym Beta',
+      title: '',
       logo: {
         alt: 'Fathym',
-        src: 'img/Fathym-logo-aqua-01.png',
+        src: 'img/Fathym-logo-white-01.png',
       },
       items: [
         {
-          href: 'https://www.lowcodeunit.com/',
+          href: 'https://www.fathym.com/',
           label: 'Home',
           position: 'left',
           target: '_top',
         },
         // {
-        //   href: 'https://www.lowcodeunit.com/pricing',
+        //   href: 'https://www.fathym.com/pricing',
         //   label: 'Pricing',
         //   position: 'right',
         //   target: '_top',
@@ -58,20 +58,20 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.lowcodeunit.com/blog',
+          href: 'https://www.fathym.com/blog',
           label: 'Blog',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.lowcodeunit.com/dashboard',
-          label: 'Sign In',
+          href: 'https://www.fathym.com/dashboard',
+          label: 'Log In',
           position: 'right',
           target: '_top',
         },
         {
-          href: 'https://www.lowcodeunit.com/dashboard/create-project',
-          label: 'Sign Up',
+          href: 'https://www.fathym.com/dashboard/create-project',
+          label: 'Get Started',
           position: 'right',
           target: '_top',
         },
