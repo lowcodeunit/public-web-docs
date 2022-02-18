@@ -69,7 +69,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your React example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./build` (this is where the contents of the compiled app, and index.html or other default file lives).
 
-![Create Project Wizard Custom Project Build Pipeline React](/img/screenshots/create-wizard-custom-build-pipeline-react.png)
+![Create Wizard Custom Build Pipeline React](/img/screenshots/create-wizard-custom-pipeline-react.png)
 
 You can now deploy your project, and after complete head into the dashboard.  A new build will be running, and once that is done you can launch your custom React project and see it running at your temporary domain.
 
