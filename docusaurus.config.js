@@ -58,7 +58,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://www.fathym.com/blog',
+          href: 'https://www.fathym.com/blog/',
           label: 'Blog',
           position: 'right',
           target: '_top',
@@ -85,11 +85,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'https://www.lowcodeunit.com/dashboard/create-project',
+              to: 'https://www.fathym.com/dashboard/create-project',
             },
             // {
             //   label: 'Pricing',
-            //   to: 'https://www.lowcodeunit.com/pricing',
+            //   to: 'https://www.fathym.com/pricing',
             // },
             {
               label: 'Support',
@@ -102,15 +102,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/lowcodeunit',
+              href: 'https://stackoverflow.com/questions/tagged/fathym',
             },
             //{
             //  label: 'Discord',
-            //  href: 'https://discordapp.com/invite/lowcodeunit',
+            //  href: 'https://discordapp.com/invite/fathym',
             //},
             {
               label: 'Twitter',
-              href: 'https://twitter.com/lowcodeunit',
+              href: 'https://twitter.com/fathym',
             },
           ],
         },
