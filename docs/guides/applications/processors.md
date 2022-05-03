@@ -17,7 +17,7 @@ Once a route has been selected, an application processor is assigned to handle y
 
 ## View Package Processors
 
-When delivering a visual interface (JS/CSS/HTML) to your user, leverage a view package processor.  This provides moder web standards in caching, edge CDN, and can fully leverage the modifier system.
+When delivering a visual interface (JS/CSS/HTML) to your user, leverage a view package processor.  This provides modern web standards in caching, edge CDN, and can fully leverage the modifier system.
 
 ### NPM LCU
 

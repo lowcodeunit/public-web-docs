@@ -27,7 +27,7 @@ At its simplest, Fathym will host static sites and frontend frameworks of your c
 
 A project is used to organize your applications and other configurations. Internally at Fathym, we use projects to organize our different domains/products (that's right, we use all of this great tech to deliver all the Fathym experiences that you... well, experience).
 
-Get started with the [create project wizard](https://www.fathym.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](./guides/applications/routes), [processors](./guides/applications/processors) and automated build pipelines (DevOps).
+Get started with the [create project wizard](https://www.fathym.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](https://www.fathym.com/docs/guides/applications/routes), [processors](https://www.fathym.com/docs/guides/applications/processors) and automated build pipelines (DevOps).
 
 ![Create Project Wizard Select Recipe](/img/screenshots/create-project-wizard-select-recipe.png)
 
@@ -89,10 +89,10 @@ If the fork version of the site does not display right away, you may be waiting 
 
 Before heading further into what Fathym offers, let's try out a quick change to our newly forked repository.  Navigate GitHub to the organization you selected during the forking process.  Select the forked repo (public-web-docusaurus if you are following along with us) and clone it to your local environment.  We like to use VS Code to open our projects, but there other ways to update the file like the GitHub UI.
 
-Once you have the project open, we can make a simple update to the `docusaurus.config.js` file.  Update the title, currrently set to 'My Site', to anything of your choosing.  Now save, commit, and push your changes.  A build is automatically kicked off in GitHub after pushing and once complete, you can launch you site again and see your new title on the page.
+Once you have the project open, we can make a simple update to the `docusaurus.config.js` file.  Update the title, currrently set to 'My Site', to anything of your choosing.  Now save, commit, and push your changes.  A build is automatically kicked off in GitHub after pushing and once complete, you can launch your site again and see your new title on the page.
 
 ## Next Steps
 
-That's it, you've deployed your first (and second) application with Fathym's Fathym. Now it's time to roll up our sleeves, break out our coding sweatpants, and explore how Fathym will help automate DevOps, enable A/B testing, support QA efforts, and turn those coding sweatpants back into couch loungers.
+That's it, you've deployed your first (and second) application with Fathym. Now it's time to roll up our sleeves, break out our coding sweatpants, and explore how Fathym will help automate DevOps, enable A/B testing, support QA efforts, and turn those coding sweatpants back into couch loungers.
 
 ![Couch Lounger](https://media.istockphoto.com/photos/retro-computer-office-nerd-at-home-office-picture-id617888054?k=20&m=617888054&s=612x612&w=0&h=mqzkJH9n_rSWtfYYFhb8blMFm53BJdxC2yy8J323RyA=)

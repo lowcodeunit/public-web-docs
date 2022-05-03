@@ -26,4 +26,4 @@ Alternatively, you can set the version to a specific version/build number, to en
 
 ## Automatic Updates
 
-Coming soon when the Krakyn unleashes.
+Coming soon
