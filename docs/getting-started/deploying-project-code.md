@@ -20,19 +20,19 @@ import deployProjectBtn from '../../static/img/screenshots/deploy-project-button
 
 # Deploying Custom Code
 
-So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project", no worries, we've got you covered with the custom project option.
+So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project." No worries, we've got you covered with the custom project option.
 
-Let's create our own project with GitHub source control, automated devops, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
+Let's create our own project with GitHub source control, automated DevOps, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
 
 ## Automated DevOps
 
-To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the source control for our project now.
+To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's set up the source control for our project now.
 
 ### Source Control
 
-Head into your organization inside of GitHub and create a new repository (we called ours `my-first-project-public-web`). Once that is done, we'll setup some lightweight application code.
+Head into your organization inside of GitHub and create a new repository (we called ours `my-first-project-public-web`). Once that is done, we'll set up some lightweight application code.
 
-## Setup Application Code
+## Set Up Application Code
 
 Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.fathym.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
