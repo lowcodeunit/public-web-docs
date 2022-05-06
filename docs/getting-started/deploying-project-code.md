@@ -34,7 +34,7 @@ Head into your organization inside of GitHub and create a new repository (we cal
 
 ## Set Up Application Code
 
-Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.fathym.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
+Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://nodejs.org/en/download/" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
 Let's clean up the package.json file that was generated so that it is ready to publish. Update the name to include the organization from above (I'm using milehighjackal, you should replace that with your username or organization), change the version to `0.0.0`, and we'll update the main file to `index.html`. We can also add a starting point `build` and `deploy` script for the build pipeline as shown below.
 
