@@ -23,7 +23,7 @@ Now the question is: Where do I host it? This is where Fathym saves the day! Fol
 
 :::info Prerequisites
 - You need GitHub and npm accounts. 
-- The GitHub organization that contains your repository will need to be setup as an organization in npm. For example, https://www.npmjs.com/org/your-github-organization-name. This is needed for Fathym's automated build and release process. 
+- The GitHub organization that contains your repository will need to be setup as an organization in npm. For example, www.npmjs.com/org/your-github-organization-name. This is needed for Fathym's automated build and release process. 
 - Create an npm access token.
 :::
 
