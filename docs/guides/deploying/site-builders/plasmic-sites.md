@@ -41,7 +41,7 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
 
 ## Let's Get Started
 
-1. Create a Fathym Account. Signup at https://www.fathym.com.  
+1. Create a Fathym Account. Sign up at https://www.fathym.com.  
 
 2. After signup, authorize with GitHub and select which organization(s) to make available inside of Fathym. 
 
@@ -64,4 +64,4 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
 Start a free trial at https://www.fathym.com
 
 ## Learn More
-Fathym is an all-in-one platform for running web projects. This means you can use Fathym for hosting most, if not all, of your web projects. Fathym is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at https://www.fathym.com
+Fathym is an all-in-one platform for running web projects. This means you can use Fathym for hosting most, if not all, of your web projects. Fathym is simple to use and set up which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at https://www.fathym.com

@@ -24,7 +24,7 @@ The first step for this guide is going to be setting up our source code and init
 
 ### Source Control
 
-Let's get started setting up our GitHub repository.  Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo.  Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this).  Now that we have a repository setup, let's clone it to our local system and open the folder with VS Code.  
+Let's get started setting up our GitHub repository.  Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo.  Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this).  Now that we have a repository set up, let's clone it to our local system and open the folder with VS Code.  
 
 ### Docusaurus Project
 
@@ -48,7 +48,7 @@ With the site up and running, go ahead and commit the changes back into your rep
 
 ## Deploying the Code
 
-Now we'll need to setup a couple of things to get our project DevOps and deployments working.  You'll need to setup your free account at [www.fathym.com](https://www.fathym.com/dashboard/create-project) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
+Now we'll need to set up a couple of things to get our project DevOps and deployments working.  You'll need to set up your free account at [www.fathym.com](https://www.fathym.com/dashboard/create-project) to get started.  Once in the dashboard, authorize with GitHub if you haven't already, and then select an existing project or create a new one.
 
 :::note
 
@@ -56,13 +56,13 @@ For an in-depth look at some of the configurations we use here, check out the [g
 
 :::
 
-### DevOps Setup
+### DevOps Set Up
 
-Now that we are in a project, let's start by setting up the DevOps from the <img src={devOpsTab} class="text-image" /> tab.  Once there, setup a new source control like the following (replacing the organization and repository with your own).  The only major change from the defaults is to make sure the Output Folder is set to `./build`.
+Now that we are in a project, let's start by setting up the DevOps from the <img src={devOpsTab} class="text-image" /> tab.  Once there, set up a new source control like the following (replacing the organization and repository with your own).  The only major change from the defaults is to make sure the Output Folder is set to `./build`.
 
 ![docusaurus source control config](/img/screenshots/docusaurus-source-control-config.png)
 
-Save the configuration and a new GitHub action will be created, and a new build will have automatically kicked off for your repository.  Once this is complete, we'll be able to setup the application.
+Save the configuration and a new GitHub action will be created, and a new build will have automatically kicked off for your repository.  Once this is complete, we'll be able to set up the application.
 
 ### Fathym Application
 
@@ -82,6 +82,6 @@ Talk through shifting to docs only mode, and configuring to run on a base path l
 
 ## Next Steps
 
-Now your all setup with a functioning development through deployment workflow for your Docusaurus project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
+Now you're all set up with a functioning development through deployment workflow for your Docusaurus project.  Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users.  Happy coding!
 
 Fathym is an all-in-one platform for running web projects. This means you can use Fathym for hosting most, if not all, of your web projects. Fathym is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.fathym.com](https://www.fathym.com)
