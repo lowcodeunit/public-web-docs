@@ -18,7 +18,7 @@ In this guide, we'll create an e-commerce site from scratch using 11ty for stati
 
 If you'd like to take a look at the finished project before we kick things off, visit [acme-shop.fathym.com](https://acme-shop.fathym.com).  
 
-## The Setup
+## The Set Up
 
 For this guide, you'll need some basic level of knowledge with a few different tools, though extensive knowledge is not required:
 

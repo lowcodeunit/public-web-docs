@@ -15,7 +15,7 @@ hide_table_of_contents: true
 
 Fathym helps you develop, automate, and manage the delivery of modern web projects.  Take control of DevOps processes with a complete platform for hosting, continuously building, and deploying your applications.  As your project grows, learn how to authenticate your users, build complex micro frontends, A/B test user experiences and more.
 
-We take care of the tediuos, boilerplate aspects of project delivery so you can focus on discovering and providing value to your users.  
+We take care of the tedious, boilerplate aspects of project delivery so you can focus on discovering and providing value to your users.  
 
 Deliver your next project with Fathym to benefit from incremental upgrades, decoupled codebases, independent deployments, and team autonomy.
 
