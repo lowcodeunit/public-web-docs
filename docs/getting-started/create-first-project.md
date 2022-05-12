@@ -75,21 +75,21 @@ Once authorized, you'll land back in the recipe flow, ready to select the organi
 
 ![Create Project Wizard Fork Organization](/img/screenshots/create-project-wizard-fork-org.png)
 
-Select the organization, and when ready click deploy project. Like before, the loading screen will show, and once complete you can continue to the dashboard.  On the dashboard, you will now see both of your deployed projects and should be able to launch both (though they will be similar).
+Select the organization, and when ready click deploy project. Like before, the loading screen will show, and once complete you can continue to the dashboard. On the dashboard, you will now see both of your deployed projects and should be able to launch both (though they will be similar).
 
-![Create Project Wizard Fork Organization](/img/screenshots/dashboard-docusaurus-open-source-and-fork.png)
+![Create Project Wizard Fork Open Source Organization](/img/screenshots/docusaurus-open-source-and-fork.png)
 
 :::note
 
-If the fork version of the site does not display right away, you may be waiting on the build in GitHub to complete.  Wait a minute or two and try again and your site should show.
+If the fork version of the site does not display right away, you may be waiting on the build in GitHub to complete. Wait a minute or two and try again and your site should show.
 
 :::
 
 ### Updating the Site
 
-Before heading further into what Fathym offers, let's try out a quick change to our newly forked repository.  Navigate GitHub to the organization you selected during the forking process.  Select the forked repo (public-web-docusaurus if you are following along with us) and clone it to your local environment.  We like to use VS Code to open our projects, but there other ways to update the file like the GitHub UI.
+Before heading further into what Fathym offers, let's try out a quick change to our newly forked repository. Navigate GitHub to the organization you selected during the forking process. Select the forked repo (public-web-docusaurus if you are following along with us) and clone it to your local environment. We like to use VS Code to open our projects, but there other ways to update the file like the GitHub UI.
 
-Once you have the project open, we can make a simple update to the `docusaurus.config.js` file.  Update the title, currrently set to 'My Site', to anything of your choosing.  Now save, commit, and push your changes.  A build is automatically kicked off in GitHub after pushing and once complete, you can launch your site again and see your new title on the page.
+Once you have the project open, we can make a simple update to the `docusaurus.config.js` file. Update the title, currrently set to 'My Site', to anything of your choosing. Now save, commit, and push your changes. A build is automatically kicked off in GitHub after pushing and once complete, you can launch your site again and see your new title on the page.
 
 ## Next Steps
 
