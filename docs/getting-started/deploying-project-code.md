@@ -96,7 +96,7 @@ You won't yet have any `.github/workflows` files, those will be created in the n
 
 Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
 
-![Create Project Wizard Custom Project Name](/img/screenshots/create-project-wizard-custom-project-name.png)
+![Create Project Wizard Custom Project Name](/img/screenshots/custom-project-name.png)
 
 :::note
 
@@ -106,7 +106,7 @@ If you see the GitHub authorization screen, authorize with GitHub and provide Fa
 
 ### Source Control Connection
 
-Input a name for your project (we're using `My Custom Project`) and then click next.  This will bring up the source control information. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We'll use the repository we created above named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
+Input a name for your project (we're using `My Custom Project`) and then click next. This will bring up the source control information. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We'll use the repository we created above named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
 
 ![Create Project Wizard Custom Project Source](/img/screenshots/create-project-wizard-custom-project-source.png)
 
@@ -118,14 +118,14 @@ If you don't have any existing repositories, or would like to create a new one y
 
 ### Build Pipeline
 
-After connecting your repository, click next and it is time to configure the build pipeline which will help deploy your code for hosting.  The form fields should be auto populated, if not then enter `npm run build` for build command, `npm ci` for the install command, and ensure output directory is set to `./`. Now click on the <img src={deployProjectBtn} class="text-image" /> to kick off project setup where build pipelines and deployment hosting will be configured.
+After connecting your repository, click next and it is time to configure the build pipeline which will help deploy your code for hosting. The form fields should be auto populated, if not then enter `npm run build` for build command, `npm ci` for the install command, and ensure output directory is set to `./`. Now click on the <img src={deployProjectBtn} class="text-image" /> to kick off project setup where build pipelines and deployment hosting will be configured.
 
 ![Create Project Wizard Custom Project Build Pipelines](/img/screenshots/create-project-wizard-custom-project-build-pipelines.png)
 
-Like before, the loading screen will show, and once complete you can continue to the dashboard.  On the dashboard, you will now see all three of your deployed projects and should be able to launch them.
+Like before, the loading screen will show, and once complete you can continue to the dashboard. On the dashboard, you will now see all three of your deployed projects and should be able to launch them.
 
 :::note
 
-If the version of the site does not display right away, you may be waiting on the build in GitHub to complete.  Wait a minute or two and try again and your site should load.
+If the version of the site does not display right away, you may be waiting on the build in GitHub to complete. Wait a minute or two and try again and your site should load.
 
 :::
