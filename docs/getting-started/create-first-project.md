@@ -77,7 +77,7 @@ Once authorized, you'll land back in the recipe flow, ready to select the organi
 
 Select the organization, and when ready click deploy project. Like before, the loading screen will show, and once complete you can continue to the dashboard. On the dashboard, you will now see both of your deployed projects and should be able to launch both (though they will be similar).
 
-![Create Project Wizard Fork Open Source Organization](/img/screenshots/dashboard-docusaurus-open-source-and-fork.png)
+![Create Project Wizard Fork Open Source Organization](/img/screenshots/docusaurus-open-source-and-fork.png)
 
 :::note
 
