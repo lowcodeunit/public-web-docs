@@ -28,12 +28,16 @@ Query string filters allow you to target specific query string attributes, and a
 
 ### Header Filters
 
-Header filters work great with all the different types of processors, but do require a bit of extra configuration.  You'll need to add some sort of extension to your browser (like [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en) for Chrome) to use these while browsing your site.  This works great for view packages, as all child requests (except for a limited types like web socket connection) do receive the header, allowing for [dynamic testing scenarios](testing-use-cases). 
+Header filters work great with all the different types of processors, but do require a bit of extra configuration.  You'll need to add some sort of extension to your browser (like [ModHeader](https://chrome.google.com/webstore/detail/modheader/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en) for Chrome) to use these while browsing your site.  This works great for view packages, as all child requests (except for limited types like web socket connections) do receive the header, allowing for [dynamic testing scenarios](testing-use-cases). 
 
 ### Security Filters
 
-Coming soon when the Krakyn unleashes.
+Coming soon
 
 #### Authentication Filters
 
+Coming Soon
+
 #### Authorization Filters
+
+Coming Soon

@@ -65,13 +65,13 @@ All of the pages we create should share an html skeleton with site navigation an
 
 This is standard html setup with only a few minor adjustments.  You'll notice the `title` and `description` values within double curly braces, this is how data is injected with Liquid.  The `content` value is a special variable provided by 11ty and is how layouts are nested inside of each other, its `| safe` filter simply lets Liquid know that no html escaping is necessary.
 
-The other additions are in place to support some of the Snipcart experience.  For starters, the Snipcart script, styles and preconnects are installed in the `<head>` tag of the html, take a moment to grab your test API Key from the Snipcart dashboard by navigating to your `Account -> API Keys` and replace `YOUR_PUBLIC_API_KEY` with the public test API key.  Next you'll notice the html (`<span class="snipcart-checkout material-icons">shopping_cart</span>`) that is responsible for opening the shopping cart, Snipcart will look for the `snipcart-checkout` class name so it could be in a `<div>` but here we put it in a `<span>` along with a shopping cart icon from material icons.
+The other additions are in place to support some of the Snipcart experience.  For starters, the Snipcart script, styles and preconnects are installed in the `<head>` tag of the html. Take a moment to grab your test API Key from the Snipcart dashboard by navigating to your `Account -> API Keys` and replace `YOUR_PUBLIC_API_KEY` with the public test API key.  Next you'll notice the html (`<span class="snipcart-checkout material-icons">shopping_cart</span>`) that is responsible for opening the shopping cart, Snipcart will look for the `snipcart-checkout` class name so it could be in a `<div>` but here we put it in a `<span>` along with a shopping cart icon from material icons.
 
 This wraps up our main layout, now we can dive into creating our pages.
 
 ## Products List
 
-Creating pages is very straight-forward, simply create a new file at `src/index.liquid`.  Then use the following as your homepage contents:
+Creating pages is very straightforward, simply create a new file at `src/index.liquid`.  Then use the following as your homepage contents:
 
 ```html
 ---
@@ -97,9 +97,9 @@ layout: main.liquid
 </ul>
 ```
 
-A full understanding of the Liquid templating language is outside the scope of this guide, what you will notice is that in the front matter (the part framed in by '---') the `title` and `description` needed by our main layout, and the layout `main.liquid` lets 11ty know to render our page within the main layout.  You'll see the `| money` filter which formats the price into a currency.
+A full understanding of the Liquid templating language is outside the scope of this guide. What you will notice is that in the front matter (the part framed in by '---') the `title` and `description` needed by our main layout, and the layout `main.liquid` lets 11ty know to render our page within the main layout.  You'll see the `| money` filter which formats the price into a currency.
 
-The way that 11ty works, `collections.product` is a special property that contains an array of any document tagged with `product`.  If you've already tried running the site, and didn't see any products, that's because we haven't tagged any yet.  It may seem like a daunting task to apply these tags manually to every file, 11ty agreed.  So instead, let's use the data cascading feature by creating a new file `src/products/products.json` that 11ty will use, for all documents in the products folder, to apply default tags:
+The way that 11ty works, `collections.product` is a special property that contains an array of any document tagged with `product`.  If you've already tried running the site, and didn't see any products, that's because we haven't tagged any yet.  It may seem like a daunting task to apply these tags manually to every file, and 11ty agrees.  So instead, let's use the data cascading feature by creating a new file `src/products/products.json` that 11ty will use, for all documents in the products folder, to apply default tags:
 
 ```json
 {
@@ -108,7 +108,7 @@ The way that 11ty works, `collections.product` is a special property that contai
 }
 ```
 
-Go ahead and try out your site by running `npm start`, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If your feeling uninspired, you can try out our basic css.
+Go ahead and try out your site by running `npm start`, though don't expect anything too stunning.  You'll need to fix up our CSS to get the site looking like you want, start by creating a new file at `assets/css/main.css` and then filling it in with the css of your choosing.  If you're feeling uninspired, you can try out our basic css.
 
 ```css
 header {

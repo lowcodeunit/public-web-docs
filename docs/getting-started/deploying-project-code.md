@@ -20,21 +20,21 @@ import deployProjectBtn from '../../static/img/screenshots/deploy-project-button
 
 # Deploying Custom Code
 
-So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project", no worries, we've got you covered with the custom project option.
+So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project." No worries, we've got you covered with the custom project option.
 
-Let's create our own project with GitHub source control, automated devops, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
+Let's create our own project with GitHub source control, automated DevOps, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
 
 ## Automated DevOps
 
-To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's setup the source control for our project now.
+To build modern web projects, we'll need modern DevOps workflows. This means source control & builds & deployments, oh my. Let's set up the source control for our project now.
 
 ### Source Control
 
-Head into your organization inside of GitHub and create a new repository (we called ours `my-first-project-public-web`). Once that is done, we'll setup some lightweight application code.
+Head into your organization inside of GitHub and create a new repository (we called ours `my-first-project-public-web`). Once that is done, we'll set up some lightweight application code.
 
-## Setup Application Code
+## Set Up Application Code
 
-Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://www.lowcodeunit.com/blog/node-blog" target="_blank">see here</a> for information on installing node so you can use the npm command).
+Go ahead and clone your git repository to your local environment so that you can edit it. While you can use any text editor to make changes, we recommend using an Integrated Development Environment (IDE) to make edits. A great option, available across platforms, is [VS Code](https://code.visualstudio.com/download). Once you have your repository cloned you can start to make edits. First, we need to get our package.json created by running `npm init -y` (<a href="https://nodejs.org/en/download/" target="_blank">see here</a> for information on installing node so you can use the npm command).
 
 Let's clean up the package.json file that was generated so that it is ready to publish. Update the name to include the organization from above (I'm using milehighjackal, you should replace that with your username or organization), change the version to `0.0.0`, and we'll update the main file to `index.html`. We can also add a starting point `build` and `deploy` script for the build pipeline as shown below.
 
@@ -94,9 +94,9 @@ You won't yet have any `.github/workflows` files, those will be created in the n
 
 ## Deploy Application
 
-Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
+Now head back into the Fathym dashboard and click create new project from the dashboard and go to the create project wizard's [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow. If you've been following along, you should not see the GitHub authorization screen (as you are already authorized setting up your second project) and should see the project name input.
 
-![Create Project Wizard Custom Project Name](/img/screenshots/create-project-wizard-custom-project-name.png)
+![Create Project Wizard Custom Project Name](/img/screenshots/custom-project-name.png)
 
 :::note
 
@@ -106,9 +106,9 @@ If you see the GitHub authorization screen, authorize with GitHub and provide Fa
 
 ### Source Control Connection
 
-Input a name for your project (we're using `My Custom Project`) and then click next.  This will bring up the source control information. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We'll use the repository we created above named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
+Input a name for your project (we're using `My Custom Project`) and then click next. This will bring up the source control information. A drop-down with the authorized GitHub organization options will appear first. Select any organization you want, we are going to use our user organization to get started. If the organization you selected already has a repository, you can select it or create a new one. We'll use the repository we created above named `my-first-project-public-web`. Finally, select the branch you want the initial build/deployment setup against (`main` if your following along with us).
 
-![Create Project Wizard Custom Project Source](/img/screenshots/create-project-wizard-custom-project-source.png)
+![Create Project Wizard Custom Project Source](/img/screenshots/custom-project-source.png)
 
 <!-- :::note
 
@@ -118,14 +118,14 @@ If you don't have any existing repositories, or would like to create a new one y
 
 ### Build Pipeline
 
-After connecting your repository, click next and it is time to configure the build pipeline which will help deploy your code for hosting.  The form fields should be auto populated, if not then enter `npm run build` for build command, `npm ci` for the install command, and ensure output directory is set to `./`. Now click on the <img src={deployProjectBtn} class="text-image" /> to kick off project setup where build pipelines and deployment hosting will be configured.
+After connecting your repository, click next and it is time to configure the build pipeline which will help deploy your code for hosting. The form fields should be auto populated, if not then enter `npm run build` for build command, `npm ci` for the install command, and ensure output directory is set to `./`. Now click on the <img src={deployProjectBtn} class="text-image" /> to kick off project setup where build pipelines and deployment hosting will be configured.
 
-![Create Project Wizard Custom Project Build Pipelines](/img/screenshots/create-project-wizard-custom-project-build-pipelines.png)
+![Create Project Wizard Custom Project Build Pipelines](/img/screenshots/custom-project-build-pipelines.png)
 
-Like before, the loading screen will show, and once complete you can continue to the dashboard.  On the dashboard, you will now see all three of your deployed projects and should be able to launch them.
+Like before, the loading screen will show, and once complete you can continue to the dashboard. On the dashboard, you will now see all three of your deployed projects and should be able to launch them.
 
 :::note
 
-If the version of the site does not display right away, you may be waiting on the build in GitHub to complete.  Wait a minute or two and try again and your site should load.
+If the version of the site does not display right away, you may be waiting on the build in GitHub to complete. Wait a minute or two and try again and your site should load.
 
 :::

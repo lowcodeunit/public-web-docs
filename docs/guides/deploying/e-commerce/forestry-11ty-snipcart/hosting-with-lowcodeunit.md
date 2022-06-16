@@ -18,6 +18,6 @@ Back at the beginning, when [setting up](../../../../getting-started/create-firs
 
 There are only a few tasks left to complete the configuration of Snipcart.  For starters, jump back in the Snipcart dashboard and navigate to your account in the top right corner. From there scroll down to `Domains and URLs` and under domain make sure you add the domain from Fathym (if you ever decide to use a custom url, you must update the domain here).  Finally, navigate to `Shipping` and scroll down to USPS and toggle it to `On`.
 
-Snipcart supports many credit card processing gateways, so before your store is fully functional you will need to configure one from there list by navigating to `Account -> Payment Gateway`. However, for testing purposes this step can be skipped.
+Snipcart supports many credit card processing gateways, so before your store is fully functional you will need to configure one from their list by navigating to `Account -> Payment Gateway`. However, for testing purposes this step can be skipped.
 
 Now you've got a working e-commerce store from which to start selling your products.

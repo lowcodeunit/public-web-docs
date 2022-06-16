@@ -23,7 +23,7 @@ Most likely you're not trying to host your project on flippity-floppity-floop.fa
 
 ### Bring Your Own Domain
 
-Getting your project running on a custom domain is straight-forward.  You will need access to your domain's DNS management system (in our example here, GoDaddy) and then you'll be ready to go.
+Getting your project running on a custom domain is straightforward.  You will need access to your domain's DNS management system (in our example here, GoDaddy) and then you'll be ready to go.
 
 Click the <img src={domainsTab} class="text-image" /> tab to open the domain settings page for the project.
 
@@ -35,7 +35,7 @@ Use this information to complete your DNS management form for a CNAME record whe
 
 ![GoDaddy CNAME Add](/img/screenshots/godaddy-cname-add.png)
 
-Click save to capture the changes in the DNS management system, then come back to the Fathym UI and save the new domain your domains input.  Once saved, the custom domain will be registered with the GEN, and your project will be up and running on it, instead of the Fathym provided domain.  This will include a fully managed SSL certificate.
+Click save to capture the changes in the DNS management system, then come back to the Fathym UI and save the new domain as your custom domains input.  Once saved, the custom domain will be registered with the GEN, and your project will be up and running on it, instead of the Fathym provided domain.  This will include a fully managed SSL certificate.
 
 ![Configure domains custom](/img/screenshots/domains-configuration-custom.png)
 
@@ -75,11 +75,11 @@ The final piece of the Fathym GEN is our content delivery system.  While the ful
 
 Built to deliver your content at global points of access closest to your users, while also adding dynamic file processing capabilities through file modifiers.  File modifiers allow you to do things like add 3rd party software libraries at runtime, support pre-rendering workflows for your dynamic content and single-page applications, and can support different types of content manipulation like minification, compression and content inlining.
 
-To power the GEN, we need a system to store and process the files, this is where the DFS comes in.  Different than your standard file system, the DFS provides an easy way to share enterprise content across projects and is the backbone of Fathym's micro-frontend architecture.
+To power the GEN, we need a system to store and process the files and this is where the DFS comes in.  Different than your standard file system, the DFS provides an easy way to share enterprise content across projects and is the backbone of Fathym's micro-frontend architecture.
 
 ## Next Steps
 
-This concludes our getting started journey and gives you what you need to bring your complete applications to bear.  
+This concludes our getting started journey and gives you what you need to bring your complete applications to life.  
 
 Next you can dig into relevant guides to get your projects up and running using the static sites and frameworks you love.
 

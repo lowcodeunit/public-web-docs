@@ -27,7 +27,7 @@ At its simplest, Fathym will host static sites and frontend frameworks of your c
 
 A project is used to organize your applications and other configurations. Internally at Fathym, we use projects to organize our different domains/products (that's right, we use all of this great tech to deliver all the Fathym experiences that you... well, experience).
 
-Get started with the [create project wizard](https://www.lowcodeunit.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](./guides/applications/routes), [processors](./guides/applications/processors) and automated build pipelines (DevOps).
+Get started with the [create project wizard](https://www.fathym.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](https://www.fathym.com/docs/guides/applications/routes), [processors](https://www.fathym.com/docs/guides/applications/processors) and automated build pipelines (DevOps).
 
 ![Create Project Wizard Select Recipe](/img/screenshots/create-project-wizard-select-recipe.png)
 
@@ -35,7 +35,7 @@ Get started with the [create project wizard](https://www.lowcodeunit.com/dashboa
 
 There are a few different ways to jump in with our recipes. Start with a custom project to bring your own code, automate builds, and easily deploy and deliver to your users. Looking for a pre-baked starting point? Select a recipe and choose an open source deployment to see the system in action. Choose to fork the recipe and generate your own source code to update and deploy for your users.
 
-We'll take the open source deployment path using the Docusaurus recipe to start (though you should be able to follow along no matter which recipe you choose). Select the Docusaurus icon and you will land on the [Docusaurus recipe page](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005).
+We'll take the open source deployment path using the Docusaurus recipe to start (though you should be able to follow along no matter which recipe you choose). Select the Docusaurus icon and you will land on the [Docusaurus recipe page](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005).
 
 ![Create Project Wizard Docusaurus Recipe](/img/screenshots/create-project-wizard-docusaurus-recipe.png)
 
@@ -67,7 +67,7 @@ Now let's use the same Docusaurus recipe to create a fork in our own organizatio
 
 ![Create New Project](/img/screenshots/create-new-project.png)
 
-Once back on the [Docusaurus recipe](https://www.lowcodeunit.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005), select the <img src={forkRecipeBtn} class="text-image" /> button to launch that flow. First you'll need to connect your GitHub account so we can fork the repo and setup the initial build pipeline.
+Once back on the [Docusaurus recipe](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005), select the <img src={forkRecipeBtn} class="text-image" /> button to launch that flow. First you'll need to connect your GitHub account so we can fork the repo and setup the initial build pipeline.
 
 ![Create Project Wizard GitHub Auth](/img/screenshots/create-project-wizard-github-auth.png)
 
@@ -75,24 +75,24 @@ Once authorized, you'll land back in the recipe flow, ready to select the organi
 
 ![Create Project Wizard Fork Organization](/img/screenshots/create-project-wizard-fork-org.png)
 
-Select the organization, and when ready click deploy project. Like before, the loading screen will show, and once complete you can continue to the dashboard.  On the dashboard, you will now see both of your deployed projects and should be able to launch both (though they will be similar).
+Select the organization, and when ready click deploy project. Like before, the loading screen will show, and once complete you can continue to the dashboard. On the dashboard, you will now see both of your deployed projects and should be able to launch both (though they will be similar).
 
-![Create Project Wizard Fork Organization](/img/screenshots/dashboard-docusaurus-open-source-and-fork.png)
+![Create Project Wizard Fork Open Source Organization](/img/screenshots/docusaurus-open-source-and-fork.png)
 
 :::note
 
-If the fork version of the site does not display right away, you may be waiting on the build in GitHub to complete.  Wait a minute or two and try again and your site should show.
+If the fork version of the site does not display right away, you may be waiting on the build in GitHub to complete. Wait a minute or two and try again and your site should show.
 
 :::
 
 ### Updating the Site
 
-Before heading further into what Fathym offers, let's try out a quick change to our newly forked repository.  Navigate GitHub to the organization you selected during the forking process.  Select the forked repo (public-web-docusaurus if you are following along with us) and clone it to your local environment.  We like to use VS Code to open our projects, but there other ways to update the file like the GitHub UI.
+Before heading further into what Fathym offers, let's try out a quick change to our newly forked repository. Navigate GitHub to the organization you selected during the forking process. Select the forked repo (public-web-docusaurus if you are following along with us) and clone it to your local environment. We like to use VS Code to open our projects, but there other ways to update the file like the GitHub UI.
 
-Once you have the project open, we can make a simple update to the `docusaurus.config.js` file.  Update the title, currrently set to 'My Site', to anything of your choosing.  Now save, commit, and push your changes.  A build is automatically kicked off in GitHub after pushing and once complete, you can launch you site again and see your new title on the page.
+Once you have the project open, we can make a simple update to the `docusaurus.config.js` file. Update the title, currrently set to 'My Site', to anything of your choosing. Now save, commit, and push your changes. A build is automatically kicked off in GitHub after pushing and once complete, you can launch your site again and see your new title on the page.
 
 ## Next Steps
 
-That's it, you've deployed your first (and second) application with Fathym's Fathym. Now it's time to roll up our sleeves, break out our coding sweatpants, and explore how Fathym will help automate DevOps, enable A/B testing, support QA efforts, and turn those coding sweatpants back into couch loungers.
+That's it, you've deployed your first (and second) application with Fathym. Now it's time to roll up our sleeves, break out our coding sweatpants, and explore how Fathym will help automate DevOps, enable A/B testing, support QA efforts, and turn those coding sweatpants back into couch loungers.
 
 ![Couch Lounger](https://media.istockphoto.com/photos/retro-computer-office-nerd-at-home-office-picture-id617888054?k=20&m=617888054&s=612x612&w=0&h=mqzkJH9n_rSWtfYYFhb8blMFm53BJdxC2yy8J323RyA=)

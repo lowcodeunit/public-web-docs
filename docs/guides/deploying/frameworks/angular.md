@@ -27,11 +27,11 @@ The first step for this guide is going to be setting up our source code and init
 
 ### Source Control
 
-Let's get started setting up our GitHub repository. Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo. Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this). Now that we have a repository setup, let's clone it to our local system and open the folder with VS Code.
+Let's get started setting up our GitHub repository. Choose the organization (or your individual account) in GitHub, select the repositories tab and then new repo. Give the repo a unique name and description, select public, and I like to seed the repo with a license file (generally an MIT license for something like this). Now that we have a repository set up, let's clone it to our local system and open the folder with VS Code.
 
 ### Angular Project
 
-A full, in-depth dive into Angular is not the purpose of this article. Generally you'll want to follow along with the [latest Angular docs](https://angular.io/guide/setup-local) when creating a new project. Sometimes things change over there, but in general you'll want to run the following commands from within your new project to get it setup (replace `angular-typescript-app` with a name of your choosing).
+A full, in-depth dive into Angular is not the purpose of this article. Generally you'll want to follow along with the [latest Angular docs](https://angular.io/guide/setup-local) when creating a new project. Sometimes things change over there, but in general you'll want to run the following commands from within your new project to get it set up (replace `angular-typescript-app` with a name of your choosing).
 
 Start by installing the latest cli.
 
@@ -45,7 +45,7 @@ Now we can see our initial typescript application.
 ng new angular-typescript-app
 ```
 
-You'll have some different options to select as you go through the setup. We shoce to use routing and SASS, but you may select whatever makes sense for you. Next, we like to move the contents of the `angular-typescript-app` (or whatever you may have named your project) directory up to the root of the project. This will leave a starting point that looks something like the following:
+You'll have some different options to select as you go through the setup. We chose to use routing and SASS, but you may select whatever makes sense for you. Next, we like to move the contents of the `angular-typescript-app` (or whatever you may have named your project) directory up to the root of the project. This will leave a starting point that looks something like the following:
 
 ![Angular raw project](/img/screenshots/angular-raw-project.png)
 
@@ -59,13 +59,13 @@ With the site up and running on `localhost:4200`, go ahead and commit the change
 
 :::note
 
-If your using VS Code, make sure to install the latest [angular extension pack](https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack).
+If you're using VS Code, make sure to install the latest [angular extension pack](https://marketplace.visualstudio.com/items?itemName=loiane.angular-extension-pack).
 
 :::
 
 ## Deploying the Code
 
-With code ready to go, we can setup our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.lowcodeunit.com/dashboard/create-project?recipeId=custom) flow.
+With code ready to go, we can setup our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow.
 
 :::note
 
@@ -75,9 +75,9 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 ### Project Setup
 
-Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to setup the source control by selecing the organization, repository, and branch setup previously with your Angular example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./dist/angular-typescript-app` (make sure to change angular-typescript-app to your app name).
+Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to set up the source control by selecing the organization, repository, and branch set up previously with your Angular example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./dist/angular-typescript-app` (make sure to change angular-typescript-app to your app name).
 
-![Create Project Wizard Custom Project Build Pipeline Angular](/img/screenshots/create-project-wizard-custom-project-build-pipeline-angular.png)
+![Create Wizard Custom Build Pipeline Angular](/img/screenshots/create-wizard-custom-pipeline-angular.png)
 
 You can now deploy your project, and after complete head into the dashboard. A new build will be running, and once that is done you can launch your custom Angular project and see it running at your temporary domain.
 
@@ -93,6 +93,6 @@ As a bonus last step, you can follow our [custom domain guide](../../../getting-
 
 ## Next Steps
 
-Now your all setup with a functioning development through deployment workflow for your Angular project. Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users. Happy coding!
+Now you're all set up with a functioning development through deployment workflow for your Angular project. Make changes and commit them to your repository, then follow our [updating views guide](../../applications/updating) to learn more on updating your builds, and use our [testing use cases](../../applications/testing-use-cases) to learn how you can test new builds before releasing them to your users. Happy coding!
 
-Fathym is an all-in-one platform for running web projects. This means you can use Fathym for deploying most, if not all, of your web projects. Fathym is simple to use and setup which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.fathym.com](https://www.fathym.com)
+Fathym is an all-in-one platform for running web projects. This means you can use Fathym for deploying most, if not all, of your web projects. Fathym is simple to use and set up which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at [www.fathym.com](https://www.fathym.com)

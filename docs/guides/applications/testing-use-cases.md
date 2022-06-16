@@ -21,13 +21,13 @@ One approach that can be used is to create a set of dedicated routes for testing
 
 :::note
 
-This approach won't always work as not all applications can easily be run on paths that aren't defined at build time.  While this can be overcome in the build process, it becomes a cumbersome approach due to the cuztomizations needed in DevOps.  No worries, if this is your issue, header filters can help with testing scenarios on a shared path.
+This approach won't always work as not all applications can easily be run on paths that aren't defined at build time.  While this can be overcome in the build process, it becomes a cumbersome approach due to the customizations needed in DevOps.  No worries, if this is your issue, header filters can help with testing scenarios on a shared path.
 
 :::
 
 ### Individual Testing Routes
 
-Let's say that Matt is a QA resource assigned to test a story from one of the developers on the public web application.  In order to setup a route to execute his testing, that won't impact the production site, he creates a new testing route for `/qa/matt/public-web` and configures the application to point at the version of the public web application the developer completed and needs tested. 
+Let's say that Matt is a QA resource assigned to test a story from one of the developers on the public web application.  In order to set up a route to execute his testing, that won't impact the production site, he creates a new testing route for `/qa/matt/public-web` and configures the application to point at the version of the public web application the developer completed and needs tested. 
 
 ### Team Testing Routes
 

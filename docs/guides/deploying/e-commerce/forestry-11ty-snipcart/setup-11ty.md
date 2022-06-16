@@ -12,9 +12,9 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Setup 11ty
+# Set Up 11ty
 
-The next step we like to execute is roughing in our code.  This is the phase in which we setup our workspace, install initial frameworks/dependencies, and prepare to start our custom development.  Start by cloning your new project repository, using the shell of your choosing or your favorite IDE.  We like to use [VS Code](https://code.visualstudio.com/download) for our open source projects, and it will work perfect for you to get through this guide as well.  
+The next step we like to execute is roughing in our code.  This is the phase in which we set up our workspace, install initial frameworks/dependencies, and prepare to start our custom development.  Start by cloning your new project repository, using the shell of your choosing or your favorite IDE.  We like to use [VS Code](https://code.visualstudio.com/download) for our open-source projects, and it will work perfect for you to get through this guide as well.  
 
 ## Clone Repository
 
