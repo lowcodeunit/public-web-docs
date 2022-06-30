@@ -20,7 +20,7 @@ import deployProjectBtn from '../../static/img/screenshots/deploy-project-button
 
 # Deploying Custom Code
 
-So far so good, we've created and deployed some initial projects in the previous step of this guide. Now your thinking, "I've got my own code" or "I'd like to see how to bring a from scratch project." No worries, we've got you covered with the custom project option.
+So far so good, we've created and deployed some initial projects in the previous step of this guide. Now you're thinking, "I've got my own code" or "I'd like to bring in a new project from scratch." No worries, we've got you covered with the custom project option.
 
 Let's create our own project with GitHub source control, automated DevOps, and a Fathym project for deployment hosting. Keeping with the theme, we'll start with a simple JS, HTML, CSS site, though any modern static site (Docusaurus, eleventy...) or frontend framework (Angular, React, Vue, Svelte...) approach will work.
 
