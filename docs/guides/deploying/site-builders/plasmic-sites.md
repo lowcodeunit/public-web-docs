@@ -75,7 +75,7 @@ Make sure both of the package.json files have the same 'name' and 'version'.
 
 10. Your Plasmic site is now ready to rock! Click the Launch icon <img src={launchBtn} class="text-image" /> to view your site hosted on fathym.com. 
 
-Start a free trial at https://www.fathym.com
+Start a free trial at https://www.fathym.com/dashboard
 
 ## Learn More
 Fathym is an all-in-one platform for running web projects. This means you can use Fathym for hosting most, if not all, of your web projects. Fathym is simple to use and set up which works perfectly when you have a basic website you want to get up and open for the world to use quickly – like this Plasmic site. Sign up at https://www.fathym.com
