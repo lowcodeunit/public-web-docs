@@ -20,11 +20,61 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
 
 ![plasmic preview](/img/screenshots/designs-that-adapt-preview.png)
 
-:::info Prerequisites
+:::note Prerequisites
 - When publishing your site from Plasmic Studio, use the CodeGen mode and publish to GitHub. 
 :::
 
-## Create and Publish your NPM Package
+You have two options when hosting with Fathym: GitHub and NPM.
+
+1. <a href="#host-github">Host your site from GitHub.</a>
+2. <a href="#host-npm">Host your site from NPM.</a>
+
+## Host your site from GitHub {#host-github}
+
+## Step 1: Update YML file
+
+:::info Update the plasmic-push.yml file
+- When viewing your repo in GitHub, click on the `.github/workflows` folder and then select the `plasmic-push.yml` file.
+- At the bottom of the file, add the following lines, and then commit the file:
+
+ ```jsx
+ # publish github artifacts
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: jeremytomlinson-designsthatadapt
+          path: ${{ steps.build.outputs.publish_dir }}
+
+- Replace `jeremytomlinson-designsthatadapt` with your project settings. Use your `githubUsername-nameOfgithubRepo` 
+:::
+
+## Step 2: Fathym Hosting with GitHub
+
+1. Create a Fathym Account. Sign up at https://www.fathym.com.  
+
+2. After signup, authorize with GitHub and select which organization(s) to make available inside of Fathym.
+
+3. On the Projects page, select `Create New Project`. 
+
+4. In Fathym, select your application and fill out the `Create an Application` form. Note: the route is the path your app will be served on. For example, https://shared.fathym.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
+
+6. In the `Processor Details` section, select the type of project. In this case we're using a `View Package`. 
+
+7. Use "index.html" as the Default file.
+
+8. For the second Type field, select `GitHub`.  
+
+9. Select your Organization, Repository, Build Path, and Build Number and click `Save Application`. 
+    - Build Path: Select `plasmic-push.yml`
+    - Build Number: You can select any build of your repository. It doesn't have to be the latest build. If you're not sure what build to use, enter `latest`.
+
+10. Your Plasmic site is now ready to rock! Click the Launch icon <img src={launchBtn} class="text-image" /> to view your site hosted on fathym.com. 
+
+---
+
+## Host your site from NPM {#host-npm}
+
+## Step 1: Create and Publish your NPM Package
 
 1. In the package.json file, change the name to be what you want the NPM package to be named. For example:
 
@@ -57,7 +107,7 @@ Make sure both of the package.json files have the same 'name' and 'version'.
 
 4. In your Visual Studio Code terminal, run "npm run deploy" to create and deploy the NPM package to https://www.npmjs.com/. It normally takes a few minutes for your NPM package to appear on https://www.npmjs.com/
 
-## Let's Get Started with Hosting
+## Step 2: Fathym Hosting with NPM
 
 1. Create a Fathym Account. Sign up at https://www.fathym.com.  
 
