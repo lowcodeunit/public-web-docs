@@ -26,8 +26,8 @@ You’ve built a new Plasmic website and now you need to get it online. Where do
 
 You have two options when hosting with Fathym: GitHub and NPM.
 
-1. [Host your site from GitHub.](#host-github)
-2. [Host your site from NPM.](#host-npm)
+1. [Host your site from GitHub.](./plasmic-sites#host-github)
+2. [Host your site from NPM.](./plasmic-sites#host-npm)
 
 ## Host your site from GitHub {#host-github}
 
