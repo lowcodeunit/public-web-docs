@@ -18,7 +18,7 @@ import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 Getting your next site up and running with Svelte is a breeze with Fathym.  Here, we'll work throughp the basics: a generic Svelte site and the Fathym setup (to power DevOps and deployment) so that you can focus on customizing your user experience.
 
-If you'd like to skip ahead and get right to deploying, try a fork of this [Svelte example](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000004) and be coding in minutes.
+If you'd like to skip ahead and get right to deploying, try a fork of this [Svelte example](https://www.fathym.com/dashboard/create-project/recipe/svelte) and be coding in minutes.
 
 ## Setting up the code
 
@@ -38,7 +38,7 @@ npx degit sveltejs/template svelte-typescript-app
 
 Next, we like to move the contents of the `svelte-typescript-app` (or whatever you may have named your project) directory up to the root of the project.  This will leave a starting point that looks something like the following:
 
-![Svelte raw project](/img/screenshots/svelte-raw-project.png)
+![Svelte raw project](https://www.fathym.com/img/screenshots/svelte-raw-project.png)
 
 Optionally if you want to enable typescript, run this command:
 
@@ -64,7 +64,7 @@ If you're using VS Code, make sure to install the latest [official extension](ht
 
 ## Deploying the Code
 
-With code ready to go, we can set up our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow.
+With code ready to go, we can set up our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project/custom) flow.
 
 :::note
 
@@ -76,7 +76,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to set up the source control by selecing the organization, repository, and branch set up previously with your Svelte example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./public` (this is where the contents of the compiled app, and index.html or other default file lives).
 
-![Create Wizard Custom Build Pipeline Svelte](/img/screenshots/create-wizard-custom-pipeline-svelte.png)
+![Create Wizard Custom Build Pipeline Svelte](https://www.fathym.com/img/screenshots/create-wizard-custom-pipeline-svelte.png)
 
 You can now deploy your project, and after complete head into the dashboard.  A new build will be running, and once that is done you can launch your custom Svelte project and see it running at your temporary domain.
 

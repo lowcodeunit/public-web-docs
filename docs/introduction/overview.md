@@ -19,7 +19,7 @@ We take care of the tedious, boilerplate aspects of project delivery so you can 
 
 Deliver your next project with Fathym to benefit from incremental upgrades, decoupled codebases, independent deployments, and team autonomy.
 
-![Dashboard New](/img/screenshots/dashboard-welcome.png)
+![Dashboard New](https://www.fathym.com/img/ui1.png)
 
 ## Code and Deploy
 

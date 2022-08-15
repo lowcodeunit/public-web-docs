@@ -36,7 +36,7 @@ npx create-docusaurus@latest my-website classic
 
 Next, we like to move the contents of the `my-website` (or whatever you may have named your project) directory up to the root of the project.  This will leave a starting point that looks something like the following:
 
-![docusaurus raw project](/img/screenshots/docusaurus-raw-project.png)
+![docusaurus raw project](https://www.fathym.com/img/screenshots/docusaurus-raw-project.png)
 
 Now start and run the site locally using the following command:
 
@@ -68,7 +68,7 @@ Save the configuration and a new GitHub action will be created, and a new build 
 
 With our DevOps pipeline in place and a build completed, we can now use the GitHub artifact to deploy our code.  From the Applications Flow tab, you should already be on the create application screen.  Fill out the information for your repository, and select the correct GitHub view package settings.  Your configuration should look like the following:
 
-![docusaurus application config](/img/screenshots/docusaurus-application-config.png)
+![docusaurus application config](https://www.fathym.com/img/screenshots/docusaurus-application-config.png)
 
 Save this form and your GitHub artifacts will be unpacked in the DFS for delivery to your users.
 

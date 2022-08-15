@@ -19,7 +19,7 @@ import devOpsTab from '../../../../static/img/screenshots/devops-tab.png';
 
 Getting your next site up and running with Angular is a breeze with Fathym. Here, we'll quickly look at setting up the basics: a generic Angular site and the Fathym setup, to power DevOps and deployment, so that you can focus on customizing and developing your user experience.
 
-If you'd like to skip ahead and get right to deploying, try a fork of this [Angular example](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000001) and be coding in minutes.
+If you'd like to skip ahead and get right to deploying, try a fork of this [Angular example](https://www.fathym.com/dashboard/create-project/recipe/angular) and be coding in minutes.
 
 ## Setting up the code
 
@@ -47,7 +47,7 @@ ng new angular-typescript-app
 
 You'll have some different options to select as you go through the setup. We chose to use routing and SASS, but you may select whatever makes sense for you. Next, we like to move the contents of the `angular-typescript-app` (or whatever you may have named your project) directory up to the root of the project. This will leave a starting point that looks something like the following:
 
-![Angular raw project](/img/screenshots/angular-raw-project.png)
+![Angular raw project](https://www.fathym.com/img/screenshots/angular-raw-project.png)
 
 The npm packages were already installed, so you can now run the following command to start your site:
 
@@ -65,7 +65,7 @@ If you're using VS Code, make sure to install the latest [angular extension pack
 
 ## Deploying the Code
 
-With code ready to go, we can setup our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project?recipeId=custom) flow.
+With code ready to go, we can setup our Fathym project for builds, deployments, and hosting. You'll need a free account from Fathym to get started. Open the create project wizard to the [custom project](https://www.fathym.com/dashboard/create-project/custom) flow.
 
 :::note
 
@@ -77,7 +77,7 @@ For an in-depth look at the setup and configuration, check out the [getting star
 
 Within the custom project flow of the wizard, you can start by connecting to GitHub, if you haven't already, and then input a project name and click next. Now it's time to set up the source control by selecing the organization, repository, and branch set up previously with your Angular example code. Click next, and you'll be on the final build screen. You can leave the build and install commands at their defaults (`npm run build` and `npm ci` respectively). Make sure that the output directory is set to `./dist/angular-typescript-app` (make sure to change angular-typescript-app to your app name).
 
-![Create Wizard Custom Build Pipeline Angular](/img/screenshots/create-wizard-custom-pipeline-angular.png)
+![Create Wizard Custom Build Pipeline Angular](https://www.fathym.com/img/screenshots/create-wizard-custom-pipeline-angular.png)
 
 You can now deploy your project, and after complete head into the dashboard. A new build will be running, and once that is done you can launch your custom Angular project and see it running at your temporary domain.
 
