@@ -20,6 +20,8 @@ import createNewProjectBtn from '../../static/img/screenshots/create-new-project
 import deployOpenSourceBtn from '../../static/img/screenshots/deploy-from-open-source-button.png';
 import continueToDashboardBtn from '../../static/img/screenshots/continue-to-dashboard-button.png';
 import forkRecipeBtn from '../../static/img/screenshots/fork-recipe-button.png';
+import forkRecipeBtn2 from '../../static/img/screenshots/fork-recipe-button-2.png';
+import deployOpenSourceBtn2 from '../../static/img/screenshots/deploy-from-open-source-button-2.png';
 
 # Creating your First Project
 
@@ -29,29 +31,29 @@ A project is used to organize your applications and other configurations. Intern
 
 Get started with the [create project wizard](https://www.fathym.com/dashboard/create-project), a streamlined way of configuring and setting up your project's applications, [routing](https://www.fathym.com/docs/guides/applications/routes), [processors](https://www.fathym.com/docs/guides/applications/processors) and automated build pipelines (DevOps).
 
-![Create Project Wizard Select Recipe](/img/screenshots/create-project-wizard-select-recipe.png)
+![Create Project Wizard Select Recipe](https://www.fathym.com/img/ui4.png)
 
 ## Select Recipe
 
 There are a few different ways to jump in with our recipes. Start with a custom project to bring your own code, automate builds, and easily deploy and deliver to your users. Looking for a pre-baked starting point? Select a recipe and choose an open source deployment to see the system in action. Choose to fork the recipe and generate your own source code to update and deploy for your users.
 
-We'll take the open source deployment path using the Docusaurus recipe to start (though you should be able to follow along no matter which recipe you choose). Select the Docusaurus icon and you will land on the [Docusaurus recipe page](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005).
+We'll take the open source deployment path using the [Docusaurus Recipe](https://www.fathym.com/dashboard/create-project/recipe/docusaurus) to start (though you should be able to follow along no matter which recipe you choose).
 
-![Create Project Wizard Docusaurus Recipe](/img/screenshots/create-project-wizard-docusaurus-recipe.png)
+![Create Project Wizard Docusaurus Recipe](https://www.fathym.com/img/screenshots/create-project-wizard-docusaurus-recipe.png)
 
-Now we can start with the <img src={deployOpenSourceBtn} class="text-image" /> button to get our recipe deployed.
+Now we can start with the <img src={deployOpenSourceBtn2} class="text-image" /> button to get our recipe deployed.
 
-![Create Project Wizard Deploying](/img/screenshots/create-project-wizard-deploying.png)
+![Create Project Wizard Deploying](https://www.fathym.com/img/screenshots/create-project-wizard-deploying.png)
 
 Once the loading screen is complete, select the <img src={continueToDashboardBtn} class="text-image" /> button and you'll be directed into the dashboard to check out what's been deployed.
 
-![Dashboard Docusaurus Open Source](/img/screenshots/dashboard-docusaurus-open-source.png)
+![Dashboard Docusaurus Open Source](https://www.fathym.com/img/screenshots/dashboard-new.png)
 
 ## The Project and Application
 
 On the dashboard you'll see the project, where right away you can click the <img src={launchBtn} class="text-image" /> button to see the open source Docusaurus site deployed live. This showcases how Fathym can be used quickly for hosting NPM packages (as you can see if you dig into the application's processor settings).
 
-![Processor Details NPM Docusaurus Latest](/img/screenshots/processor-details-npm-docusaurus-latest.png)
+![Processor Details NPM Docusaurus Latest](https://www.fathym.com/img/screenshots/processor-details-npm-docusaurus-latest.png)
 
 While this view into hosting is good, we want a way to explore the more in depth features of Fathym like automated build pipelines and deployments. We need to be able to make code changes, check them in and easily see our hard work in action. So we'll get back to the NPM package based deployments and when to use them later in the documentation.
 
@@ -63,21 +65,21 @@ An application is used to process a request made to your domains. Routes are def
 
 ## Forking a Recipe
 
-Now let's use the same Docusaurus recipe to create a fork in our own organization that we can work with. Click on create new project to jump back into the wizard.
+Now let's use the same Docusaurus recipe to create a fork in our own organization that we can work with. Click on Add Project to jump back into the wizard.
 
-![Create New Project](/img/screenshots/create-new-project.png)
+![Create New Project](https://www.fathym.com/img/screenshots/create-new-project.png)
 
-Once back on the [Docusaurus recipe](https://www.fathym.com/dashboard/create-project?recipeId=00000000-0000-0000-0000-000000000005), select the <img src={forkRecipeBtn} class="text-image" /> button to launch that flow. First you'll need to connect your GitHub account so we can fork the repo and setup the initial build pipeline.
+Once back on the [Docusaurus Recipe](https://www.fathym.com/dashboard/create-project/recipe/docusaurus), select the <img src={forkRecipeBtn2} class="text-image" /> button to launch that flow. First you'll need to connect your GitHub account so we can fork the repo and setup the initial build pipeline.
 
-![Create Project Wizard GitHub Auth](/img/screenshots/create-project-wizard-github-auth.png)
+![Create Project Wizard GitHub Auth](https://www.fathym.com/img/screenshots/create-project-wizard-github-auth.png)
 
 Once authorized, you'll land back in the recipe flow, ready to select the organization that you would like to fork the recipe into.
 
-![Create Project Wizard Fork Organization](/img/screenshots/create-project-wizard-fork-org.png)
+![Create Project Wizard Fork Organization](https://www.fathym.com/img/screenshots/create-project-wizard-fork-org.png)
 
 Select the organization, and when ready click deploy project. Like before, the loading screen will show, and once complete you can continue to the dashboard. On the dashboard, you will now see both of your deployed projects and should be able to launch both (though they will be similar).
 
-![Create Project Wizard Fork Open Source Organization](/img/screenshots/docusaurus-open-source-and-fork.png)
+![Create Project Wizard Fork Open Source Organization](https://www.fathym.com/img/screenshots/docusaurus-open-source-and-fork.png)
 
 :::note
 

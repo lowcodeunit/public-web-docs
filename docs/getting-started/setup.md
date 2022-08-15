@@ -23,8 +23,8 @@ To kick things off, visit the [Fathym](https://www.fathym.com/dashboard/create-p
 
 Once signed in for the first time, the Fathym create project wizard will load to help set up your free license.  The [next step](create-first-project) in this guide will walk you through this wizard.
 
-![Create Project Wizard Select Recipe](/img/screenshots/create-project-wizard-select-recipe.png)
+![Create Project Wizard Select Recipe](https://www.fathym.com/img/ui4.png)
 
 After completing initial project setup, the dashboard will be your all-in-one platform for modern web projects. A control system for applications, DevOps, identity, hosting, QA, security and more.
 
-![Dashboard New](/img/screenshots/dashboard-new.png)
+![Dashboard New](https://www.fathym.com/img/screenshots/dashboard-new.png)

@@ -19,7 +19,7 @@ You’ve built a new Power BI report and now you need to get it online. I’ve u
 
 Now the question is: Where do I host it? This is where Fathym saves the day! Follow these steps to get your Power BI webpage up and running in minutes. 
 
-![power bi report](/img/screenshots/powerbi-report.jpg)
+![power bi report](https://www.fathym.com/img/screenshots/powerbi-report.jpg)
 
 :::info Prerequisites
 - You need GitHub and npm accounts. 
@@ -31,14 +31,14 @@ Now the question is: Where do I host it? This is where Fathym saves the day! Fol
 
 2. After signup, authorize with GitHub and select which organization(s) to make available inside of Fathym. 
 
-3. On the Projects page, select `Create New Project`. 
+3. On the Projects page, select `Add Project`. 
 
 4. As of today, Fathym needs a npm package to host your web project. If your web project is already on npm, continue to step 5. If your web project is not on npm, follow these steps and Fathym will easily create and deploy your npm package from your GitHub repo in a couple of minutes. It's fast and easy.
     
     >Follow these steps to have Fathym create/deploy your npm package:
     >- Click the button to add an Application. 
     >
-    >- Before you fill out the `Create an Application` form, click on the DevOps tab and click the `Create New` button. This is where we'll configure the automated build and release process for your GitHub repository.
+    >- Before you fill out the `Add App` form, click on the DevOps tab and click the `Create New` button. This is where we'll configure the automated build and release process for your GitHub repository.
     >
     >- In the Source Control form, select your GitHub organization, the repository, and any branches you’d like to host in Fathym. Also select your repo’s Main Branch. 
     >
