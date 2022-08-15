@@ -18,7 +18,7 @@ import launchBtn from '../../../../static/img/screenshots/launch-button.png';
 
 You’ve built a new Plasmic website and now you need to get it online. Where do you host it? What's the easiest? This is where Fathym saves the day! Follow these steps to get your Plasmic site up and running in minutes. 
 
-![plasmic preview](/img/screenshots/designs-that-adapt-preview.png)
+![plasmic preview](https://www.fathym.com/img/screenshots/designs-that-adapt-preview.png)
 
 :::note Prerequisites
 - When publishing your site from Plasmic Studio, use the CodeGen mode and publish to GitHub. 
@@ -54,9 +54,9 @@ You have two options when hosting with Fathym: GitHub and NPM.
 
 2. After signup, authorize with GitHub and select which organization(s) to make available inside of Fathym.
 
-3. On the Projects page, select `Create New Project`. 
+3. On the Projects page, select `Add Project`. 
 
-4. In Fathym, select your application and fill out the `Create an Application` form. Note: the route is the path your app will be served on. For example, https://shared.fathym.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
+4. In Fathym, select your application and fill out the `Add App` form. Note: the route is the path your app will be served on. For example, https://shared.fathym.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
 
 6. In the `Processor Details` section, select the type of project. In this case we're using a `View Package`. 
 
@@ -111,9 +111,9 @@ Make sure both of the package.json files have the same 'name' and 'version'.
 
 1. Create a Fathym Account. Sign up at https://www.fathym.com.  
 
-3. On the Projects page, select `Create New Project`. 
+3. On the Projects page, select `Add Project`. 
 
-4. In Fathym, select your application and fill out the `Create an Application` form. Note: the route is the path your app will be served on. For example, https://shared.fathym.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
+4. In Fathym, select your application and fill out the `Add App` form. Note: the route is the path your app will be served on. For example, https://shared.fathym.com/plasmicsite. In this case, the **/plasmicsite** is the route. You can choose any route for your web project. In addition, the same web project can be hosted multiple times on different routes if desired. This is especially useful for QA and Testing.
 
 6. In the `Processor Details` section, select the type of project. In this case we're using a `View Package`. 
 
