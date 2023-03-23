@@ -91,6 +91,11 @@ module.exports = {
             //      'guides/static-vs-framework/js-frameworks/overview',
             //    ],
             //  },
+          ],'Enterprise as Code (EaC)': [
+            'guides/enterprise-as-code/overview',
+            'guides/enterprise-as-code/github-html-server-composition',
+            'guides/enterprise-as-code/npm-tailwind-react',
+            'guides/enterprise-as-code/going-cloud-with-azure',
           ],
           // 'Atomic Design': ['guides/atomic-design/overview'],
           // 'SaaS Licensing': ['guides/saas-licensing/overview'],
