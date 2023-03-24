@@ -1,7 +1,7 @@
 ---
-title: Getting Started - NPM Tailwind React
+title: Getting Started - Expand with React, Tailwind and NPM 
 hide_title: true
-sidebar_label: NPM Tailwind React
+sidebar_label: Expand with React, Tailwind and NPM 
 keywords:
     - websites
     - applications

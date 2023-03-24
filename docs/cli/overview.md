@@ -1,7 +1,7 @@
 ---
-title: Introduction - Overview
+title: Introduction - Getting started with the CLI 
 hide_title: true
-sidebar_label: Overview
+sidebar_label: Getting started with the CLI 
 keywords:
     - websites
     - applications

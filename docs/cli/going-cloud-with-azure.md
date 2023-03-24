@@ -1,7 +1,7 @@
 ---
-title: Getting Started - Going Cloud with Azure
+title: Getting Started - Go Cloud with Fathym and Azure
 hide_title: true
-sidebar_label: Going Cloud with Azure
+sidebar_label: Go Cloud with Fathym and Azure
 keywords:
     - websites
     - applications

@@ -1,7 +1,7 @@
 ---
-title: Getting Started - GitHub HTML Server Composition
+title: Getting Started - Add GitHub CI/CD and server-side composition 
 hide_title: true
-sidebar_label: GitHub HTML Server Composition
+sidebar_label: Add GitHub CI/CD and server-side composition 
 keywords:
     - websites
     - applications
