@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym Beta',
+  title: 'Fathym',
   tagline: 'Build, deploy, and scale modern web projects',
   url: 'https://www.fathym.com',
   baseUrl: '/docs/',
@@ -50,19 +50,13 @@ module.exports = {
         //   target: '_top',
         // },
         {
-          to: '/',
+          to: 'https://www.fathym.com/docs/',
           label: 'Docs',
           position: 'right',
         },
         {
           to: 'https://www.fathym.com/blog/',
           label: 'Blog',
-          position: 'right',
-          target: '_top',
-        },
-        {
-          to: 'https://www.fathym.com/pricing',
-          label: 'Pricing',
           position: 'right',
           target: '_top',
         },
