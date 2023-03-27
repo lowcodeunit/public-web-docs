@@ -1,7 +1,7 @@
 ---
-title: Introduction - Getting started with the CLI 
+title: Introduction - Getting Started with Fathym CLI
 hide_title: true
-sidebar_label: Getting started with the CLI 
+sidebar_label: Getting Started with Fathym CLI 
 keywords:
     - websites
     - applications
@@ -10,11 +10,23 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Getting Started with Fathym
+# Getting Started with Fathym CLI 
 
-Fathym is a framework and platform designed to streamline the development and deployment process for applications. It provides a variety of tools and features to manage the entire DevOps workflow, from development to deployment. With Fathym, you can quickly launch full-blown IoT infrastructure or use LCU recipes to get your application up and running in no time.
+Fathym is a framework and platform designed to streamline the development and deployment process for applications. It provides a variety of tools and features to manage the entire DevOps workflow, from development to deployment. With Fathym, you can quickly launch full-blown IoT infrastructure or use LCU recipes to get your application up and running in no time. 
 
-In this tutorial, we'll walk you through the process of setting up a static site using Fathym. By the end of this tutorial, you'll have a solid understanding of how Fathym works and how it can help accelerate application delivery.
+The Fathym CLI gives you the most flexibility and control for how you can craft solutions with Fathym. In this tutorial, we'll walk through the process of setting up a static site using the Fathym CLI. By the end of this tutorial, you'll have a solid understanding of the fundamentals of how Fathym works and how the CLI helps accelerate application delivery.  
+
+## LCU and EaC 
+
+LCU and EaC are two terms that come up a lot in this tutorial, so we'll introduce them now.  
+
+At its core, Fathym is a solution that allows you to efficiently craft solutions by combining custom, open-source, and SaaS/third party software components – what we call LowCodeUnits (LCUs). LCUs are composable automations of software components, configurations and services, the building blocks of the Fathym world. These flexible automations are versatile and can range from small instructions for scaffolding code, to API proxies, cloud resources or applications.  
+
+When LCUs are invoked to craft solutions, they are committed to what we call Enterprise as Code (EaC). EaC is a directed graph database and command structure that defines and stores everything that makes up your Fathym enterprise.  
+
+A Fathym enterprise is essentially a user’s Fathym account. It is the default structure and system that greets new users and the portfolio of any projects and applications that are deployed, hosted and stored in this structure. EaC is the all-in-one map and data and configuration store of the resources, services and workflows that make up your Fathym enterprise.  
+
+As you go through these docs you will notice that a lot of CLI commands contain "eac". These commands are updating and giving instructions to the EaC, creating repositories, deploying applications, and much more. 
 
 ## Building with Markdown
 
