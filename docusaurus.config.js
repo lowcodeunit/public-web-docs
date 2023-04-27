@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Fathym Beta',
+  title: 'Fathym',
   tagline: 'Build, deploy, and scale modern web projects',
   url: 'https://www.fathym.com',
   baseUrl: '/docs/',
@@ -10,9 +10,6 @@ module.exports = {
   organizationName: 'lowcodeunit', // Usually your GitHub org/user name.
   projectName: 'public-web-docs', // Usually your repo name.
   themeConfig: {
-    gtag: {
-      trackingID: 'G-NEWEXH7W8C',
-    },
     oribi: {
       trackingID: 'XzcwMzAwMzkyNA',
     },
@@ -53,19 +50,13 @@ module.exports = {
         //   target: '_top',
         // },
         {
-          to: '/',
+          to: 'https://www.fathym.com/docs/',
           label: 'Docs',
           position: 'right',
         },
         {
           to: 'https://www.fathym.com/blog/',
           label: 'Blog',
-          position: 'right',
-          target: '_top',
-        },
-        {
-          to: 'https://www.fathym.com/pricing',
-          label: 'Pricing',
           position: 'right',
           target: '_top',
         },
@@ -140,15 +131,18 @@ module.exports = {
   presets: [
     [
       '@docusaurus/preset-classic',
-      {
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
-          // The lowcodeunit website repo
-          // editUrl: 'https://github.com/lowcodeunit/public-web-docs/edit/master/website/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+        {
+          docs: {
+            sidebarPath: require.resolve('./sidebars.js'),
+            routeBasePath: '/',
+            // The lowcodeunit website repo
+            // editUrl: 'https://github.com/lowcodeunit/public-web-docs/edit/master/website/',
+          },
+          theme: {
+            customCss: require.resolve('./src/css/custom.css'),
+          },
+          gtag: {
+            trackingID: 'G-NEWEXH7W8C',
         },
       },
     ],
