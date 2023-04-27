@@ -96,6 +96,12 @@ module.exports = {
           // 'SaaS Licensing': ['guides/saas-licensing/overview'],
         },
       ],
+      'CLI': [
+        'cli/overview',
+        'cli/github-html-server-composition',
+        'cli/npm-tailwind-react',
+        'cli/going-cloud-with-azure',
+      ],
       // Recipes: [
 
       // ]
