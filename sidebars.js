@@ -96,6 +96,11 @@ module.exports = {
           // 'SaaS Licensing': ['guides/saas-licensing/overview'],
         },
       ],
+      'Templates': [
+        'templates/baserow-launch-pad',
+        'templates/alfresco-adf-launch-pad',
+        'templates/alfresco-community-azure-launch-pad',
+      ],
       'CLI': [
         'cli/overview',
         'cli/github-html-server-composition',
