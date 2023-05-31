@@ -136,11 +136,11 @@ You can click the edit buttons on each route to see what’s going on behind the
 
 The following modular routes have been deployed to a domain that was automatically generated:
 
-A simple landing page (on route /) with information about this launch pad. This was deployed from the [repository](https://github.com/fathym-it/lcu-baserow-starter) that was forked to your GitHub organization. Any time you commit changes to your code in this repository it will trigger a GitHub Actions build and will update the project hosted on Fathym.
+A simple landing page (on route /) with information about this launch pad. This was deployed from the [repository](https://github.com/fathym-it/landing-page-baserow-launchpad) that was forked to your GitHub organization. Any time you commit changes to your code in this repository it will trigger a GitHub Actions build and will update the project hosted on Fathym.
 
 An API proxy is configured (on route /api) to securely connect your Fathym enterprise to your self-hosted Baserow instance. We will do some additional configuration in the next step.
 
-A Material UI React site (on route /baserow) that is a starting point for custom development powered by Baserow. This was deployed from an NPM Package.
+An NPM Package (on route /baserow) that is a starting point for custom development powered by Baserow.
 
 ## Integrate Fathym and Baserow
 
