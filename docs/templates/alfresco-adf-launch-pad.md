@@ -145,9 +145,9 @@ The following modular routes have been deployed to a domain generated in your Fa
 
 3. The Alfresco Angular application (on route /dashboard) is a starting point for custom development with ADF. This was deployed from an NPM Package.
 
-4. A simple landing page (on route /home) with information about this launch pad. This was deployed from the [repository](https://github.com/fathym-hyland/alfresco-default) that was forked to your GitHub organization. Any time you commit changes to your code in this repository it will trigger a GitHub Actions build and will update the project hosted on Fathym.
+4. A simple landing page (on route /home) with information about this launch pad. This was deployed from the [repository](https://github.com/fathym-it/landing-page-alfresco-launchpad) that was forked to your GitHub organization. Any time you commit changes to your code in this repository it will trigger a GitHub Actions build and will update the project hosted on Fathym.
 
-5. Finally, an instance of Storybook (on route /qa) has been provisioned to help manage the testing of any custom ADF components.
+5. Finally, an instance of Storybook (on route /qa/storybooks/hyland-flow) has been provisioned to help manage the testing of any custom ADF components.
 
 ## Integrate Fathym and Alfresco
 
