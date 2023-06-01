@@ -136,7 +136,7 @@ You can click the edit buttons on each route to see what’s going on behind the
 
 The following modular routes have been deployed to a domain that was automatically generated:
 
-A simple landing page (on route /) with information about this launch pad. This was deployed from the [repository](https://github.com/fathym-it/landing-page-baserow-launchpad) that was forked to your GitHub organization. Any time you commit changes to your code in this repository it will trigger a GitHub Actions build and will update the project hosted on Fathym.
+A simple landing page (on route /) with information about this launch pad. This was deployed from the [repository](https://github.com/fathym-it/landing-page-baserow-launchpad) that was forked to your GitHub organization. This landing page was created using the visual page builder [Plasmic](https://www.plasmic.app/) and showcases Fathym's ability to host repositories from GitHub.
 
 An API proxy is configured (on route /api) to securely connect your Fathym enterprise to your self-hosted Baserow instance. We will do some additional configuration in the next step.
 
