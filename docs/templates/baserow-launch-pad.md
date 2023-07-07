@@ -154,6 +154,6 @@ When you have this, click the edit button for the API proxy on the /api route.
 
 ![Baserow API App](https://www.fathym.com/img/baserow-api-app.png)
 
-Input the Baserow authorization API token in the API Root field and click save.
+Input the Baserow authorization API token in the Security field and click save.
 
 Your Fathym enterprise and Baserow instance are now integrated. Now you can develop and deploy Baserow powered applications that pull in and display content that is managed in your Baserow database.
