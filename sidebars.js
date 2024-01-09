@@ -96,10 +96,11 @@ module.exports = {
           // 'SaaS Licensing': ['guides/saas-licensing/overview'],
         },
       ],
-      'Templates': [
-        'templates/baserow-launch-pad',
-        'templates/alfresco-adf-launch-pad',
-        'templates/alfresco-community-azure-launch-pad',
+      'Launch Pads and Templates': [
+        'launchpads-templates/intro-launch-pads-templates',
+        'launchpads-templates/baserow-launch-pad',
+        'launchpads-templates/alfresco-adf-launch-pad',
+        'launchpads-templates/alfresco-community-azure-launch-pad',
       ],
       'CLI': [
         'cli/overview',
