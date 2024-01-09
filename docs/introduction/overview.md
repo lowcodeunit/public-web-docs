@@ -11,59 +11,46 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Welcome to Fathym
+# Overview
 
-Fathym helps you develop, automate, and manage the delivery of modern web projects.  Take control of DevOps processes with a complete platform for hosting, continuously building, and deploying your applications.  As your project grows, learn how to authenticate your users, build complex micro frontends, A/B test user experiences and more.
+Fathym Platform is an out-of-the-box application deployment platform and Fathym’s central hub for assembling, integrating and launching cloud-based applications. The platform makes it easy for users to deploy applications and integrate with APIs: Whether APIs for databases, content management systems, or native integration with Fathym’s IoT Ensemble and Habistack APIs.
 
-We take care of the tedious, boilerplate aspects of project delivery so you can focus on discovering and providing value to your users.  
+The platform has three interfaces: a web application, CLI and the new Thinky AI bot.
 
-Deliver your next project with Fathym to benefit from incremental upgrades, decoupled codebases, independent deployments, and team autonomy.
+Fathym gives you a complete DevOps (CI/CD) workflow, pre-configured automations and open-source templates for assembling data-driven and cloud-based web applications, without needing any cloud or web development expertise. Get started with out-of-the box launch pads and easily fork templates to GitHub and make them your own or import custom code with GitHub or NPM.
 
-![Dashboard New](https://www.fathym.com/img/ui1.png)
+Here we will provide a quick overview of Fathym’s default application architecture and hierarchy.
 
-## Code and Deploy
+## Default Fathym Structure
 
-Developed as a complete micro-frontend platform, Fathym makes the deployment of your next JAMStack, legacy, and single page applications straightforward.  The first step is to [sign up for Fathym](https://www.fathym.com/dashboard/create-project), then you can deploy existing recipes from open source or [connect GitHub](./getting-started/create-first-project) to deploy your own projects.  There are a number of different ways to deploy your code from GitHub artifacts and NPM packages to zip files and site builders.  
+Fathym’s default structure enables you to assemble, deploy and host web applications in a highly modular fashion.
 
-## Quickstarts
+![Baserow API App](https://www.fathym.com/img/fathym_application_structure.png)
 
-### Getting Started
+Let’s quickly go through the primary elements of this architecture. 
 
-The [Getting Started](./getting-started/setup) guide will walk you through the basics of getting up and running with Fathym.  Learn how to host applications, set up continuous integration, and configure your first micro frontends.
+**Enterprise:** An Enterprise is what makes up your digital organization in Fathym. It is the default structure and all the projects, apps, configs and pipelines that can populate that structure. All the components and relationships that make up your enterprise are represented as code in a graph database. This is referred to as **Enterprise as Code (EaC)** – more on that later. 
 
-### Javascript Frameworks
+**Projects:** A project is a web application or website that consists of one or a series of routes. Projects are assigned a domain and additional routes deployed to a project are hosted as sub directories of that domain. Users can register a custom domain for their project.
 
-No matter your flavor, the frameworks you use and love will work with Fathym.  Try out [React](./guides/deploying/frameworks/react), [Svelte](./guides/deploying/frameworks/svelte), [Angular](./guides/deploying/frameworks/angular), or [Vue](./guides/deploying/frameworks/vue).
+**Routes:** A route is a path that handles requests to a defined part of a web project and delivers it to end users. Different GitHub repositories or NPM packages can be deployed as routes (or sub directories) in a web project, facilitating a modular application architecture. In Fathym’s default architecture, each route has its own individual source control and build pipeline.
 
-### Static Site Builders
+**Child Applications:** Under each route or sub directory that is deployed in a project, many child applications can be deployed. Each child application can have its own individual source control and build pipeline. For example, under the route example.com/blog, you can host blog pages under that route as example.com/blog/blog1 and example.com/blog/blog2 etc.
 
-If you're looking for something with a more rapid starting point, check out [Docusaurus](./guides/deploying/site-builders/docusaurus-sites) or [Plasmic](./guides/deploying/site-builders/plasmic-sites).
+## Enterprise as Code and Low Code Units
 
-### Framework Understanding
+There are two fundamental elements that underpin Fathym’s architecture: Enterprise as Code (EaC) and Low Code Units (LCUs).
 
-If you’re looking to better understand what we offer, head over to our [Applications guide](./guides/applications/overview).
+### EaC
 
-### JAMStack e-Commerce
+Enterprise as Code (EaC) is a directed graph database and command structure that defines and stores everything that makes up your Fathym enterprise.
 
-The [JAMStack e-Commerce](./guides/deploying/e-commerce/forestry-11ty-snipcart/overview) guide shows how to use Forestry, 11ty, and snipcart to rapidly pull together a working e-commerce site.
+A Fathym enterprise is essentially a user’s Fathym account. It is the default structure and system that greets new users and the portfolio of any projects and applications that are deployed, hosted and stored in this structure. 
 
-### Easily Host Power BI Reports
+Enterprise as Code is the all-in-one map and data and configuration store of the resources, services and workflows that make up your Fathym enterprise – the command structure that defines all the components and relationships that make up your software delivery system, such as cloud infrastructure configurations, DevOps workflows and identity management. 
 
-The [Easily Host Power BI Reports](./guides/deploying/reporting/powerbi-reports) guide shows how to take your existing PowerBI reports, and securely deliver them in a branded domain and application with Fathym.  Learn how to leverage open-source applications, set up continuous integration, and configure your first Fathym application.
+### LCU
 
-<!-- 
-### End-to-end IoT
+Low Code Units (LCUs) are essentially curated code packages that can be deployed to your enterprise, composable automations of all sorts of software components, configurations and services. These flexible packages are versatile and can range from instructions for creating repositories and scaffolding code, to installing API configurations or deploying cloud resources or app templates. They are building blocks for efficiently assembling and deploying applications in the cloud.
 
-The [end-to-end IoT guide](./guides/end-to-end-iot/overview) takes you through how to get your data from IoT Ensemble (an easy way to start working with IoT) up and running with Fathym.  Learn how to connect applications with your IoT data, setup continuous integration, and configure your first micro frontends.
--->
-
-<!-- ### Micro Frontends
-
-Get the most out of Fathym and explore our micro frontend features 
-
-### A/B Testing
-
-### User Identity
-
-### Domain Security -->
-
+For example, there are LCUs for launching SPA starter apps, for setting up, scaffolding and deploying new repositories, for installing Google Tag Manager to an app, and for deploying containerized applications, CMS or databases on Azure. Individual LCU components are also combined to create launch pads – comprehensive and often full stack automations that drastically simplify the process of assembling and launching cloud-based applications for various application use cases. When LCUs are invoked, they are committed to the EaC.
