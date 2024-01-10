@@ -12,7 +12,7 @@ hide_table_of_contents: true
 
 # Introduction to Launch Pads and Templates
 
-Fathym Platform gives users intuitive and comprehensive workflows for assembling and launching applications and integrating them with APIs (IoT Ensemble, Habistack or external APIs). OpenBiotech also goes a step further than this through pre-configured automations.
+Fathym Platform gives users intuitive and comprehensive workflows for assembling and launching applications and integrating them with APIs (IoT Ensemble, Habistack or external APIs). Fathym also goes a step further than this through pre-configured automations.
 
 Instead of assembling, importing and deploying an app and manually integrating with APIs via API proxies, you can also take advantage of pre-configured automations that launch all the open-source frontend templates, API integrations or even cloud resources you need for various application use cases.
 

@@ -11,7 +11,7 @@ keywords:
 hide_table_of_contents: true
 ---
 
-# Overview
+# Introducing Fathym Platform
 
 Fathym Platform is an out-of-the-box application deployment platform and Fathym’s central hub for assembling, integrating and launching cloud-based applications. The platform makes it easy for users to deploy applications and integrate with APIs: Whether APIs for databases, content management systems, or native integration with Fathym’s IoT Ensemble and Habistack APIs.
 
